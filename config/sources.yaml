@@ -1,0 +1,34 @@
+# Infer/Daily Data Sources Configuration
+
+arxiv:
+  base_url: "http://export.arxiv.org/api/query"
+  categories:
+    - "cs.LG"
+    - "cs.DC"
+  max_results: 30
+
+github:
+  repos:
+    - "vllm-project/vllm"
+    - "sgl-project/sglang"
+    - "NVIDIA/TensorRT-LLM"
+    - "llm-d/llm-d"
+  max_releases_per_repo: 5
+  max_prs_per_repo: 10
+
+rss_blogs:
+  - name: "NVIDIA Developer Blog"
+    url: "https://developer.nvidia.com/blog/feed/"
+  - name: "Red Hat AI Blog"
+    url: "https://developers.redhat.com/blog/feed"
+  - name: "Anyscale Blog"
+    url: "https://www.anyscale.com/blog/rss.xml"
+  - name: "Baseten Blog"
+    url: "https://www.baseten.co/blog/rss.xml"
+  - name: "Modal Blog"
+    url: "https://modal.com/blog/rss.xml"
+
+hackernews:
+  base_url: "https://hn.algolia.com/api/v1/search_by_date"
+  tags: "story"
+  max_results: 30

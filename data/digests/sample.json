@@ -1,0 +1,200 @@
+[
+  {
+    "id": "samp-learn-01",
+    "tab": "learn",
+    "headline": "Understanding PagedAttention & Memory Fragmentation in KV Cache",
+    "summary": "PagedAttention partition's KV cache into fixed-size blocks (pages) stored in non-contiguous physical memory, eliminating virtual memory fragmentation and enabling 96%+ KV memory utilization for high-throughput batching.",
+    "why_it_matters": "Eliminating memory fragmentation allows doubling active batch sizes on standard 80GB A100/H100 GPUs.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2309.06180",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-learn-02",
+    "tab": "learn",
+    "headline": "Speculative Decoding Deep Dive: Draft Models & Verification",
+    "summary": "Speculative decoding accelerates autoregressive generation by using a small draft model to generate multiple candidate tokens in parallel, verified in a single forward pass by the target LLM.",
+    "why_it_matters": "Achieves 2-3x latency reduction for single-user latency-sensitive inference without changing output distribution.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2211.17192",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-learn-03",
+    "tab": "learn",
+    "headline": "Disaggregated Prefill and Decode Architecture Explained",
+    "summary": "Decouples computation-heavy prefill nodes (TTFT optimized) from memory-heavy decode nodes (TPOT/throughput optimized), eliminating resource contention in multi-tenant inference clusters.",
+    "why_it_matters": "Reduces inter-token latency spike by 40% when high-prompt-length requests arrive during heavy decode streams.",
+    "colab_runnable": false,
+    "source_name": "Anyscale Blog",
+    "source_url": "https://www.anyscale.com/blog/disaggregated-prefill-decode",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-learn-04",
+    "tab": "learn",
+    "headline": "RadixAttention: Automatic Prefix Caching in SGLang",
+    "summary": "SGLang maintains a Radix tree over prompt tokens across multiple requests to reuse KV cache tensors for identical prompt prefixes automatically.",
+    "why_it_matters": "Critical for multi-turn chat applications and system prompts, boosting throughput up to 5x.",
+    "colab_runnable": true,
+    "source_name": "GitHub: sgl-project/sglang",
+    "source_url": "https://github.com/sgl-project/sglang",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-learn-05",
+    "tab": "learn",
+    "headline": "FP8 Quantization: E4M3 vs E5M2 for Inference Workloads",
+    "summary": "Comparing FP8 representation formats for deep learning inference: E4M3 preserves dynamic range for weights, while E5M2 handles dynamic activation spikes.",
+    "why_it_matters": "Doubles Tensor Core compute throughput on NVIDIA Hopper architectures while keeping perplexity loss under 0.1%.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/fp8-primer-inference/",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-learn-06",
+    "tab": "learn",
+    "headline": "Continuous Batching (Iteration-level Batching) Mechanics",
+    "summary": "Instead of waiting for an entire batch to finish generation, continuous batching inserts new requests into the batch as soon as old requests reach EOS tokens.",
+    "why_it_matters": "Increases GPU hardware utilization from ~20% to ~85% under real-world Poisson arrival workloads.",
+    "colab_runnable": true,
+    "source_name": "Baseten Blog",
+    "source_url": "https://www.baseten.co/blog/continuous-batching-llm-inference/",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-trend-01",
+    "tab": "trending",
+    "headline": "vLLM v0.6.2 Released with Multi-Step Execution & Chunked Prefill",
+    "summary": "vLLM v0.6.2 introduces multi-step scheduling to reduce Python overhead, along with enhanced chunked prefill integration for hybrid workload processing.",
+    "why_it_matters": "Reduces CPU overhead by 30% for small-batch low-latency serving workloads on modern clusters.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.6.2",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-trend-02",
+    "tab": "trending",
+    "headline": "FlashInfer v0.1.6 Support for FP8 & Grouped Query Attention",
+    "summary": "FlashInfer library announces updated CUDA kernels for GQA with FP8 precision, enabling sub-millisecond decode kernels for Llama 3 70B.",
+    "why_it_matters": "Direct plug-in kernel enhancement for SGLang and vLLM backend performance.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/item?id=39120482",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-trend-03",
+    "tab": "trending",
+    "headline": "TensorRT-LLM 0.12 Release: Native Medusa & EAGLE Integration",
+    "summary": "NVIDIA TensorRT-LLM 0.12 adds built-in C++ execution pipelines for Medusa and EAGLE speculative decoding heads.",
+    "why_it_matters": "Simplifies deployment of speculative heads in production enterprise microservices with Tensor Core acceleration.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/tensorrt-llm-0-12-release/",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-trend-04",
+    "tab": "trending",
+    "headline": "llm-d: Open-Source Disaggregated Inference Daemon Launched",
+    "summary": "A lightweight distributed daemon for routing prefill and decode phases across heterogeneous GPU nodes with dynamic load balancing.",
+    "why_it_matters": "Brings enterprise-grade disaggregated serving to self-hosted Kubernetes clusters.",
+    "colab_runnable": false,
+    "source_name": "GitHub: llm-d/llm-d",
+    "source_url": "https://github.com/llm-d/llm-d",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-trend-05",
+    "tab": "trending",
+    "headline": "GuideLLM & GenAI-Perf: Standardized Benchmarking Suite Release",
+    "summary": "Neural Magic releases GuideLLM alongside MLPerf updates for automated throughput vs latency trade-off sweeps for open-weights models.",
+    "why_it_matters": "Provides standard metrics (TTFT, TPOT, ITL) to select optimal concurrency settings.",
+    "colab_runnable": true,
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/blog/guidellm-benchmarking",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-trend-06",
+    "tab": "trending",
+    "headline": "Qwen2.5-Coder 7B Serving Benchmark on Single T4 GPU",
+    "summary": "Benchmarking Qwen2.5-Coder 7B using vLLM + AWQ 4-bit quantization on free Google Colab T4 GPUs, reaching 45 tokens/sec.",
+    "why_it_matters": "Demonstrates high-performance developer assistance models running on free commodity cloud hardware.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/item?id=39188201",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-link-01",
+    "tab": "linkedin_idea",
+    "headline": "Why TTFT and TPOT Matter More Than Raw Tokens Per Second",
+    "summary": "Traditional average tokens/sec obscures user experience. Time-to-First-Token (TTFT) dictates perceived responsiveness while Time-per-Output-Token (TPOT) measures reading flow.",
+    "why_it_matters": "High tokens/sec with high TTFT creates a laggy user experience; optimizing for tail latencies is the key differentiator.",
+    "colab_runnable": false,
+    "source_name": "Modal Blog",
+    "source_url": "https://modal.com/blog/ttft-tpot-metrics",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-link-02",
+    "tab": "linkedin_idea",
+    "headline": "Contrarian Take: Why 4-Bit Quantization Isn't Always Free Lunch",
+    "summary": "While AWQ and GPTQ reduce VRAM, decompression overhead on non-tensor-core ops can actually slow down decode phase for small batch sizes.",
+    "why_it_matters": "Great post angle showing when unquantized FP16 or FP8 outperforms 4-bit quantization under batch-size-1 workloads.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2306.00978",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-link-03",
+    "tab": "linkedin_idea",
+    "headline": "The Hidden Costs of Disaggregated Prefill & Decode Networks",
+    "summary": "Inter-node KV cache transfer over PCIe or Ethernet can quickly become the bottleneck in disaggregated serving clusters if interconnect bandwidth is undersized.",
+    "why_it_matters": "Exposes infrastructure realities beyond basic academic benchmarks for systems architects.",
+    "colab_runnable": false,
+    "source_name": "Anyscale Blog",
+    "source_url": "https://www.anyscale.com/blog/kv-transfer-bottlenecks",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-link-04",
+    "tab": "linkedin_idea",
+    "headline": "Small Language Models (SLMs) Are Outperforming 70B LLMs in Dedicated Tools",
+    "summary": "Fine-tuned 3B/7B models (Phi-3.5, SmolLM, Qwen2.5) paired with structured outputs (Outlines, xGrammar) beat 70B models on constrained JSON generation.",
+    "why_it_matters": "High-engagement LinkedIn narrative on cost-efficiency and localized edge inference.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/item?id=39201923",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-link-05",
+    "tab": "linkedin_idea",
+    "headline": "Why Custom CUDA Kernels Are No Longer the Only Edge in LLM Serving",
+    "summary": "Framework-level batch scheduling, prefix caching, and memory management yield far greater speedups than micro-optimizing individual GEMM kernels.",
+    "why_it_matters": "Shifts focus from hardware-level optimization to system architecture and scheduling algorithms.",
+    "colab_runnable": false,
+    "source_name": "GitHub: sgl-project/sglang",
+    "source_url": "https://github.com/sgl-project/sglang",
+    "date": "2026-09-17"
+  },
+  {
+    "id": "samp-link-06",
+    "tab": "linkedin_idea",
+    "headline": "Unsloth + bitsandbytes: Fine-tuning & Inferencing on Consumer GPUs",
+    "summary": "How memory-efficient gradient checkpointing and 4-bit base model loading allow 15B models to be trained and evaluated on 16GB VRAM GPUs.",
+    "why_it_matters": "Inspiring post topic empowering individual developers and researchers without million-dollar GPU clusters.",
+    "colab_runnable": true,
+    "source_name": "GitHub: unslothai/unsloth",
+    "source_url": "https://github.com/unslothai/unsloth",
+    "date": "2026-09-17"
+  }
+]

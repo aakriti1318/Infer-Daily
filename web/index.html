@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infer/Daily — LLM & SLM Inference Engineering Digest</title>
+  <meta name="description" content="Personal daily InShorts and Pinterest style digest for LLM/SLM inference-engineering news, papers, releases, and benchmarks.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <div class="brand">
+          <div class="brand-icon">⚡</div>
+          <div class="brand-titles">
+            <h1 class="brand-title">Infer<span class="highlight">/Daily</span></h1>
+            <p class="brand-tagline">LLM & SLM Inference Engineering Digest</p>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <!-- View Mode Toggle (InShorts vs Pinterest) -->
+          <div class="view-toggle">
+            <button class="view-btn active" id="view-grid" title="Pinterest Masonry View">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+              <span>Masonry</span>
+            </button>
+            <button class="view-btn" id="view-stack" title="InShorts Card Focus View">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 12h6"/><path d="M12 9v6"/></svg>
+              <span>InShorts</span>
+            </button>
+          </div>
+
+          <div class="date-badge" id="digest-date-badge">
+            <span class="pulse-dot"></span>
+            <span id="digest-date-text">Loading...</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search & Filter Control Bar -->
+      <div class="controls-bar">
+        <div class="search-box">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="search-input" placeholder="Search vLLM, speculative decoding, benchmarks..." />
+          <button id="clear-search" class="clear-btn hidden">&times;</button>
+        </div>
+        
+        <button class="filter-pill-btn" id="filter-colab">
+          <span>🧪 Colab Runnable Only</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Category Tab Bar -->
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="learn" id="tab-learn">
+        <span class="tab-icon">📚</span>
+        <span class="tab-label">Learn</span>
+        <span class="tab-count" id="count-learn">0</span>
+      </button>
+      <button class="tab-btn" data-tab="trending" id="tab-trending">
+        <span class="tab-icon">🔥</span>
+        <span class="tab-label">Trending</span>
+        <span class="tab-count" id="count-trending">0</span>
+      </button>
+      <button class="tab-btn" data-tab="linkedin_idea" id="tab-linkedin_idea">
+        <span class="tab-icon">💡</span>
+        <span class="tab-label">LinkedIn Ideas</span>
+        <span class="tab-count" id="count-linkedin_idea">0</span>
+      </button>
+    </nav>
+
+    <!-- Pinterest Style Masonry Container -->
+    <main id="masonry-view" class="masonry-container">
+      <div id="cards-grid" class="cards-grid">
+        <!-- Cards rendered dynamically -->
+      </div>
+    </main>
+
+    <!-- InShorts Style Stack Container -->
+    <main id="stack-view" class="stack-container hidden">
+      <div class="stack-navigation">
+        <button id="stack-prev" class="stack-nav-btn" title="Previous Card (Left Arrow)">← Prev</button>
+        <div class="stack-indicator">
+          Card <span id="stack-current-num">1</span> of <span id="stack-total-num">1</span>
+        </div>
+        <button id="stack-next" class="stack-nav-btn" title="Next Card (Right Arrow)">Next →</button>
+      </div>
+
+      <div id="stack-card-wrapper" class="stack-card-wrapper">
+        <!-- Single focused card rendered here -->
+      </div>
+    </main>
+
+    <!-- Empty State View -->
+    <div id="empty-state" class="empty-state hidden">
+      <div class="empty-icon">☕</div>
+      <h3>Nothing new found</h3>
+      <p>No cards match your current active filter or search query.</p>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+      <span id="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Automated daily via GitHub Actions • Data sources: arXiv, GitHub Releases, Engineering Blogs & Hacker News</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

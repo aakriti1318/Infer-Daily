@@ -1,0 +1,23 @@
+[
+  {
+    "title": "vLLM v0.6.2 Released with Multi-Step Execution",
+    "raw_text": "vLLM v0.6.2 introduces multi-step execution to cut down Python overhead for small batch serving workloads.",
+    "url": "https://github.com/vllm-project/vllm/releases/tag/v0.6.2",
+    "source_name": "GitHub: vllm-project/vllm",
+    "published_at": "2026-09-17T10:00:00Z"
+  },
+  {
+    "title": "Cooking Recipes for Beginners",
+    "raw_text": "A general guide on how to bake bread and make soup at home.",
+    "url": "https://example.com/blog/bread-recipe",
+    "source_name": "General Blog",
+    "published_at": "2026-09-17T09:00:00Z"
+  },
+  {
+    "title": "Speculative Decoding for Accelerated LLM Inference",
+    "raw_text": "We present a speculative decoding benchmark across various GPU hardware targets.",
+    "url": "https://arxiv.org/abs/2211.17192",
+    "source_name": "arXiv",
+    "published_at": "2026-09-17T08:00:00Z"
+  }
+]

@@ -1,0 +1,37 @@
+name: Daily Digest
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # 00:30 UTC (~6:00 AM IST)
+  workflow_dispatch: {}     # Manual trigger from GitHub Actions UI
+
+jobs:
+  build-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Digest Pipeline
+        run: python -m pipeline.run_digest
+        env:
+          NVIDIA_NIM_API_KEY: ${{ secrets.NVIDIA_NIM_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push updated digest
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "actions@github.com"
+          git add data/digests/
+          git commit -m "Daily digest: $(date -u +%Y-%m-%d)" || echo "No changes"
+          git push
