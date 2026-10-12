@@ -1,16 +1,5 @@
 [
   {
-    "id": "9102dc044c4f",
-    "tab": "learn",
-    "headline": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering ",
-    "summary": "Industrial risk-control systems typically rely on structured-data models for efficient prediction, yet substantial valuable information remains embedded in unstructured long text. Extracting this information through manual feature engineering is labor-intensive, while requiring a large language model (LLM) to process every real-time input may not meet",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12390v1",
-    "date": "2026-10-11"
-  },
-  {
     "id": "aeeca9d719da",
     "tab": "learn",
     "headline": "Control How Your GPU Shares Work with Green Contexts",
@@ -19,40 +8,7 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
-    "date": "2026-10-11"
-  },
-  {
-    "id": "46e7174ef426",
-    "tab": "learn",
-    "headline": "Show HN: Flopper is a hardware explorer for AI infrastructure and beyond",
-    "summary": "Hello!I built Flopper to make it easier to compare GPUs and understand the tradeoffs for workloads for AI and beyond.When researching GPUs from say Nvidia, AMD, and Huawei, I kept running into the same problem: specs were scattered across datasheets, and matching them to available",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://flopper.io/",
-    "date": "2026-10-11"
-  },
-  {
-    "id": "076a7ccd26e1",
-    "tab": "learn",
-    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
-    "summary": "Our background is trading systems and exchanges. Liquid Inference applies that to LLM inference. On Liquid Inference, model providers compete with each other on an open marketplace to offer the best price for any given model. We paired that with an intelligent auto-router so you",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://liquidinference.ai/",
-    "date": "2026-10-11"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-11"
+    "date": "2026-10-12"
   },
   {
     "id": "3762ff1d2e30",
@@ -63,7 +19,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-11"
+    "date": "2026-10-12"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-12"
   },
   {
     "id": "448701fe9974",
@@ -74,7 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-11"
+    "date": "2026-10-12"
   },
   {
     "id": "99ece13e787f",
@@ -85,7 +52,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-11"
+    "date": "2026-10-12"
   },
   {
     "id": "79fa413a464f",
@@ -96,83 +63,83 @@
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
-    "date": "2026-10-11"
+    "date": "2026-10-12"
   },
   {
-    "id": "c1b298c63731",
+    "id": "9b2f8ba75028",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #46303: [Bugfix][Frontend] Keep length finish_reason",
-    "summary": "Fixes #9053 ## Purpose When a tool call is truncated mid-JSON by `max_tokens`, the streaming `/v1/chat/completions` endpoint currently returns `finish_reason=\"tool_calls\"` on the terminal chunk as long as any tool delta was emitted. This causes two issues: 1. **Divergence from non-streaming**: The non-streaming endpoint already correctly",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "headline": "[sgl-project/sglang] Release v0.5.21: v0.5.21",
+    "summary": "# Highlights *779 PRs from 227 contributors.* ## New models | Model | Type | Cookbook | |---|---|---| | DeepSeek-V4.1 Flash | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/DeepSeek/DeepSeek-V4_1) | | GigaChat 3.5 | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/GigaChat/GigaChat3.5) | | IQuest-Q1 | LLM / VLM |",
+    "why_it_matters": "Key development in GitHub: sgl-project/sglang impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/46303",
-    "date": "2026-10-11"
+    "source_name": "GitHub: sgl-project/sglang",
+    "source_url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
+    "date": "2026-10-12"
   },
   {
-    "id": "de3326963607",
+    "id": "c21dda79d687",
     "tab": "linkedin_idea",
-    "headline": "CSF: Contextual Safety Filtering for Motion Generators",
-    "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account",
+    "headline": "Opening the Black Box of Classifier-Free Guidance via Information Bottlenec",
+    "summary": "Classifier-free guidance (CFG) is a standard technique for improving conditional generation in diffusion models, yet its activation schedule is usually selected heuristically. In practice, most existing CFG-based methods rely on a pre-defined activation policy throughout inference, while recent dynamic variants often depend on hand-designed schedules",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12467v1",
-    "date": "2026-10-11"
+    "source_url": "https://arxiv.org/abs/2610.13369v1",
+    "date": "2026-10-12"
   },
   {
-    "id": "a08c3ea70bd7",
+    "id": "3c84864ad20d",
     "tab": "linkedin_idea",
-    "headline": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Progra",
-    "summary": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination",
+    "headline": "Beyond Temporal Proximity: Explanatory World Models for Credit Assignment i",
+    "summary": "Generative Recommenders increasingly use Reinforcement Learning (RL) to optimize outcomes that may appear hundreds or thousands of interactions after a decision. Standard RL propagates reward according to temporal proximity rather than explicit relevance, attenuating the signal assigned to distant but important actions and creating a",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12448v1",
-    "date": "2026-10-11"
+    "source_url": "https://arxiv.org/abs/2610.13504v1",
+    "date": "2026-10-12"
   },
   {
-    "id": "7f84cd09f9e4",
+    "id": "ee4b48aacf06",
     "tab": "linkedin_idea",
-    "headline": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Q",
-    "summary": "Quantizing AdamW's optimizer states reduces persistent storage, but quantization errors propagate through the moment recurrences and perturb subsequent adaptive updates. We redesign 4-bit optimizer-state quantization for AdamW from the perspective of \\emph{rounding space}: the coordinate in which a quantizer chooses between adjacent reconstruction levels. For",
+    "headline": "Does Financial Speech Need Continual Learning Regularization? A Study of EW",
+    "summary": "Earnings call transcription presents a realistic continual learning scenario where Automatic Speech Recognition (ASR) systems are updated with new recordings but risk catastrophic forgetting of previously learned financial speech patterns. Adapting Whisper-small from a general-domain speech corpus to the Earnings22 benchmark reveals the opposite: all",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.13432v1",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "016ce58be2a2",
+    "tab": "linkedin_idea",
+    "headline": "PlacePulse: Learning Transferable Place Representations from Structural Geo",
+    "summary": "Geospatial machine learning often depends on task-specific feature engineering over large collections of sociodemographic, business, and environmental variables. Geospatial foundation models offer reusable representations of place, but leading approaches typically encode dynamic signals, such as mobility and search activity, or visual signals from satellite imagery.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.13390v1",
+    "date": "2026-10-12"
+  },
+  {
+    "id": "ce388c2d3797",
+    "tab": "linkedin_idea",
+    "headline": "Overcoming Data Imbalances with Expert Selection Biases",
+    "summary": "Mixture-of-Experts (MoE) models have become the standard architecture for frontier LLMs. The multiple parallel experts in each transformer block theoretically enable expert specialization according to categories such as domains, languages, or modalities during pretraining. However, when data is imbalanced across categories, minority categories can become",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12444v1",
-    "date": "2026-10-11"
+    "source_url": "https://arxiv.org/abs/2610.13370v1",
+    "date": "2026-10-12"
   },
   {
-    "id": "e42fe658ebf5",
+    "id": "778476b5f4b4",
     "tab": "linkedin_idea",
-    "headline": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
-    "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce",
+    "headline": "Stacked Intelligent Metasurface-Based MultiModal Feature Fusion for Collabo",
+    "summary": "In navigating the challenges of computational and communication overhead within the 6G-era Collaborative Inference (CI), this paper explores the feasibility of employing Stacked Intelligent Metasurface (SIM) to perform CI, termed SIM-CI. The SIM functions as a physical computing unit, receiving multi-user Over-The-Air (OTA) aggregated features",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12449v1",
-    "date": "2026-10-11"
-  },
-  {
-    "id": "b403a2e4fc8d",
-    "tab": "linkedin_idea",
-    "headline": "Density Ratio Estimation with Stein Displacement Fields",
-    "summary": "Density ratios quantify distribution shift from a probability-mass point of view, whereas displacement fields describe, from a dynamical point of view, how one distribution is transported onto another. Although both offer complementary insights, they are usually estimated separately, and converting one into the other requires",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12437v1",
-    "date": "2026-10-11"
-  },
-  {
-    "id": "336d403c05bf",
-    "tab": "linkedin_idea",
-    "headline": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories vi",
-    "summary": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12375v1",
-    "date": "2026-10-11"
+    "source_url": "https://arxiv.org/abs/2610.13364v1",
+    "date": "2026-10-12"
   }
 ]
