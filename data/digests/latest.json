@@ -1,36 +1,25 @@
 [
   {
-    "id": "ac638ff946ff",
+    "id": "1df7bfd15052",
     "tab": "learn",
-    "headline": "Show HN: Commit-Aware Router, route LLM traffic around your AI/cloud commit",
-    "summary": "LLM routers can optimize for different factors like price, latency, quality, etc. Enterprises tend to have prepaid AI credits, minimum-spend agreements, cloud commitments, or commercial ceilings across OpenAI, Anthropic, AWS, Azure, and other providers. We’ll call these “AI commits”.This project is designed to consider the",
+    "headline": "Show HN: Golang DL/ML primitives with inference, diffusion, vision, systemo",
+    "summary": "I created a DL inference engine that slowly grew to have more and functionality.- Inference for a bunch of open weights architectures- Diffusion image generation fir Z ai turbo- Vision input into LLM for inference- Vulkan&#x2F;fast CPU, optimized kernels- Playground for testing- Last but not",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/tejaspruthi/CommitAwareRouter",
-    "date": "2026-10-14"
+    "source_url": "https://github.com/computerex/dlgo",
+    "date": "2026-10-15"
   },
   {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "id": "cb5efea7001f",
+    "tab": "learn",
+    "headline": "Show HN: Geneva, a Rust FFmpeg CLI alternative with HTML/CSS graphics",
+    "summary": "I built this for my own use case, and I think other people could benefit from it.It&#x27;s essentially a Rust rewrite of the ffmpeg CLI command, but with a modern API and good defaults + a native HTML&#x2F;CSS composition engine that&#x27;s been fine tuned for",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-14"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-14"
+    "source_name": "Hacker News",
+    "source_url": "https://genevarender.com",
+    "date": "2026-10-15"
   },
   {
     "id": "448701fe9974",
@@ -41,7 +30,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-14"
+    "date": "2026-10-15"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-15"
   },
   {
     "id": "99ece13e787f",
@@ -52,7 +52,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-14"
+    "date": "2026-10-15"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-15"
   },
   {
     "id": "79fa413a464f",
@@ -63,18 +74,18 @@
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
-    "date": "2026-10-14"
+    "date": "2026-10-15"
   },
   {
-    "id": "8a66bb4dcd48",
+    "id": "bfa5048a13db",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #56716: [MRV2] Keep warmup out of the EPLB load stat",
-    "summary": "## Purpose MRV2 warmup forwards record expert load into `expert_load_pass` like real ones. The router kernel records during the forward, so skipping or suppressing the EPLB step afterwards does not keep that load out of the stats. It lands in the next real step. This",
+    "headline": "[vllm-project/vllm] PR #61701: [Spec Decode] Remove Medusa and MLP speculat",
+    "summary": "## Overview Removes Medusa and MLP speculator support and simplifies the code paths, configs, tests, docs, and CI rules that existed only for them. Net −858 lines, no new code. ## Claims - `method=\"medusa\"` and `method=\"mlp_speculator\"` are removed. They are now rejected by `SpeculativeConfig` validation,",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/56716",
-    "date": "2026-10-14"
+    "source_url": "https://github.com/vllm-project/vllm/pull/61701",
+    "date": "2026-10-15"
   },
   {
     "id": "3ea8663ef4cd",
@@ -85,7 +96,7 @@
     "colab_runnable": true,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
-    "date": "2026-10-14"
+    "date": "2026-10-15"
   },
   {
     "id": "920a07138136",
@@ -96,7 +107,7 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/faster-scientific-image-analysis-with-nvidia-cuphoton/",
-    "date": "2026-10-14"
+    "date": "2026-10-15"
   },
   {
     "id": "5b913b5700f3",
@@ -107,7 +118,7 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/13/red-hat-ai-inference-3-5-maas-governance-aks",
-    "date": "2026-10-14"
+    "date": "2026-10-15"
   },
   {
     "id": "cffff69e0bab",
@@ -118,28 +129,28 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/08/egress-network-quality-of-service-on-red-hat-openshift",
-    "date": "2026-10-14"
+    "date": "2026-10-15"
   },
   {
-    "id": "8c73ccb38184",
+    "id": "929395162eea",
     "tab": "linkedin_idea",
-    "headline": "Speculative Decoding: The Art of Guessing Well",
-    "summary": "Speculative Decoding: The Art of Guessing Well",
+    "headline": "Manage RHEL with MCP servers and Red Hat Lightspeed",
+    "summary": "At the 2026 Red Hat Summit, we offered a hands-on lab titled \"AI-powered Red Hat Enterprise Linux management: Get hands-on with Model Context Protocol (MCP) servers for Red Hat Lightspeed, Satellite, and Red Hat Enterprise Linux.\" The post Manage RHEL with MCP servers and Red",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/08/manage-rhel-mcp-servers-and-red-hat-lightspeed",
+    "date": "2026-10-15"
+  },
+  {
+    "id": "d2778ba8993f",
+    "tab": "linkedin_idea",
+    "headline": "Tessaract: lightweight layer for unified LLM inference",
+    "summary": "Tessaract: lightweight layer for unified LLM inference",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://astralord.github.io/posts/speculative-decoding-the-art-of-guessing-well/",
-    "date": "2026-10-14"
-  },
-  {
-    "id": "c0f3efa6baba",
-    "tab": "linkedin_idea",
-    "headline": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive d",
-    "summary": "Hey Hacker News! I&#x27;m Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High controls. FedRAMP High",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://news.ycombinator.com/item?id=50073471",
-    "date": "2026-10-14"
+    "source_url": "https://tessaractai.com/",
+    "date": "2026-10-15"
   }
 ]
