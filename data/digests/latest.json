@@ -1,5 +1,60 @@
 [
   {
+    "id": "670d7b895e4d",
+    "tab": "learn",
+    "headline": "Show HN: Endo – A Higher-Order Harness",
+    "summary": "Endo is a Higher-Order Harness (HOH).From the easiest concept to understand to the more complex ones, Endo gives you: * A single, simple UI to use any agent provider with your existing subscriptions, and hot-swap agents right in the middle of a session. * An",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/longsurf-ai/endo",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "4f49f4f34f9b",
+    "tab": "learn",
+    "headline": "Show HN: Turbo Lisp – A Common Lisp IDE for macOS and the Terminal",
+    "summary": "When Apple left Clozure Common Lisp behind by switching to Apple Silicon, I started kicking around the idea of building my own Lisp&#x2F;Objective-C bridge by combining Apple Documentation, the clang AST, and introspection of the Objective-C runtime.There was a CCL porting effort, but I really",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://gitlab.com/patchwork1-ai/turbolisp",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "eed9f07cbe2e",
+    "tab": "learn",
+    "headline": "Show HN: Slop City, a FOSS game that embeds social media posts",
+    "summary": "Hi HN, I created this game with Codex Astra and Astra subagents. It went remarkably well. SLOP CITY is an autobiographical first-person lounge that embeds my TikTok posts. I use it to market my Digilore podcast app which is in the Apple App store.However this",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/hollingsworthd/SLOP_CITY",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "d793dca71a03",
+    "tab": "learn",
+    "headline": "Show HN: RDST – A local agent that watches Postgres/MySQL for query regress",
+    "summary": "We noticed during the course of many many years of DBA related work that fixes to database issues and queries are always reactive. An entire database can fall over extremely quickly when an unbounded query grows without warning.Traditionally, DBAs hear complaints of slowness and follow",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/readysettech/rdst",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "f454f42e938b",
+    "tab": "learn",
+    "headline": "A Graphics Engineer's Guide to AI Performance",
+    "summary": "A Graphics Engineer's Guide to AI Performance",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://cqegbert.substack.com/p/from-shader-optimization-to-llm-inference",
+    "date": "2026-10-16"
+  },
+  {
     "id": "1df7bfd15052",
     "tab": "learn",
     "headline": "Show HN: Golang DL/ML primitives with inference, diffusion, vision, systemo",
@@ -8,29 +63,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/computerex/dlgo",
-    "date": "2026-10-15"
-  },
-  {
-    "id": "cb5efea7001f",
-    "tab": "learn",
-    "headline": "Show HN: Geneva, a Rust FFmpeg CLI alternative with HTML/CSS graphics",
-    "summary": "I built this for my own use case, and I think other people could benefit from it.It&#x27;s essentially a Rust rewrite of the ffmpeg CLI command, but with a modern API and good defaults + a native HTML&#x2F;CSS composition engine that&#x27;s been fine tuned for",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://genevarender.com",
-    "date": "2026-10-15"
-  },
-  {
-    "id": "448701fe9974",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   {
     "id": "9668af85ed2e",
@@ -41,18 +74,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-15"
-  },
-  {
-    "id": "99ece13e787f",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
-    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   {
     "id": "3762ff1d2e30",
@@ -63,7 +85,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   {
     "id": "79fa413a464f",
@@ -74,18 +96,40 @@
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   {
-    "id": "bfa5048a13db",
+    "id": "99ece13e787f",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #61701: [Spec Decode] Remove Medusa and MLP speculat",
-    "summary": "## Overview Removes Medusa and MLP speculator support and simplifies the code paths, configs, tests, docs, and CI rules that existed only for them. Net −858 lines, no new code. ## Claims - `method=\"medusa\"` and `method=\"mlp_speculator\"` are removed. They are now rejected by `SpeculativeConfig` validation,",
+    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
+    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "9e5cb0ae5fd5",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #61744: Update DeepGEMM commit",
+    "summary": "## Overview ## Claims ## Validation ## Details --- Pull Request Checklist - [ ] I used vLLM's `/pr-checklist` skill. (Mandatory for agents, optional for humans). - [ ] AI assistance was used during the creation of this PR. - [ ] **Design Fit:** Minimizes",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/61701",
-    "date": "2026-10-15"
+    "source_url": "https://github.com/vllm-project/vllm/pull/61744",
+    "date": "2026-10-16"
   },
   {
     "id": "3ea8663ef4cd",
@@ -96,18 +140,18 @@
     "colab_runnable": true,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   {
-    "id": "920a07138136",
+    "id": "32b0ba3c338e",
     "tab": "linkedin_idea",
-    "headline": "Faster Scientific Image Analysis with NVIDIA cuPhoton",
-    "summary": "Observatories and telescopes, lasers and X-ray light sources, and other high-throughput instruments generate image data faster than CPU-bound pipelines can...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "headline": "Optimized support for Open NVIDIA Nemotron 3.5 Super VL",
+    "summary": "Red Hat AI is releasing optimized FP8 and DSpark speculative decoding checkpoints for Nemotron 3.5 Super VL, a 120B multimodal mixture-of-experts (MoE) model built for long-running agents. The post Optimized support for Open NVIDIA Nemotron 3.5 Super VL appeared first on Red Hat Developer.",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/faster-scientific-image-analysis-with-nvidia-cuphoton/",
-    "date": "2026-10-15"
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/15/optimized-support-open-nvidia-nemotron-3-5-super-vl",
+    "date": "2026-10-16"
   },
   {
     "id": "5b913b5700f3",
@@ -118,18 +162,7 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/13/red-hat-ai-inference-3-5-maas-governance-aks",
-    "date": "2026-10-15"
-  },
-  {
-    "id": "cffff69e0bab",
-    "tab": "linkedin_idea",
-    "headline": "Egress network quality of service on Red Hat OpenShift",
-    "summary": "In this article, we explore what network quality of service (QoS) means, preview an upcoming native capability that's addressing it declaratively, and then step through a practical solution you can deploy today using the Linux traffic control (tc) command. We'll set up a full reproducer",
-    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Red Hat AI Blog",
-    "source_url": "https://developers.redhat.com/articles/2026/10/08/egress-network-quality-of-service-on-red-hat-openshift",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   {
     "id": "929395162eea",
@@ -140,17 +173,28 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/08/manage-rhel-mcp-servers-and-red-hat-lightspeed",
-    "date": "2026-10-15"
+    "date": "2026-10-16"
   },
   {
-    "id": "d2778ba8993f",
+    "id": "d2864083d222",
     "tab": "linkedin_idea",
-    "headline": "Tessaract: lightweight layer for unified LLM inference",
-    "summary": "Tessaract: lightweight layer for unified LLM inference",
+    "headline": "A tool to compare LLM benchmarks",
+    "summary": "A tool to compare LLM benchmarks",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://tessaractai.com/",
-    "date": "2026-10-15"
+    "source_url": "https://philippdubach.com/posts/model-atlas-capability-weights/",
+    "date": "2026-10-16"
+  },
+  {
+    "id": "a7c435d7ffdb",
+    "tab": "linkedin_idea",
+    "headline": "Ask HN: Frontier Capability on Average Computers",
+    "summary": "I really want to find a way to get frontier-level intelligence on local hardware.I think some really cool ways to get this have been done already like the technique of spreading an LLMs weights across a fast-enough SSD and then only serving up an expert",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/item?id=50109846",
+    "date": "2026-10-16"
   }
 ]
