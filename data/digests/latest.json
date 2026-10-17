@@ -8,29 +8,18 @@
     "colab_runnable": true,
     "source_name": "Hacker News",
     "source_url": "https://github.com/longsurf-ai/endo",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
   },
   {
-    "id": "4f49f4f34f9b",
+    "id": "a7a63e070f28",
     "tab": "learn",
-    "headline": "Show HN: Turbo Lisp – A Common Lisp IDE for macOS and the Terminal",
-    "summary": "When Apple left Clozure Common Lisp behind by switching to Apple Silicon, I started kicking around the idea of building my own Lisp&#x2F;Objective-C bridge by combining Apple Documentation, the clang AST, and introspection of the Objective-C runtime.There was a CCL porting effort, but I really",
+    "headline": "Show HN: CoastMath: (Open Source) Personal Finance and Retirement Planner",
+    "summary": "Self-hosting instructions in the README.Hosted version: https:&#x2F;&#x2F;coastmath.com&#x2F;iOS app: https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;id6809539979This post is partially inspired by this thread: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50048344``` &gt; Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks&#x2F;months can now be completed by agents with a prompt.&gt;&gt; No,",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://gitlab.com/patchwork1-ai/turbolisp",
-    "date": "2026-10-16"
-  },
-  {
-    "id": "eed9f07cbe2e",
-    "tab": "learn",
-    "headline": "Show HN: Slop City, a FOSS game that embeds social media posts",
-    "summary": "Hi HN, I created this game with Codex Astra and Astra subagents. It went remarkably well. SLOP CITY is an autobiographical first-person lounge that embeds my TikTok posts. I use it to market my Digilore podcast app which is in the Apple App store.However this",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://github.com/hollingsworthd/SLOP_CITY",
-    "date": "2026-10-16"
+    "source_url": "https://github.com/blank-slate-labs/coastmath",
+    "date": "2026-10-17"
   },
   {
     "id": "d793dca71a03",
@@ -41,7 +30,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/readysettech/rdst",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
   },
   {
     "id": "f454f42e938b",
@@ -52,40 +41,7 @@
     "colab_runnable": true,
     "source_name": "Hacker News",
     "source_url": "https://cqegbert.substack.com/p/from-shader-optimization-to-llm-inference",
-    "date": "2026-10-16"
-  },
-  {
-    "id": "1df7bfd15052",
-    "tab": "learn",
-    "headline": "Show HN: Golang DL/ML primitives with inference, diffusion, vision, systemo",
-    "summary": "I created a DL inference engine that slowly grew to have more and functionality.- Inference for a bunch of open weights architectures- Diffusion image generation fir Z ai turbo- Vision input into LLM for inference- Vulkan&#x2F;fast CPU, optimized kernels- Playground for testing- Last but not",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://github.com/computerex/dlgo",
-    "date": "2026-10-16"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-16"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
   },
   {
     "id": "79fa413a464f",
@@ -96,7 +52,18 @@
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-17"
   },
   {
     "id": "99ece13e787f",
@@ -107,7 +74,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-17"
   },
   {
     "id": "448701fe9974",
@@ -118,29 +96,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
   },
   {
-    "id": "9e5cb0ae5fd5",
+    "id": "d3c5c86eedff",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #61744: Update DeepGEMM commit",
-    "summary": "## Overview ## Claims ## Validation ## Details --- Pull Request Checklist - [ ] I used vLLM's `/pr-checklist` skill. (Mandatory for agents, optional for humans). - [ ] AI assistance was used during the creation of this PR. - [ ] **Design Fit:** Minimizes",
+    "headline": "[vllm-project/vllm] PR #52968: [ROCm] attn res + sigmoid_mul + conv fusions",
+    "summary": "## Purpose Porting some of ATOMs optimizations to vLLM Container: `vllm/vllm-openai:rocm:nightly` Targeted changes: 1) _attn_res_kernel + add_rmsnorm_quant_kernel -> fused 2) _causal_conv1d_fwd_kernel for qkv -> _causal_conv1d_fwd_kernel fused into one kerenel (aiter support) 3) native sigmoid + native mul -> fused _sigmoid_mul_kernel (aiter support) ## Test Plan",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/61744",
-    "date": "2026-10-16"
-  },
-  {
-    "id": "3ea8663ef4cd",
-    "tab": "linkedin_idea",
-    "headline": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
-    "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
-    "date": "2026-10-16"
+    "source_url": "https://github.com/vllm-project/vllm/pull/52968",
+    "date": "2026-10-17"
   },
   {
     "id": "32b0ba3c338e",
@@ -151,7 +118,18 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/15/optimized-support-open-nvidia-nemotron-3-5-super-vl",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
+  },
+  {
+    "id": "3ea8663ef4cd",
+    "tab": "linkedin_idea",
+    "headline": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
+    "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
+    "date": "2026-10-17"
   },
   {
     "id": "5b913b5700f3",
@@ -162,39 +140,39 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/13/red-hat-ai-inference-3-5-maas-governance-aks",
-    "date": "2026-10-16"
+    "date": "2026-10-17"
   },
   {
-    "id": "929395162eea",
+    "id": "dd44483fe80f",
     "tab": "linkedin_idea",
-    "headline": "Manage RHEL with MCP servers and Red Hat Lightspeed",
-    "summary": "At the 2026 Red Hat Summit, we offered a hands-on lab titled \"AI-powered Red Hat Enterprise Linux management: Get hands-on with Model Context Protocol (MCP) servers for Red Hat Lightspeed, Satellite, and Red Hat Enterprise Linux.\" The post Manage RHEL with MCP servers and Red",
-    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Red Hat AI Blog",
-    "source_url": "https://developers.redhat.com/articles/2026/10/08/manage-rhel-mcp-servers-and-red-hat-lightspeed",
-    "date": "2026-10-16"
-  },
-  {
-    "id": "d2864083d222",
-    "tab": "linkedin_idea",
-    "headline": "A tool to compare LLM benchmarks",
-    "summary": "A tool to compare LLM benchmarks",
+    "headline": "Outlines – Structured Outputs for LLMs",
+    "summary": "Outlines – Structured Outputs for LLMs",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://philippdubach.com/posts/model-atlas-capability-weights/",
-    "date": "2026-10-16"
+    "source_url": "https://github.com/dottxt-ai/outlines",
+    "date": "2026-10-17"
   },
   {
-    "id": "a7c435d7ffdb",
+    "id": "d831938b547e",
     "tab": "linkedin_idea",
-    "headline": "Ask HN: Frontier Capability on Average Computers",
-    "summary": "I really want to find a way to get frontier-level intelligence on local hardware.I think some really cool ways to get this have been done already like the technique of spreading an LLMs weights across a fast-enough SSD and then only serving up an expert",
+    "headline": "SGLang – High-performance serving framework for LLM's and multimodal models",
+    "summary": "SGLang – High-performance serving framework for LLM's and multimodal models",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://news.ycombinator.com/item?id=50109846",
-    "date": "2026-10-16"
+    "source_url": "https://github.com/sgl-project/sglang",
+    "date": "2026-10-17"
+  },
+  {
+    "id": "a80ac8068cf5",
+    "tab": "linkedin_idea",
+    "headline": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
+    "summary": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+    "date": "2026-10-17"
   }
 ]
