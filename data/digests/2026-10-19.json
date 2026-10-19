@@ -1,0 +1,156 @@
+[
+  {
+    "id": "2c726fe0919e",
+    "tab": "learn",
+    "headline": "Show HN: Vramkit – lossless VRAM compression for LLM inference, on a MacBoo",
+    "summary": "Show HN: Vramkit – lossless VRAM compression for LLM inference, on a MacBook",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/SRKRZ23/vramkit",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "444d1e4bcbfb",
+    "tab": "learn",
+    "headline": "Show HN: Independent LLM benchmark index tracking 22 frontier models",
+    "summary": "Show HN: Independent LLM benchmark index tracking 22 frontier models",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://vibecoderjournal.com/rankings/",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "99ece13e787f",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
+    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "1339b515a178",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #62286: [ROCm][CI] Contain the MI355 DP + EP exit-ti",
+    "summary": "- Drop `optional: false` from the MI355 DP + EP mirror so it inherits the parent's `optional: true` and stops gating PR builds - Export `NCCL_RAS_ENABLE=0` in the mirror's commands, with a TODO to drop it once ROCm/rocm-systems#13572 is fixed - Export `TORCH_CPP_LOG_LEVEL=INFO` so ProcessGroupNCCL",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/62286",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "96e9b7e5db05",
+    "tab": "linkedin_idea",
+    "headline": "Distributed Performance Boosting through Neural Control for Plug-and-Play N",
+    "summary": "We address the problem of improving the performance of pre-stabilized networked systems subject to plug-and-play (PnP) operations, namely additions or removals of subsystems. While distributed baseline controllers can preserve stability after a PnP transition, augmenting them with expressive neural policies can invalidate the formal stability",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23292v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "8e2528410fee",
+    "tab": "linkedin_idea",
+    "headline": "DeDiCa: A Scalable Deconfounding Discrete Causal Generative Model",
+    "summary": "We introduce DeDiCa, a practical framework for efficient causal inference with discrete variables and hidden confounding that revisits classical probabilistic modeling through a tensorized parameterization of causal Bayesian networks, enabling tractable inference. Given a causal graph, DeDiCa is trained once on observational data by maximum",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23272v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "f33f1446e049",
+    "tab": "linkedin_idea",
+    "headline": "ADT: All-Atom Diffusion Tokenizer for 3D Molecular Structures",
+    "summary": "Discrete structural tokenization provides a promising route to autoregressive 3D molecular generation. Yet, existing tokenizers face a trade-off between compact representation and all-atom reconstruction: atom-level tokens preserve atomic details but produce long sequences, while compact residue-level protein tokens typically omit side-chain geometry. To overcome this",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23265v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "5fce66a5444f",
+    "tab": "linkedin_idea",
+    "headline": "Peak-Memory Schedules You Can Trust: Exact Realization, Certified Optimalit",
+    "summary": "Real-time inference on small devices needs low activation memory without extra latency, which makes operator order the most valuable memory lever: it is free in time. We show that the usual way of deploying a better order, handing it back to the compiler and regenerating",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23328v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "f635ce5132e2",
+    "tab": "linkedin_idea",
+    "headline": "SETAREH Transform: A Sorting-Assisted Haar-Wavelet Sparsification Method fo",
+    "summary": "Modern deep learning systems increasingly rely on high-dimensional vector operations, in which large input and parameter vectors are repeatedly stored, transferred, and processed. Although substantial research has focused on reducing neural-network model size through pruning, quantization, knowledge distillation, and efficient architectures, the storage, memory-traffic, and",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23338v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "c0bb45116056",
+    "tab": "linkedin_idea",
+    "headline": "Process Reward Modeling with Reliability- and Conservatism-Aware Bayesian B",
+    "summary": "Process Reward Models (PRMs) play a central role in test-time scaling for large language model (LLM) reasoning. However, PRMs may provide inaccurate process rewards for test-time scaling, which we identify as arising from two sources of uncertainty: (1) \\textit{PRM uncertainty} that arises from insufficient supervision",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23223v1",
+    "date": "2026-10-19"
+  }
+]

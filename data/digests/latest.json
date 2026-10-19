@@ -8,7 +8,18 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/SRKRZ23/vramkit",
-    "date": "2026-10-18"
+    "date": "2026-10-19"
+  },
+  {
+    "id": "444d1e4bcbfb",
+    "tab": "learn",
+    "headline": "Show HN: Independent LLM benchmark index tracking 22 frontier models",
+    "summary": "Show HN: Independent LLM benchmark index tracking 22 frontier models",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://vibecoderjournal.com/rankings/",
+    "date": "2026-10-19"
   },
   {
     "id": "9668af85ed2e",
@@ -19,29 +30,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-18"
+    "date": "2026-10-19"
   },
   {
-    "id": "99ece13e787f",
+    "id": "83a753b4160c",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
-    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "448701fe9974",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-18"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-10-19"
   },
   {
     "id": "3762ff1d2e30",
@@ -52,94 +52,105 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-18"
+    "date": "2026-10-19"
   },
   {
-    "id": "79fa413a464f",
+    "id": "99ece13e787f",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.27.1: v0.27.1",
-    "summary": "This is a patch release on top of v0.27.0. - Support quantized DSpark Markov heads (#50424)",
+    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
+    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "1339b515a178",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #62286: [ROCm][CI] Contain the MI355 DP + EP exit-ti",
+    "summary": "- Drop `optional: false` from the MI355 DP + EP mirror so it inherits the parent's `optional: true` and stops gating PR builds - Export `NCCL_RAS_ENABLE=0` in the mirror's commands, with a TODO to drop it once ROCm/rocm-systems#13572 is fixed - Export `TORCH_CPP_LOG_LEVEL=INFO` so ProcessGroupNCCL",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
-    "date": "2026-10-18"
+    "source_url": "https://github.com/vllm-project/vllm/pull/62286",
+    "date": "2026-10-19"
   },
   {
-    "id": "68b2fc2ce913",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #62081: [Bugfix][EPLB] Wait for pending expert buffe",
-    "summary": "## Purpose Fixes the intermittent `test_rearrange_expert_weights_with_redundancy[nixl-*]` failure in `mi300_4: (MI300) EPLB Execution`: ```text verify_redundant_experts_have_same_weights failed: rank=0, layer=0, weight_idx=0, logical_expert=1, physical_pos=4, actual_head=[2100.0, 2101.0, ...], reference_head=[1000.0, 1001.0, ...] FAILED distributed/test_eplb_execute.py::test_rearrange_expert_weights_with_redundancy[nixl-4-2-2-5] - AssertionError ``` Failing run: The test encodes weights as `logical_expert * 1000 + layer * 100",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/62081",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "ff859306c18c",
+    "id": "96e9b7e5db05",
     "tab": "linkedin_idea",
-    "headline": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anti",
-    "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can",
+    "headline": "Distributed Performance Boosting through Neural Control for Plug-and-Play N",
+    "summary": "We address the problem of improving the performance of pre-stabilized networked systems subject to plug-and-play (PnP) operations, namely additions or removals of subsystems. While distributed baseline controllers can preserve stability after a PnP transition, augmenting them with expressive neural policies can invalidate the formal stability",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22273v1",
-    "date": "2026-10-18"
+    "source_url": "https://arxiv.org/abs/2610.23292v1",
+    "date": "2026-10-19"
   },
   {
-    "id": "a54a1b562ae2",
+    "id": "8e2528410fee",
     "tab": "linkedin_idea",
-    "headline": "Backward Compatibility in Zero-Bit Neural Audio Watermarking",
-    "summary": "Neural watermarking systems are typically trained as tightly coupled embedder-detector pairs and implicitly assume static deployment. In real-world deployments, embedders and detectors are frequently updated and selectively decoupled for security and versioning purposes, which can break detection in previously embedded content and, more critically, increase",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22296v1",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "471c4f9bed43",
-    "tab": "linkedin_idea",
-    "headline": "Towards Continual Learning: Mitigating Forgetting With Subspace Tuning",
-    "summary": "Large language models (LLMs) acquire new skills through fine-tuning, but it can destroy capabilities they already have: catastrophic forgetting remains a central obstacle to continual learning in LLMs. Recent works connect forgetting to how far, and along which directions, fine-tuning moves the weights. On-policy methods",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22293v1",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "e108d5edeb16",
-    "tab": "linkedin_idea",
-    "headline": "CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM H",
-    "summary": "Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context. We introduce Continuous Adversarial",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22292v1",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "932ef68b30f7",
-    "tab": "linkedin_idea",
-    "headline": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
-    "summary": "Time Series Language Models (TSLMs) enable language-based understanding and reasoning over temporal data, yet a fundamental question remains: what information should their time-series representations preserve, and what variation should they factor out? Existing TSLMs typically expose the language model to a single representation, imposing a",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22327v1",
-    "date": "2026-10-18"
-  },
-  {
-    "id": "7ed6a4bf7e52",
-    "tab": "linkedin_idea",
-    "headline": "Baselines and Score Centering in Policy Gradient Estimation",
-    "summary": "Reinforcement learning has become a widely used approach to post-training large language models. In a typical implementation, learning is off-policy: The policy generating the responses differs from the policy being trained because of training-inference mismatch or policy staleness in asynchronous training. This discrepancy is commonly",
+    "headline": "DeDiCa: A Scalable Deconfounding Discrete Causal Generative Model",
+    "summary": "We introduce DeDiCa, a practical framework for efficient causal inference with discrete variables and hidden confounding that revisits classical probabilistic modeling through a tensorized parameterization of causal Bayesian networks, enabling tractable inference. Given a causal graph, DeDiCa is trained once on observational data by maximum",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22263v1",
-    "date": "2026-10-18"
+    "source_url": "https://arxiv.org/abs/2610.23272v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "f33f1446e049",
+    "tab": "linkedin_idea",
+    "headline": "ADT: All-Atom Diffusion Tokenizer for 3D Molecular Structures",
+    "summary": "Discrete structural tokenization provides a promising route to autoregressive 3D molecular generation. Yet, existing tokenizers face a trade-off between compact representation and all-atom reconstruction: atom-level tokens preserve atomic details but produce long sequences, while compact residue-level protein tokens typically omit side-chain geometry. To overcome this",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23265v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "5fce66a5444f",
+    "tab": "linkedin_idea",
+    "headline": "Peak-Memory Schedules You Can Trust: Exact Realization, Certified Optimalit",
+    "summary": "Real-time inference on small devices needs low activation memory without extra latency, which makes operator order the most valuable memory lever: it is free in time. We show that the usual way of deploying a better order, handing it back to the compiler and regenerating",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23328v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "f635ce5132e2",
+    "tab": "linkedin_idea",
+    "headline": "SETAREH Transform: A Sorting-Assisted Haar-Wavelet Sparsification Method fo",
+    "summary": "Modern deep learning systems increasingly rely on high-dimensional vector operations, in which large input and parameter vectors are repeatedly stored, transferred, and processed. Although substantial research has focused on reducing neural-network model size through pruning, quantization, knowledge distillation, and efficient architectures, the storage, memory-traffic, and",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23338v1",
+    "date": "2026-10-19"
+  },
+  {
+    "id": "c0bb45116056",
+    "tab": "linkedin_idea",
+    "headline": "Process Reward Modeling with Reliability- and Conservatism-Aware Bayesian B",
+    "summary": "Process Reward Models (PRMs) play a central role in test-time scaling for large language model (LLM) reasoning. However, PRMs may provide inaccurate process rewards for test-time scaling, which we identify as arising from two sources of uncertainty: (1) \\textit{PRM uncertainty} that arises from insufficient supervision",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.23223v1",
+    "date": "2026-10-19"
   }
 ]
