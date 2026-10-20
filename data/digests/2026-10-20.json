@@ -1,0 +1,156 @@
+[
+  {
+    "id": "2a943f37ab50",
+    "tab": "learn",
+    "headline": "Show HN: Hiding messages as a generative art; open sourcing my code from 20",
+    "summary": "I&#x27;ve always been fascinated by secret messages, and for years I scribbled ideas for a graphical way of hiding messages that would be decipherable by humans without computers, while still being non-trivial and novel.This is what I came up with in 2020 (pre-LLM era ^^).",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://stegano.graphics",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "444d1e4bcbfb",
+    "tab": "learn",
+    "headline": "Show HN: Independent LLM benchmark index tracking 22 frontier models",
+    "summary": "Show HN: Independent LLM benchmark index tracking 22 frontier models",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://vibecoderjournal.com/rankings/",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "562d70a45c42",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #62561: [Doc] Document DeepSeek-V4.1-Flash B300 and ",
+    "summary": "## Overview Document the DeepSeek-V4.1-Flash Dynamo + vLLM **disaggregated** AgentX profiles for B300 ([SemiAnalysisAI/InferenceX#4231](https://github.com/SemiAnalysisAI/InferenceX/pull/4231), [run 39112710364](https://github.com/SemiAnalysisAI/InferenceX/actions/runs/39112710364)) and GB300 ([SemiAnalysisAI/InferenceX#4266](https://github.com/SemiAnalysisAI/InferenceX/pull/4266)). The InferenceX sign-off verifier asked for these settings in the upstream recipe ([verdict](https://github.com/SemiAnalysisAI/InferenceX/pull/4231#issuecomment-6278365602)). #62534 covers the aggregated profile and the sidecar flow. This PR merges #62572",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/62561",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f1eb92dbf0ae",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #62489: [Bugfix][AuxOutput] Send routed-experts bloc",
+    "summary": "## Purpose Split from #62044 (by @faresobeid): only the scheduler-side hash fix. The store eviction fix is #62392. The scheduler sent a request's block hashes to the worker as soon as they existed. A prompt's hashes all exist before its first chunk runs, so with",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/62489",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "351366c89821",
+    "tab": "linkedin_idea",
+    "headline": "Query-Dependent Reading for Quantized Inner-Product Estimation: A Minimax S",
+    "summary": "We study quantization for inner-product estimation when storage and reading have separate budgets. In the static bit-probe model [Yao, 1981], an encoder stores $w$ bits about $x$ before seeing a query $y$, and a reader probes at most $r<w$ bits to estimate $x^\\top y$. Both",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.24890v1",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "a87af163037b",
+    "tab": "linkedin_idea",
+    "headline": "FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments",
+    "summary": "Generative AI workflows execute user tasks by composing sequences of LLM calls, where each call performs a sub-task (e.g., summarization or translation), forming a workflow. Executing such workflows requires decisions over workflow structure, model assignments, and deployment configurations, which jointly determine latency, cost, and accuracy",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.24861v1",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "2093f230d05d",
+    "tab": "linkedin_idea",
+    "headline": "Sample-Efficient Reinforcement Learning with General Utilities via Neural D",
+    "summary": "Reinforcement learning with general utilities optimizes nonlinear functionals of policy-induced occupancy measures. We develop a natural actor-critic method for concave RLGU objectives admitting an exact variational dual representation, with explicit constructions for a broad class of separable occupancy utilities. Rather than estimating the occupancy measure",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.24880v1",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "4834140b8781",
+    "tab": "linkedin_idea",
+    "headline": "Bellman Language Models: Solving the Recurring Decisions of LLM Agents",
+    "summary": "A general observation in agentic workflows, especially bounded ones, is that the decision space of the LLM, when we separate a decision from generation, starts approaching saturation: the agent meets the same states again and again, and after enough conversations it stops meeting new ones.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.24871v1",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "f5f248f2c617",
+    "tab": "linkedin_idea",
+    "headline": "An Impossibility Result for ETF Target Geometry, and an Equinorm Remedy for",
+    "summary": "Analytic continual learning (ACL) methods such as ACIL and GACL fit a ridge-regression classifier head on frozen features via the Sherman-Morrison-Woodbury identity, achieving exemplar-free, exact updates. A separate line of work, Progressive Neural Collapse (ProNC), shows standard continual classifiers benefit from a progressively expanding Simplex",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.24844v1",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "399b1990ec6a",
+    "tab": "linkedin_idea",
+    "headline": "HEL: A Heterogeneous Extensible Layer for GPU-Resident Runtime Orchestratio",
+    "summary": "We describe a GPU-resident runtime system, HEL, built on stateful services that persist throughout the lifespan of a user application. A HEL programmer expresses a workload as an application that spawns coroutine-like tasks, which are then scheduled and run by the HEL runtime. HEL supports",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.24830v1",
+    "date": "2026-10-20"
+  }
+]
