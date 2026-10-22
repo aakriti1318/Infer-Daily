@@ -1,36 +1,36 @@
 [
   {
-    "id": "3f73c93f4ce6",
+    "id": "280febea4893",
     "tab": "learn",
-    "headline": "Show HN: SentinelGate – Drop prompt injections at Token 0 before LLM infere",
-    "summary": "Show HN: SentinelGate – Drop prompt injections at Token 0 before LLM inference",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Searc",
+    "summary": "Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "ed718fba49da",
+    "tab": "learn",
+    "headline": "Show HN: RMBG – remove backgrounds from images in the browser (no uploads)",
+    "summary": "I am a person who does editing and digital designing. I used to use this tool, remove.bg, for getting transparent PNGs from either stock images or my own images. It was good, fast, free, and convenient. The only caveats for me were the export resolution",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
     "source_name": "Hacker News",
-    "source_url": "https://sentinelgate.dev",
-    "date": "2026-10-21"
+    "source_url": "https://velmet44.github.io/rmbg/",
+    "date": "2026-10-22"
   },
   {
-    "id": "448701fe9974",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "id": "cb6b8b1dbb93",
+    "tab": "learn",
+    "headline": "Show HN: Reverse engineering the ANE to run Gemma 4 26B at 100 Tok/s",
+    "summary": "After checking out Turbo Fieldfare (a very interesting project that streamed experts from SSD on Apple Silicon Macs to run Gemma 4 26B with very little RAM usage), I tried to make this project much faster and succeeded!This project gets up to 100+ tokens&#x2F;s inference",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-21"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-21"
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/zw5/ane-fieldfare",
+    "date": "2026-10-22"
   },
   {
     "id": "9668af85ed2e",
@@ -41,18 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-21"
-  },
-  {
-    "id": "99ece13e787f",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
-    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-21"
+    "date": "2026-10-22"
   },
   {
     "id": "83a753b4160c",
@@ -63,83 +52,116 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-21"
+    "date": "2026-10-22"
   },
   {
-    "id": "7146a245b95d",
+    "id": "3762ff1d2e30",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #55901: [MyPy] Fix mypy errors in KV connector tests",
-    "summary": "## Purpose Part of #49569. Fix the mypy errors in the kv-B portion of `tests/v1/kv_connector`. On current `main`, the 15 kv-B files have 176 errors (in 14 files) under `--follow-imports silent`. This PR fixes all of them in the 13 files it modifies. The remaining",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "99ece13e787f",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
+    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "a64370b83b17",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #52921: [Bugfix] Align CPU offload pool size across ",
+    "summary": "## Overview Fix CPU offload block-count mismatches between the scheduler and workers under uneven pipeline parallelism or speculative decoding, preventing out-of-bounds offload copies. ## Claims - Workers synchronize the block count with MIN before allocating offload storage. - The engine queries the aligned count only",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/55901",
-    "date": "2026-10-21"
+    "source_url": "https://github.com/vllm-project/vllm/pull/52921",
+    "date": "2026-10-22"
   },
   {
-    "id": "3ea8663ef4cd",
+    "id": "46b6802c61e8",
     "tab": "linkedin_idea",
-    "headline": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
-    "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
-    "date": "2026-10-21"
-  },
-  {
-    "id": "32b0ba3c338e",
-    "tab": "linkedin_idea",
-    "headline": "Optimized support for Open NVIDIA Nemotron 3.5 Super VL",
-    "summary": "Red Hat AI is releasing optimized FP8 and DSpark speculative decoding checkpoints for Nemotron 3.5 Super VL, a 120B multimodal mixture-of-experts (MoE) model built for long-running agents. The post Optimized support for Open NVIDIA Nemotron 3.5 Super VL appeared first on Red Hat Developer.",
-    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "headline": "Unlocking Spatial Grounding in Flow-Matching Models via SNR Tuning",
+    "summary": "Despite the success of foundation models in image synthesis, achieving fine-grained spatial control remains a significant challenge, typically requiring auxiliary structural adapters or complex inference-time steering. While modern vision-language (VLM) text encoders possess the latent capacity to represent spatial coordinates, generative models often fail to",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "Red Hat AI Blog",
-    "source_url": "https://developers.redhat.com/articles/2026/10/15/optimized-support-open-nvidia-nemotron-3-5-super-vl",
-    "date": "2026-10-21"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.29581v1",
+    "date": "2026-10-22"
   },
   {
-    "id": "49c05db4390b",
+    "id": "2fc4aa70bd96",
     "tab": "linkedin_idea",
-    "headline": "Why Is Speculative Decoding Fast?",
-    "summary": "Why Is Speculative Decoding Fast?",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "headline": "Hyperspherical Simplex Representations for Backward-Compatible Retrieval",
+    "summary": "Training modern AI models has become increasingly expensive, and updating deployed models can alter their internal feature representations, affecting applications built upon them. In retrieval systems, such updates often require complete gallery re-indexing, a computationally expensive process at scale. Existing backward-compatibility methods enable direct comparison",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://jbarrow.ai/2026-10-08-why-is-speculative-decoding-fast/",
-    "date": "2026-10-21"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.29550v1",
+    "date": "2026-10-22"
   },
   {
-    "id": "606496999bcc",
+    "id": "281e6eba381e",
     "tab": "linkedin_idea",
-    "headline": "EGPU and Local LLM Inference",
-    "summary": "EGPU and Local LLM Inference",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "headline": "Implicit Feature Reweighting for Label-Free Graph Generalization",
+    "summary": "Graph-level out-of-distribution (OOD) generalization is critical for deploying graph neural networks in real-world applications where distribution shifts are inevitable. Existing approaches typically require class labels during representation learning to decide which substructures are predictive, limiting their applicability. We propose SCARCE, a label-free representation-learning framework that",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://pgaleone.eu/ai/2026/10/20/eGPU-for-local-llm-inference/",
-    "date": "2026-10-21"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.29571v1",
+    "date": "2026-10-22"
   },
   {
-    "id": "1b6ae90b1fee",
+    "id": "935eaf601c02",
     "tab": "linkedin_idea",
-    "headline": "llm-d v1.0: State-of-the-art inference",
-    "summary": "llm-d v1.0: State-of-the-art inference",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "headline": "What Prediction-Market Contracts Reveal at Launch: Trading Volume and Dispu",
+    "summary": "Using a near-census of 802,863 resolved markets listed on Polymarket between January 2023 and May 2026, and only information available at listing (the market's title and description, named resolution source, and contract metadata), we predict lifetime trading volume and whether settlement is later disputed. Contract",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://llm-d.ai/blog/llm-d-v1.0-state-of-the-art-inference-ready-for-day-2",
-    "date": "2026-10-21"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.29578v1",
+    "date": "2026-10-22"
   },
   {
-    "id": "16fc29df0f80",
+    "id": "8166f83db96c",
     "tab": "linkedin_idea",
-    "headline": "Maxwell: A new kind of model that sits between code and hardware",
-    "summary": "Hi HN, I&#x27;m Gal from doubleAI. We&#x27;ve built Maxwell, a new kind of frontier model we call a Code Execution Model.It sits between your code and the hardware. No humans in the loop! Maxwell makes the code run faster as it runs, without ever changing",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "headline": "Semantic-Aware Update Admission and Adaptive Byzantine Redundancy for Secur",
+    "summary": "Computing in the network (COIN) supports latency-sensitive Metaverse services, but blockchain commitment of persistent shared-state updates competes with application execution for limited resources. We consider the joint problem of deciding which updates to commit, how much Byzantine redundancy to provision, and where to execute Metaverse",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://heymaxwell.ai/",
-    "date": "2026-10-21"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.29592v1",
+    "date": "2026-10-22"
+  },
+  {
+    "id": "c338631165d1",
+    "tab": "linkedin_idea",
+    "headline": "RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LL",
+    "summary": "Request migration and interruption recovery in distributed large language model (LLM) inference rely on historical key-value (KV) caches. Retaining or transferring a complete cache incurs substantial state overhead, whereas replaying historical tokens requires additional computation. This paper proposes RISK-KV, a quality-aware method for selective historical",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.29544v1",
+    "date": "2026-10-22"
   }
 ]
