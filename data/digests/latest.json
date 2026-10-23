@@ -1,5 +1,27 @@
 [
   {
+    "id": "bc0ca139b48f",
+    "tab": "learn",
+    "headline": "GM-GReFEL: Geometry-Guided Spatiotemporal State-Space Learning for Robust D",
+    "summary": "Recognizing facial expressions in unconstrained video suffers from two coupled problems: self-attention grows quadratically in cost with clip length, and crowdsourced labels are noisy. We present GM-GReFEL, a spatiotemporal state-space network with a geometry-aware decision stage. Its Modulated GroupMamba backbone replaces a spatiotemporal Vision Transformer.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31140v1",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "76958d20cb4d",
+    "tab": "learn",
+    "headline": "Energy and Latency First: How Deployment Constraints Reverse Time-Series Mo",
+    "summary": "AI models, and time-series models in particular are typically ranked by accuracy and deployed under constraints absent from that ranking. In this paper, we study a real setting where these constraints are explicit and measurable: handover pre- diction in cellular networks, where inference runs on",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.30965v1",
+    "date": "2026-10-23"
+  },
+  {
     "id": "280febea4893",
     "tab": "learn",
     "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Searc",
@@ -8,18 +30,18 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
-    "date": "2026-10-22"
+    "date": "2026-10-23"
   },
   {
-    "id": "ed718fba49da",
+    "id": "9305fa63790a",
     "tab": "learn",
-    "headline": "Show HN: RMBG – remove backgrounds from images in the browser (no uploads)",
-    "summary": "I am a person who does editing and digital designing. I used to use this tool, remove.bg, for getting transparent PNGs from either stock images or my own images. It was good, fast, free, and convenient. The only caveats for me were the export resolution",
+    "headline": "Show HN: Train LoRA directly on the GGUF you have, then merge the adapter",
+    "summary": "Use the same GGUF you serve, merge the adapter back into it and then use the same engine to run the model, all in all a &quot;LLM Toolbox&quot;",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "Hacker News",
-    "source_url": "https://velmet44.github.io/rmbg/",
-    "date": "2026-10-22"
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5j48s/train_lora_directly_on_quantized_ggufs_no_pytorch/",
+    "date": "2026-10-23"
   },
   {
     "id": "cb6b8b1dbb93",
@@ -30,18 +52,18 @@
     "colab_runnable": true,
     "source_name": "Hacker News",
     "source_url": "https://github.com/zw5/ane-fieldfare",
-    "date": "2026-10-22"
+    "date": "2026-10-23"
   },
   {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-22"
+    "id": "d652e85ad0bd",
+    "tab": "learn",
+    "headline": "Run LLMs Across Multiple Machines: Distributed Inference Guide for Your Hom",
+    "summary": "Run LLMs Across Multiple Machines: Distributed Inference Guide for Your Homelab (2026)",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://lucasaguiar.xyz/posts/run-llm-distributed-inference-homelab-guide-2026/",
+    "date": "2026-10-23"
   },
   {
     "id": "83a753b4160c",
@@ -52,18 +74,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-22"
+    "date": "2026-10-23"
   },
   {
-    "id": "3762ff1d2e30",
+    "id": "9668af85ed2e",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-22"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-23"
   },
   {
     "id": "99ece13e787f",
@@ -74,7 +96,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-22"
+    "date": "2026-10-23"
   },
   {
     "id": "448701fe9974",
@@ -85,83 +107,94 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-22"
+    "date": "2026-10-23"
   },
   {
-    "id": "a64370b83b17",
+    "id": "3762ff1d2e30",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #52921: [Bugfix] Align CPU offload pool size across ",
-    "summary": "## Overview Fix CPU offload block-count mismatches between the scheduler and workers under uneven pipeline parallelism or speculative decoding, preventing out-of-bounds offload copies. ## Claims - Workers synchronize the block count with MIN before allocating offload storage. - The engine queries the aligned count only",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/52921",
-    "date": "2026-10-22"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-23"
   },
   {
-    "id": "46b6802c61e8",
+    "id": "3ff70eb32b82",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #62576: [Bugfix] Defer MRV2 Triton validation to wor",
+    "summary": "## Overview Defer MRV2's Triton availability check from `VllmConfig` construction to worker startup, allowing CPU frontends to build configs for GPU deployments. ## Claims - CPU prompt-rendering processes can retain the deployment's speculative config without requiring a local Triton driver. - Actual MRV2 workers still",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/62576",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "405730d8f6b8",
     "tab": "linkedin_idea",
-    "headline": "Unlocking Spatial Grounding in Flow-Matching Models via SNR Tuning",
-    "summary": "Despite the success of foundation models in image synthesis, achieving fine-grained spatial control remains a significant challenge, typically requiring auxiliary structural adapters or complex inference-time steering. While modern vision-language (VLM) text encoders possess the latent capacity to represent spatial coordinates, generative models often fail to",
+    "headline": "When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated",
+    "summary": "Metadata-conditioned generation is often framed as a data-to-text task in which additional input fields should improve grounding. Museum description generation challenges this assumption because catalogue records are heterogeneous, partially visual, and unevenly documented across geographic regions. We study how metadata composition shapes the generation of",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31193v1",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "20dfd2770577",
+    "tab": "linkedin_idea",
+    "headline": "Is High Local Accuracy Enough? Geometric Consensus with Support-Adaptive St",
+    "summary": "Real-world deployment of personalized federated learning (PFL) requires adapting to heterogeneous clients while preserving recognition performance beyond local distributions. However, high local accuracy can conceal failures on locally rare or absent classes. Effective personalization should therefore strengthen global recognition while raising the personalization floor. We",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29581v1",
-    "date": "2026-10-22"
+    "source_url": "https://arxiv.org/abs/2610.31133v1",
+    "date": "2026-10-23"
   },
   {
-    "id": "2fc4aa70bd96",
+    "id": "69cb257e3a0c",
     "tab": "linkedin_idea",
-    "headline": "Hyperspherical Simplex Representations for Backward-Compatible Retrieval",
-    "summary": "Training modern AI models has become increasingly expensive, and updating deployed models can alter their internal feature representations, affecting applications built upon them. In retrieval systems, such updates often require complete gallery re-indexing, a computationally expensive process at scale. Existing backward-compatibility methods enable direct comparison",
+    "headline": "Prediction Uncertainty Controlled Computer Model Calibration",
+    "summary": "Computer-model calibration is usually undertaken in service of prediction, yet neither Bayesian Kennedy-O'Hagan (KOH) calibration nor amortized simulation-based inference is built to control the predictive error of the calibrated simulator. When parameters are weakly identified or the data-model discrepancy is misspecified, the simulator-output bands induced",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29550v1",
-    "date": "2026-10-22"
+    "source_url": "https://arxiv.org/abs/2610.31163v1",
+    "date": "2026-10-23"
   },
   {
-    "id": "281e6eba381e",
+    "id": "2e3a2dff9283",
     "tab": "linkedin_idea",
-    "headline": "Implicit Feature Reweighting for Label-Free Graph Generalization",
-    "summary": "Graph-level out-of-distribution (OOD) generalization is critical for deploying graph neural networks in real-world applications where distribution shifts are inevitable. Existing approaches typically require class labels during representation learning to decide which substructures are predictive, limiting their applicability. We propose SCARCE, a label-free representation-learning framework that",
+    "headline": "PriMa-Causa: Causal Prescriptive Maintenance",
+    "summary": "Automated manufacturing requires data-driven decisions under uncertainty and sparse observational records, and unplanned downtime is a dominant cost of getting them wrong. Prescriptive maintenance recommends a maintenance action against an impending failure rather than merely predicting it. Established reference architectures couple predictive models with rule-",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29571v1",
-    "date": "2026-10-22"
+    "source_url": "https://arxiv.org/abs/2610.31147v1",
+    "date": "2026-10-23"
   },
   {
-    "id": "935eaf601c02",
+    "id": "bc591c82b037",
     "tab": "linkedin_idea",
-    "headline": "What Prediction-Market Contracts Reveal at Launch: Trading Volume and Dispu",
-    "summary": "Using a near-census of 802,863 resolved markets listed on Polymarket between January 2023 and May 2026, and only information available at listing (the market's title and description, named resolution source, and contract metadata), we predict lifetime trading volume and whether settlement is later disputed. Contract",
+    "headline": "Diagnostic Loss: Asymmetric Supervision for Radiology Report Generation",
+    "summary": "Automated radiology report generation requires models to do more than produce fluent clinical narratives: they must explicitly state supported diagnoses while avoiding unsupported ones. However, existing medical vision-language models (MedVLMs) are typically trained with token-level maximum likelihood objectives, which prioritize text agreement over diagnostically critical",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29578v1",
-    "date": "2026-10-22"
+    "source_url": "https://arxiv.org/abs/2610.30980v1",
+    "date": "2026-10-23"
   },
   {
-    "id": "8166f83db96c",
+    "id": "9c5c663e5d53",
     "tab": "linkedin_idea",
-    "headline": "Semantic-Aware Update Admission and Adaptive Byzantine Redundancy for Secur",
-    "summary": "Computing in the network (COIN) supports latency-sensitive Metaverse services, but blockchain commitment of persistent shared-state updates competes with application execution for limited resources. We consider the joint problem of deciding which updates to commit, how much Byzantine redundancy to provision, and where to execute Metaverse",
+    "headline": "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Mill",
+    "summary": "Many language-model pipelines end in a closed-set decision, such as selecting a tool. Prompting a large language model for it is slow and order-sensitive. We ask how small an encoder for such decisions can be and whether it should read the options jointly or separately.",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29592v1",
-    "date": "2026-10-22"
-  },
-  {
-    "id": "c338631165d1",
-    "tab": "linkedin_idea",
-    "headline": "RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LL",
-    "summary": "Request migration and interruption recovery in distributed large language model (LLM) inference rely on historical key-value (KV) caches. Retaining or transferring a complete cache incurs substantial state overhead, whereas replaying historical tokens requires additional computation. This paper proposes RISK-KV, a quality-aware method for selective historical",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29544v1",
-    "date": "2026-10-22"
+    "source_url": "https://arxiv.org/abs/2610.30970v1",
+    "date": "2026-10-23"
   }
 ]
