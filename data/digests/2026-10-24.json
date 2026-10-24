@@ -1,0 +1,145 @@
+[
+  {
+    "id": "280febea4893",
+    "tab": "learn",
+    "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Searc",
+    "summary": "Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "d652e85ad0bd",
+    "tab": "learn",
+    "headline": "Run LLMs Across Multiple Machines: Distributed Inference Guide for Your Hom",
+    "summary": "Run LLMs Across Multiple Machines: Distributed Inference Guide for Your Homelab (2026)",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://lucasaguiar.xyz/posts/run-llm-distributed-inference-homelab-guide-2026/",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "99ece13e787f",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
+    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "a73cbbd0d96e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #59717: [Bugfix][MoE] Remap invalid topk_ids in moe_",
+    "summary": "## Overview Fixes #59686. `moe_permute` returns wrong `expert_first_token_offset` when `topk_ids` contains `-1` (the id the router writes for CUDA-graph padding tokens with `VLLM_MOE_SKIP_PADDING=1`, the default) and no `expert_map` is given. The CUTLASS fp8 MoE path then runs some valid tokens through the wrong expert. This",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/59717",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "782124816a03",
+    "tab": "linkedin_idea",
+    "headline": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+    "summary": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "30c1fcf4052b",
+    "tab": "linkedin_idea",
+    "headline": "Local inference and benchmarking with Red Hat AI Inference",
+    "summary": "Evaluating local large language model (LLM) performance before scaling to enterprise production doesn't require complex infrastructure. With Red Hat Enterprise Linux (RHEL) and Red Hat AI Inference, you can launch, benchmark, and test an OpenAI-compatible server on your local hardware in minutes. The post Local",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/22/local-inference-and-benchmarking-red-hat-ai-inference",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "24e0d94898ec",
+    "tab": "linkedin_idea",
+    "headline": "Private LLM Inference with Homomorphic Encryption [pdf]",
+    "summary": "Private LLM Inference with Homomorphic Encryption [pdf]",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://www.vldb.org/pvldb/vol19/p4927-lim.pdf",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "ca6093bd657d",
+    "tab": "linkedin_idea",
+    "headline": "Living House: Adaptive UI and docs using in-browser inference",
+    "summary": "Living House: Adaptive UI and docs using in-browser inference",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://passo.uno/adaptive-ui-docs-using-llms/",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "3e7599c6661c",
+    "tab": "linkedin_idea",
+    "headline": "Humming: Fast, Flexible Kernels for Quantized Inference",
+    "summary": "Humming: Fast, Flexible Kernels for Quantized Inference",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://vllm.ai/blog/2026-10-21-humming",
+    "date": "2026-10-24"
+  }
+]

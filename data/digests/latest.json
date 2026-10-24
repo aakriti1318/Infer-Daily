@@ -1,27 +1,5 @@
 [
   {
-    "id": "bc0ca139b48f",
-    "tab": "learn",
-    "headline": "GM-GReFEL: Geometry-Guided Spatiotemporal State-Space Learning for Robust D",
-    "summary": "Recognizing facial expressions in unconstrained video suffers from two coupled problems: self-attention grows quadratically in cost with clip length, and crowdsourced labels are noisy. We present GM-GReFEL, a spatiotemporal state-space network with a geometry-aware decision stage. Its Modulated GroupMamba backbone replaces a spatiotemporal Vision Transformer.",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31140v1",
-    "date": "2026-10-23"
-  },
-  {
-    "id": "76958d20cb4d",
-    "tab": "learn",
-    "headline": "Energy and Latency First: How Deployment Constraints Reverse Time-Series Mo",
-    "summary": "AI models, and time-series models in particular are typically ranked by accuracy and deployed under constraints absent from that ranking. In this paper, we study a real setting where these constraints are explicit and measurable: handover pre- diction in cellular networks, where inference runs on",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30965v1",
-    "date": "2026-10-23"
-  },
-  {
     "id": "280febea4893",
     "tab": "learn",
     "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Searc",
@@ -30,29 +8,7 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
-    "date": "2026-10-23"
-  },
-  {
-    "id": "9305fa63790a",
-    "tab": "learn",
-    "headline": "Show HN: Train LoRA directly on the GGUF you have, then merge the adapter",
-    "summary": "Use the same GGUF you serve, merge the adapter back into it and then use the same engine to run the model, all in all a &quot;LLM Toolbox&quot;",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5j48s/train_lora_directly_on_quantized_ggufs_no_pytorch/",
-    "date": "2026-10-23"
-  },
-  {
-    "id": "cb6b8b1dbb93",
-    "tab": "learn",
-    "headline": "Show HN: Reverse engineering the ANE to run Gemma 4 26B at 100 Tok/s",
-    "summary": "After checking out Turbo Fieldfare (a very interesting project that streamed experts from SSD on Apple Silicon Macs to run Gemma 4 26B with very little RAM usage), I tried to make this project much faster and succeeded!This project gets up to 100+ tokens&#x2F;s inference",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://github.com/zw5/ane-fieldfare",
-    "date": "2026-10-23"
+    "date": "2026-10-24"
   },
   {
     "id": "d652e85ad0bd",
@@ -63,29 +19,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://lucasaguiar.xyz/posts/run-llm-distributed-inference-homelab-guide-2026/",
-    "date": "2026-10-23"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-23"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-23"
+    "date": "2026-10-24"
   },
   {
     "id": "99ece13e787f",
@@ -96,18 +30,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-23"
-  },
-  {
-    "id": "448701fe9974",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-23"
+    "date": "2026-10-24"
   },
   {
     "id": "3762ff1d2e30",
@@ -118,83 +41,105 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-23"
+    "date": "2026-10-24"
   },
   {
-    "id": "3ff70eb32b82",
+    "id": "448701fe9974",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #62576: [Bugfix] Defer MRV2 Triton validation to wor",
-    "summary": "## Overview Defer MRV2's Triton availability check from `VllmConfig` construction to worker startup, allowing CPU frontends to build configs for GPU deployments. ## Claims - CPU prompt-rendering processes can retain the deployment's speculative config without requiring a local Triton driver. - Actual MRV2 workers still",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/62576",
-    "date": "2026-10-23"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-24"
   },
   {
-    "id": "405730d8f6b8",
-    "tab": "linkedin_idea",
-    "headline": "When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated",
-    "summary": "Metadata-conditioned generation is often framed as a data-to-text task in which additional input fields should improve grounding. Museum description generation challenges this assumption because catalogue records are heterogeneous, partially visual, and unevenly documented across geographic regions. We study how metadata composition shapes the generation of",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31193v1",
-    "date": "2026-10-23"
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-10-24"
   },
   {
-    "id": "20dfd2770577",
-    "tab": "linkedin_idea",
-    "headline": "Is High Local Accuracy Enough? Geometric Consensus with Support-Adaptive St",
-    "summary": "Real-world deployment of personalized federated learning (PFL) requires adapting to heterogeneous clients while preserving recognition performance beyond local distributions. However, high local accuracy can conceal failures on locally rare or absent classes. Effective personalization should therefore strengthen global recognition while raising the personalization floor. We",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31133v1",
-    "date": "2026-10-23"
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-24"
   },
   {
-    "id": "69cb257e3a0c",
-    "tab": "linkedin_idea",
-    "headline": "Prediction Uncertainty Controlled Computer Model Calibration",
-    "summary": "Computer-model calibration is usually undertaken in service of prediction, yet neither Bayesian Kennedy-O'Hagan (KOH) calibration nor amortized simulation-based inference is built to control the predictive error of the calibrated simulator. When parameters are weakly identified or the data-model discrepancy is misspecified, the simulator-output bands induced",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "id": "a73cbbd0d96e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #59717: [Bugfix][MoE] Remap invalid topk_ids in moe_",
+    "summary": "## Overview Fixes #59686. `moe_permute` returns wrong `expert_first_token_offset` when `topk_ids` contains `-1` (the id the router writes for CUDA-graph padding tokens with `VLLM_MOE_SKIP_PADDING=1`, the default) and no `expert_map` is given. The CUTLASS fp8 MoE path then runs some valid tokens through the wrong expert. This",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31163v1",
-    "date": "2026-10-23"
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/59717",
+    "date": "2026-10-24"
   },
   {
-    "id": "2e3a2dff9283",
+    "id": "782124816a03",
     "tab": "linkedin_idea",
-    "headline": "PriMa-Causa: Causal Prescriptive Maintenance",
-    "summary": "Automated manufacturing requires data-driven decisions under uncertainty and sparse observational records, and unplanned downtime is a dominant cost of getting them wrong. Prescriptive maintenance recommends a maintenance action against an impending failure rather than merely predicting it. Established reference architectures couple predictive models with rule-",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "headline": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+    "summary": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31147v1",
-    "date": "2026-10-23"
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+    "date": "2026-10-24"
   },
   {
-    "id": "bc591c82b037",
+    "id": "30c1fcf4052b",
     "tab": "linkedin_idea",
-    "headline": "Diagnostic Loss: Asymmetric Supervision for Radiology Report Generation",
-    "summary": "Automated radiology report generation requires models to do more than produce fluent clinical narratives: they must explicitly state supported diagnoses while avoiding unsupported ones. However, existing medical vision-language models (MedVLMs) are typically trained with token-level maximum likelihood objectives, which prioritize text agreement over diagnostically critical",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "headline": "Local inference and benchmarking with Red Hat AI Inference",
+    "summary": "Evaluating local large language model (LLM) performance before scaling to enterprise production doesn't require complex infrastructure. With Red Hat Enterprise Linux (RHEL) and Red Hat AI Inference, you can launch, benchmark, and test an OpenAI-compatible server on your local hardware in minutes. The post Local",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30980v1",
-    "date": "2026-10-23"
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/22/local-inference-and-benchmarking-red-hat-ai-inference",
+    "date": "2026-10-24"
   },
   {
-    "id": "9c5c663e5d53",
+    "id": "24e0d94898ec",
     "tab": "linkedin_idea",
-    "headline": "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Mill",
-    "summary": "Many language-model pipelines end in a closed-set decision, such as selecting a tool. Prompting a large language model for it is slow and order-sensitive. We ask how small an encoder for such decisions can be and whether it should read the options jointly or separately.",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "headline": "Private LLM Inference with Homomorphic Encryption [pdf]",
+    "summary": "Private LLM Inference with Homomorphic Encryption [pdf]",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://www.vldb.org/pvldb/vol19/p4927-lim.pdf",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "ca6093bd657d",
+    "tab": "linkedin_idea",
+    "headline": "Living House: Adaptive UI and docs using in-browser inference",
+    "summary": "Living House: Adaptive UI and docs using in-browser inference",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30970v1",
-    "date": "2026-10-23"
+    "source_name": "Hacker News",
+    "source_url": "https://passo.uno/adaptive-ui-docs-using-llms/",
+    "date": "2026-10-24"
+  },
+  {
+    "id": "3e7599c6661c",
+    "tab": "linkedin_idea",
+    "headline": "Humming: Fast, Flexible Kernels for Quantized Inference",
+    "summary": "Humming: Fast, Flexible Kernels for Quantized Inference",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://vllm.ai/blog/2026-10-21-humming",
+    "date": "2026-10-24"
   }
 ]
