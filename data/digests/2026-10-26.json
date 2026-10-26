@@ -1,0 +1,123 @@
+[
+  {
+    "id": "280febea4893",
+    "tab": "learn",
+    "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Searc",
+    "summary": "Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "131bd031bbef",
+    "tab": "learn",
+    "headline": "Show HN: Benchmarking DSpark speculative decoding on a consumer GPU",
+    "summary": "Show HN: Benchmarking DSpark speculative decoding on a consumer GPU",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/juraj-jumic/dspark-local-bench",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "bce9f30903e2",
+    "tab": "learn",
+    "headline": "Show HN: Benchmarks of continual learning model trained for a month on a la",
+    "summary": "A month ago, I shared mini-AGI, an experiment in training a byte-level, continually learning language model from scratch on a single 8 GB laptop GPU (an RTX 3070). To recap the setup briefly: it completely decouples model size from VRAM by paging experts to and",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/item?id=50219762",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "99ece13e787f",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
+    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "9b2f8ba75028",
+    "tab": "trending",
+    "headline": "[sgl-project/sglang] Release v0.5.21: v0.5.21",
+    "summary": "# Highlights *779 PRs from 227 contributors.* ## New models | Model | Type | Cookbook | |---|---|---| | DeepSeek-V4.1 Flash | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/DeepSeek/DeepSeek-V4_1) | | GigaChat 3.5 | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/GigaChat/GigaChat3.5) | | IQuest-Q1 | LLM / VLM |",
+    "why_it_matters": "Key development in GitHub: sgl-project/sglang impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: sgl-project/sglang",
+    "source_url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "782124816a03",
+    "tab": "linkedin_idea",
+    "headline": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+    "summary": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+    "date": "2026-10-26"
+  },
+  {
+    "id": "30c1fcf4052b",
+    "tab": "linkedin_idea",
+    "headline": "Local inference and benchmarking with Red Hat AI Inference",
+    "summary": "Evaluating local large language model (LLM) performance before scaling to enterprise production doesn't require complex infrastructure. With Red Hat Enterprise Linux (RHEL) and Red Hat AI Inference, you can launch, benchmark, and test an OpenAI-compatible server on your local hardware in minutes. The post Local",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/22/local-inference-and-benchmarking-red-hat-ai-inference",
+    "date": "2026-10-26"
+  }
+]
