@@ -1,5 +1,16 @@
 [
   {
+    "id": "3b7d6a3edc3c",
+    "tab": "learn",
+    "headline": "How Do Small Coding Agents Use Code Graphs and Embeddings?",
+    "summary": "Coding agents are given embedding search and code-graph tools on the premise that a repository's structure is something the model lacks and the tool supplies. We test that premise on SWE-bench Verified with small open-weight models, stratifying tasks by a deterministic hop depth (the shortest",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.33958v1",
+    "date": "2026-10-27"
+  },
+  {
     "id": "280febea4893",
     "tab": "learn",
     "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Searc",
@@ -8,7 +19,7 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   {
     "id": "131bd031bbef",
@@ -19,18 +30,18 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/juraj-jumic/dspark-local-bench",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   {
-    "id": "bce9f30903e2",
+    "id": "0a5f683f2cf3",
     "tab": "learn",
-    "headline": "Show HN: Benchmarks of continual learning model trained for a month on a la",
-    "summary": "A month ago, I shared mini-AGI, an experiment in training a byte-level, continually learning language model from scratch on a single 8 GB laptop GPU (an RTX 3070). To recap the setup briefly: it completely decouples model size from VRAM by paging experts to and",
+    "headline": "Show HN: Resin, fast native scheduler for LLM inference engines",
+    "summary": "Show HN: Resin, fast native scheduler for LLM inference engines",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://news.ycombinator.com/item?id=50219762",
-    "date": "2026-10-26"
+    "source_url": "https://github.com/ekzhang/resin",
+    "date": "2026-10-27"
   },
   {
     "id": "83a753b4160c",
@@ -41,7 +52,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   {
     "id": "3762ff1d2e30",
@@ -52,7 +63,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   {
     "id": "9668af85ed2e",
@@ -63,7 +74,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   {
     "id": "448701fe9974",
@@ -74,7 +85,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   {
     "id": "99ece13e787f",
@@ -85,39 +96,83 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   {
-    "id": "9b2f8ba75028",
+    "id": "e9ce2ba326e7",
     "tab": "trending",
-    "headline": "[sgl-project/sglang] Release v0.5.21: v0.5.21",
-    "summary": "# Highlights *779 PRs from 227 contributors.* ## New models | Model | Type | Cookbook | |---|---|---| | DeepSeek-V4.1 Flash | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/DeepSeek/DeepSeek-V4_1) | | GigaChat 3.5 | LLM / VLM | [link](https://docs.sglang.io/cookbook/autoregressive/GigaChat/GigaChat3.5) | | IQuest-Q1 | LLM / VLM |",
-    "why_it_matters": "Key development in GitHub: sgl-project/sglang impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: sgl-project/sglang",
-    "source_url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.21",
-    "date": "2026-10-26"
+    "headline": "[vllm-project/vllm] PR #63689: [Bugfix][ROCm][DSv4] Give zero and subnormal",
+    "summary": "- `stages/moe.py` (`vllm_mx_code`) and `attention/device.py` (`mx_code`) in the DeepSeek-V4 and V4.1 mono decode kernels: when `q = RN(max(amax, FLT_MIN) / 448)` is an f32 subnormal, return code 0 for `q Need help on this PR? Tag @codesmith-bot with what you need. --- Need help on",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/63689",
+    "date": "2026-10-27"
   },
   {
-    "id": "782124816a03",
+    "id": "b0d8943dce7c",
     "tab": "linkedin_idea",
-    "headline": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
-    "summary": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "headline": "Partial Modal Tensor Regression",
+    "summary": "With the rapid development of modern scientific research, tensor data have become increasingly prevalent across a wide range of fields. How to effectively characterize the relationship between tensor predictors and a response while preserving the intrinsic structure of tensor data has therefore become an important",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
-    "date": "2026-10-26"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.34008v1",
+    "date": "2026-10-27"
   },
   {
-    "id": "30c1fcf4052b",
+    "id": "04f0029483f5",
     "tab": "linkedin_idea",
-    "headline": "Local inference and benchmarking with Red Hat AI Inference",
-    "summary": "Evaluating local large language model (LLM) performance before scaling to enterprise production doesn't require complex infrastructure. With Red Hat Enterprise Linux (RHEL) and Red Hat AI Inference, you can launch, benchmark, and test an OpenAI-compatible server on your local hardware in minutes. The post Local",
-    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "headline": "TCSP3.0: Template-Based Crystal Structure Prediction with Coefficient-Prese",
+    "summary": "Template-based crystal structure prediction (CSP) transfers a known crystal structure to a new composition by element substitution, so its accuracy depends on retrieving suitable templates, mapping elements and ranking the resulting candidates correctly. Auditing the original TCSP2.0 implementation on the T180 benchmark, we found that",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "Red Hat AI Blog",
-    "source_url": "https://developers.redhat.com/articles/2026/10/22/local-inference-and-benchmarking-red-hat-ai-inference",
-    "date": "2026-10-26"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.34029v1",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "b88716b3a460",
+    "tab": "linkedin_idea",
+    "headline": "Fed-Universe: A Semantic-Geometric-Topological-Human (S-G-T-H) Stack for Ne",
+    "summary": "Conventional federated learners implicitly optimize for global means, creating a \"one-size-fits-all\" paradigm that inevitably suppresses the minority under cross-site heterogeneity. To bridge this critical gap, we present Fed-Universe, a generalizable Semantic-Geometric-Topological-Human (S-G-T-H) architecture that transforms passive averaging into an active negotiation for decentralized alignment. The",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.34009v1",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "d5d79e7cb4ee",
+    "tab": "linkedin_idea",
+    "headline": "BriLLM-MetaPred: A Representation-Prediction Unity Language Model with Adap",
+    "summary": "We present BriLLM-MetaPred, the first engineering implementation of the MetaPred machine-learning framework established by a mathematical theory of AGI, instantiated for language modeling. The theory argues that MetaPred is both necessary and sufficient as a machine-learning primitive for general cognition. Taking this theoretical conclusion as",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.34018v1",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "ac2a11468187",
+    "tab": "linkedin_idea",
+    "headline": "Deep Scientific Reasoning under Physical Constraints: Structure-Aware Spect",
+    "summary": "Structured scientific spectra encode rich physical information while obeying hard constraints, such as conservation laws and characteristic spectral geometry. Accurate prediction of these spectra is central to materials discovery, yet existing methods often treat them as unconstrained sequences and therefore fail to enforce the underlying",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.34021v1",
+    "date": "2026-10-27"
+  },
+  {
+    "id": "0cf6a5ac0d18",
+    "tab": "linkedin_idea",
+    "headline": "InferScale: Kubernetes-Native Predictive Autoscaling for SLO-Aware AI Infer",
+    "summary": "Kubernetes Horizontal Pod Autoscaler (HPA) is widely used for inference services, but reactive scaling is often too slow when pods take tens of seconds to become ready. The problem gets worse in shared clusters, where independent HPAs compete for the same resource budget and can",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.34006v1",
+    "date": "2026-10-27"
   }
 ]
