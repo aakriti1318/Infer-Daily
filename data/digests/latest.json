@@ -1,36 +1,25 @@
 [
   {
-    "id": "3b7d6a3edc3c",
+    "id": "75b64db03319",
     "tab": "learn",
-    "headline": "How Do Small Coding Agents Use Code Graphs and Embeddings?",
-    "summary": "Coding agents are given embedding search and code-graph tools on the premise that a repository's structure is something the model lacks and the tool supplies. We test that premise on SWE-bench Verified with small open-weight models, stratifying tasks by a deterministic hop depth (the shortest",
+    "headline": "Triage: Skip, Skim, or Refine Attention Tiles in Video Diffusion Transforme",
+    "summary": "Attention over tens of thousands of visual tokens dominates the inference of video diffusion transformers (DiTs). Existing methods reduce this cost through sparsity, low precision, or both, but use a single precision for all kept tiles. We observe that the output error introduced by approximation",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.33958v1",
-    "date": "2026-10-27"
-  },
-  {
-    "id": "280febea4893",
-    "tab": "learn",
-    "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Searc",
-    "summary": "Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
-    "date": "2026-10-27"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35706v1",
+    "date": "2026-10-28"
   },
   {
-    "id": "131bd031bbef",
+    "id": "4c5e296ca7bf",
     "tab": "learn",
-    "headline": "Show HN: Benchmarking DSpark speculative decoding on a consumer GPU",
-    "summary": "Show HN: Benchmarking DSpark speculative decoding on a consumer GPU",
+    "headline": "Show HN: I found a more accurate upcoming LLM Benchmarks leaderboard",
+    "summary": "Show HN: I found a more accurate upcoming LLM Benchmarks leaderboard",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/juraj-jumic/dspark-local-bench",
-    "date": "2026-10-27"
+    "source_url": "https://www.llmverifications.com/",
+    "date": "2026-10-28"
   },
   {
     "id": "0a5f683f2cf3",
@@ -41,7 +30,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/ekzhang/resin",
-    "date": "2026-10-27"
+    "date": "2026-10-28"
   },
   {
     "id": "83a753b4160c",
@@ -52,29 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-27"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-27"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-27"
+    "date": "2026-10-28"
   },
   {
     "id": "448701fe9974",
@@ -85,7 +52,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-27"
+    "date": "2026-10-28"
   },
   {
     "id": "99ece13e787f",
@@ -96,83 +63,105 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-27"
+    "date": "2026-10-28"
   },
   {
-    "id": "e9ce2ba326e7",
+    "id": "5bbfdadf3178",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #63689: [Bugfix][ROCm][DSv4] Give zero and subnormal",
-    "summary": "- `stages/moe.py` (`vllm_mx_code`) and `attention/device.py` (`mx_code`) in the DeepSeek-V4 and V4.1 mono decode kernels: when `q = RN(max(amax, FLT_MIN) / 448)` is an f32 subnormal, return code 0 for `q Need help on this PR? Tag @codesmith-bot with what you need. --- Need help on",
+    "headline": "[vllm-project/vllm] PR #63872: [Bugfix][Bench] Support Muse balanced routin",
+    "summary": "## Overview Fix Muse Spark forward benchmarks with dummy weights and the default `--routing auto`, which already selects balanced routing. No explicit routing flag is needed. ## Claims - `BalancedRouting` discovers Muse's gate and suppresses expert selection bias while its synthetic routing fixture is installed.",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/63689",
-    "date": "2026-10-27"
+    "source_url": "https://github.com/vllm-project/vllm/pull/63872",
+    "date": "2026-10-28"
   },
   {
-    "id": "b0d8943dce7c",
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-28"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-28"
+  },
+  {
+    "id": "49a215be0826",
     "tab": "linkedin_idea",
-    "headline": "Partial Modal Tensor Regression",
-    "summary": "With the rapid development of modern scientific research, tensor data have become increasingly prevalent across a wide range of fields. How to effectively characterize the relationship between tensor predictors and a response while preserving the intrinsic structure of tensor data has therefore become an important",
+    "headline": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantiza",
+    "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous bandwidth constraints, and",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.34008v1",
-    "date": "2026-10-27"
+    "source_url": "https://arxiv.org/abs/2610.35833v1",
+    "date": "2026-10-28"
   },
   {
-    "id": "04f0029483f5",
+    "id": "da99f387dfb5",
     "tab": "linkedin_idea",
-    "headline": "TCSP3.0: Template-Based Crystal Structure Prediction with Coefficient-Prese",
-    "summary": "Template-based crystal structure prediction (CSP) transfers a known crystal structure to a new composition by element substitution, so its accuracy depends on retrieving suitable templates, mapping elements and ranking the resulting candidates correctly. Auditing the original TCSP2.0 implementation on the T180 benchmark, we found that",
+    "headline": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language M",
+    "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a shared experimental",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35866v1",
+    "date": "2026-10-28"
+  },
+  {
+    "id": "4156e3ea1cd1",
+    "tab": "linkedin_idea",
+    "headline": "FOCUS: Active Critic Learning for Long-Horizon Language Model Agents",
+    "summary": "Sparse outcome rewards make it difficult for long-horizon language-model agents to assign credit to earlier actions. Learned critics provide value estimates for intermediate states, but these estimates can be inaccurate, while estimating intermediate values with repetitive continuation samples from points within a trajectory incurs substantial",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35801v1",
+    "date": "2026-10-28"
+  },
+  {
+    "id": "e1aaef5993bc",
+    "tab": "linkedin_idea",
+    "headline": "Can JEV Support Clinical Trial Criteria Assessment?",
+    "summary": "Clinical trial prescreening requires distinguishing unmet conditions from insufficient evidence in patient records. Given patient records, criterion questions, and predefined answer options, we retrospectively compared JEV, a non-generative decision model returning native option probabilities, with schema-constrained Qwen Flash across 2,048 test patient-condition pairs from TrialGPT",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35721v1",
+    "date": "2026-10-28"
+  },
+  {
+    "id": "7200afac763e",
+    "tab": "linkedin_idea",
+    "headline": "TRACE: Memory-Efficient Time Series Class-Incremental Learning via Temporal",
+    "summary": "Web-connected sensing applications continuously generate multivariate time series with evolving behavioral categories, making Time Series Class-Incremental Learning (TSCIL) essential for adapting to new classes without forgetting previously acquired knowledge. However, preserving diverse and evolving class distributions under strict privacy and memory constraints remains a fundamental",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35727v1",
+    "date": "2026-10-28"
+  },
+  {
+    "id": "2e5f4cc186e1",
+    "tab": "linkedin_idea",
+    "headline": "A Hybrid Framework for Explainable Aviation Risk: Causal Chain Extraction f",
+    "summary": "Aviation authorities hold decades of accident reports whose narratives record how investigators reconstructed each accident. Computational work on these archives has mostly sorted reports into fixed taxonomies. In this work, we propose a hybrid framework in which a text-based corpus identifies the leading factors of",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.34029v1",
-    "date": "2026-10-27"
-  },
-  {
-    "id": "b88716b3a460",
-    "tab": "linkedin_idea",
-    "headline": "Fed-Universe: A Semantic-Geometric-Topological-Human (S-G-T-H) Stack for Ne",
-    "summary": "Conventional federated learners implicitly optimize for global means, creating a \"one-size-fits-all\" paradigm that inevitably suppresses the minority under cross-site heterogeneity. To bridge this critical gap, we present Fed-Universe, a generalizable Semantic-Geometric-Topological-Human (S-G-T-H) architecture that transforms passive averaging into an active negotiation for decentralized alignment. The",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.34009v1",
-    "date": "2026-10-27"
-  },
-  {
-    "id": "d5d79e7cb4ee",
-    "tab": "linkedin_idea",
-    "headline": "BriLLM-MetaPred: A Representation-Prediction Unity Language Model with Adap",
-    "summary": "We present BriLLM-MetaPred, the first engineering implementation of the MetaPred machine-learning framework established by a mathematical theory of AGI, instantiated for language modeling. The theory argues that MetaPred is both necessary and sufficient as a machine-learning primitive for general cognition. Taking this theoretical conclusion as",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.34018v1",
-    "date": "2026-10-27"
-  },
-  {
-    "id": "ac2a11468187",
-    "tab": "linkedin_idea",
-    "headline": "Deep Scientific Reasoning under Physical Constraints: Structure-Aware Spect",
-    "summary": "Structured scientific spectra encode rich physical information while obeying hard constraints, such as conservation laws and characteristic spectral geometry. Accurate prediction of these spectra is central to materials discovery, yet existing methods often treat them as unconstrained sequences and therefore fail to enforce the underlying",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.34021v1",
-    "date": "2026-10-27"
-  },
-  {
-    "id": "0cf6a5ac0d18",
-    "tab": "linkedin_idea",
-    "headline": "InferScale: Kubernetes-Native Predictive Autoscaling for SLO-Aware AI Infer",
-    "summary": "Kubernetes Horizontal Pod Autoscaler (HPA) is widely used for inference services, but reactive scaling is often too slow when pods take tens of seconds to become ready. The problem gets worse in shared clusters, where independent HPAs compete for the same resource budget and can",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.34006v1",
-    "date": "2026-10-27"
+    "source_url": "https://arxiv.org/abs/2610.35658v1",
+    "date": "2026-10-28"
   }
 ]
