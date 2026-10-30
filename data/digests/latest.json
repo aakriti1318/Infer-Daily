@@ -8,7 +8,7 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
-    "date": "2026-10-29"
+    "date": "2026-10-30"
   },
   {
     "id": "2ee87747a642",
@@ -19,7 +19,7 @@
     "colab_runnable": true,
     "source_name": "Hacker News",
     "source_url": "https://simedw.com/projects/harness-corp/",
-    "date": "2026-10-29"
+    "date": "2026-10-30"
   },
   {
     "id": "448701fe9974",
@@ -30,7 +30,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-29"
+    "date": "2026-10-30"
   },
   {
     "id": "9668af85ed2e",
@@ -41,18 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-29"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-29"
+    "date": "2026-10-30"
   },
   {
     "id": "3762ff1d2e30",
@@ -63,7 +52,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-29"
+    "date": "2026-10-30"
   },
   {
     "id": "99ece13e787f",
@@ -74,83 +63,50 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-29"
+    "date": "2026-10-30"
   },
   {
-    "id": "14a745b58dda",
+    "id": "83a753b4160c",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #63513: [KV Connector] Mooncake store: skip padding ",
-    "summary": "## Purpose In a hybrid model, the KV cache groups share one allocation. Layer `j` of every group is a view of the same layer slot, there are as many slots as layers in the largest group, and each slot's page is sized for the",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-10-30"
+  },
+  {
+    "id": "0d75657d6c69",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #64342: [CI] Fix mypy multimodels tests folder",
+    "summary": "## Overview Fix mypy multimodels tests folder",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/63513",
-    "date": "2026-10-29"
+    "source_url": "https://github.com/vllm-project/vllm/pull/64342",
+    "date": "2026-10-30"
   },
   {
-    "id": "86cd0f22c267",
+    "id": "0e62b0d0f421",
     "tab": "linkedin_idea",
-    "headline": "EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforc",
-    "summary": "As executable environments for language agents scale, generating and verifying their rollouts becomes increasingly expensive. Under finite rollout budgets, this raises an important question: can data management at the environment level make agentic reinforcement learning (RL) more efficient by organizing, evaluating, and scheduling task instances",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37609v1",
-    "date": "2026-10-29"
-  },
-  {
-    "id": "092baa0aebd8",
-    "tab": "linkedin_idea",
-    "headline": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-    "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "headline": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+    "summary": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37648v1",
-    "date": "2026-10-29"
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
+    "date": "2026-10-30"
   },
   {
-    "id": "59cc7949628a",
+    "id": "f0b138f28656",
     "tab": "linkedin_idea",
-    "headline": "Zero-Shot Multimodal Event Spotting in Soccer Broadcasts",
-    "summary": "Automatic soccer event spotting supports highlight generation, video indexing, and sports analytics, but existing methods depend on large annotated datasets and soccer-specific training. We present a zero-shot framework that detects, classifies, and temporally localizes events in full-length soccer broadcasts without task-specific parameter training. Each match",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "headline": "A garbage collector for LLM context windows, written in Rust",
+    "summary": "Hi HN,Like many of you, I spend a lot of time coding with Codex and switching between cloud and local models.As a software engineer, something I never understood, and honestly hated—was `&#x2F;compact` and the way it’s designed. On local models my GPU screams, and after",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37583v1",
-    "date": "2026-10-29"
-  },
-  {
-    "id": "3f08d5318de8",
-    "tab": "linkedin_idea",
-    "headline": "GAS-PFN: Graph-Aware Spatiotemporal Prior-Data Fitted Networks for Zero-Sho",
-    "summary": "Traffic forecasting requires modeling complex temporal dynamics and the spatial dependencies imposed by road topology. Supervised graph-based models achieve strong performance, but are often trained for a particular dataset and sensor graph, making deployment to new or evolving networks costly. Prior-Data Fitted Networks (PFNs) offer",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37598v1",
-    "date": "2026-10-29"
-  },
-  {
-    "id": "f9ef34b51bdd",
-    "tab": "linkedin_idea",
-    "headline": "Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircr",
-    "summary": "Predictive maintenance is vital for commercial aviation, yet progress remains hindered by the lack of public, large-scale real-world datasets. As a result, most methods are developed and evaluated on proprietary data, limiting reproducibility. We introduce Pneuma, the first publicly available large-scale benchmark for predictive maintenance",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37563v1",
-    "date": "2026-10-29"
-  },
-  {
-    "id": "9324926f3577",
-    "tab": "linkedin_idea",
-    "headline": "CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on E",
-    "summary": "Mixture-of-Experts (MoE) inference on memory-constrained edge platforms is often dominated by expert-weight movement rather than computation. Although each token activates only a small subset of experts, routing is input-dependent, so all experts must remain accessible and memory movement dominates latency. Existing approaches such as uniform",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37442v1",
-    "date": "2026-10-29"
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/item?id=50274683",
+    "date": "2026-10-30"
   }
 ]
