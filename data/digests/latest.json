@@ -8,18 +8,18 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
-    "date": "2026-10-30"
+    "date": "2026-10-31"
   },
   {
-    "id": "2ee87747a642",
+    "id": "5de8d8f8569c",
     "tab": "learn",
-    "headline": "Show HN: Harness Corp – An incremental game powered by a local LLM using We",
-    "summary": "I built a small browser incremental game where you start by answering tasks at your desk to save up to rent a GPU, and hire a real Qwen3-0.6B model running locally in your browser over WebGPU (~358 MB download).Throughout the game you buy upgrades to",
+    "headline": "Show HN: Fastbrowse, Browser agent that picks clicks with a System One mode",
+    "summary": "Hi HN, I&#x27;m Furqan founder of Nebula. We&#x27;ve spent a lot of time building, using and breaking browser agents. The main issues we ran into were costs and speed. So we built our own and open sourced it.It&#x27;s pretty simple, give it a task and",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://simedw.com/projects/harness-corp/",
-    "date": "2026-10-30"
+    "source_url": "https://www.fastbrowse.ai/",
+    "date": "2026-10-31"
   },
   {
     "id": "448701fe9974",
@@ -30,40 +30,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-30"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-30"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-30"
-  },
-  {
-    "id": "99ece13e787f",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
-    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-30"
+    "date": "2026-10-31"
   },
   {
     "id": "83a753b4160c",
@@ -74,39 +41,116 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-30"
+    "date": "2026-10-31"
   },
   {
-    "id": "0d75657d6c69",
+    "id": "9668af85ed2e",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #64342: [CI] Fix mypy multimodels tests folder",
-    "summary": "## Overview Fix mypy multimodels tests folder",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "99ece13e787f",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.28.0: v0.28.0",
+    "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "f400c4abc67e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #61837: [ROCm][Model] Step-5-Preview support on ROCm",
+    "summary": "## Overview ROCm support for [stepfun-ai/Step-5-Preview](https://huggingface.co/stepfun-ai/Step-5-Preview), complementing the NVIDIA support added in #61727. This PR adds a self-contained amd/ implementation under vllm/models/step5/ and moves the platform-independent Step-5 sparse-attention code from nvidia/ to common/. The primary support and validation target is **MI300X/MI325X (gfx942)**. **MI355X (gfx950)** is",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/64342",
-    "date": "2026-10-30"
+    "source_url": "https://github.com/vllm-project/vllm/pull/61837",
+    "date": "2026-10-31"
   },
   {
-    "id": "0e62b0d0f421",
+    "id": "20f2814dcfa2",
     "tab": "linkedin_idea",
-    "headline": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-    "summary": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "headline": "Rethinking Neural Thickets Without Weight Perturbations",
+    "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
-    "date": "2026-10-30"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40649v1",
+    "date": "2026-10-31"
   },
   {
-    "id": "f0b138f28656",
+    "id": "79c10b7d4b32",
     "tab": "linkedin_idea",
-    "headline": "A garbage collector for LLM context windows, written in Rust",
-    "summary": "Hi HN,Like many of you, I spend a lot of time coding with Codex and switching between cloud and local models.As a software engineer, something I never understood, and honestly hated—was `&#x2F;compact` and the way it’s designed. On local models my GPU screams, and after",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "headline": "Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built ",
+    "summary": "Building a language model of one's own no longer requires a data centre. This tutorial trains one from scratch, tokenizer included, on one consumer GPU, and shows how to tell whether it is good for the tasks of a specialist domain. It proposes no new",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://news.ycombinator.com/item?id=50274683",
-    "date": "2026-10-30"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40533v1",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "5a0c4f378b42",
+    "tab": "linkedin_idea",
+    "headline": "Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana: A ",
+    "summary": "Mobile money (MoMo) is Ghana's preferred retail payment channel, recording GHC518.4 billion in transactions in December 2025 and over 26.7 million active accounts (Graphic Online, 2026). This growth has coincided with increased social-engineering fraud over Short Message Service (SMS) and Unstructured Supplementary Service Data (USSD),",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40544v1",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "ac19a8d59d2d",
+    "tab": "linkedin_idea",
+    "headline": "Difficulty Calibration Across Time for Membership Inference in Diffusion Mo",
+    "summary": "Modern diffusion models are trained on massive datasets that often include copyrighted or private images. Membership inference attacks (MIAs) address this by testing whether a given image was in a model's training set. The standard approach scores an image by its reconstruction loss and flags",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40616v1",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "497113aecb64",
+    "tab": "linkedin_idea",
+    "headline": "Training Foundation Models with a Single Algorithm",
+    "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40564v1",
+    "date": "2026-10-31"
+  },
+  {
+    "id": "9c0b19f7a896",
+    "tab": "linkedin_idea",
+    "headline": "NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simul",
+    "summary": "We introduce NEOPIC, a framework for learning the field operator in particle-based methods applied to kinetic plasma simulations. Its key novelty is a neural operator that acts directly on the empirical measure of the particles, rather than on a grid, and is evaluated at the",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40528v1",
+    "date": "2026-10-31"
   }
 ]
