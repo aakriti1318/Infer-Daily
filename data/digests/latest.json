@@ -8,40 +8,7 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
-    "date": "2026-10-31"
-  },
-  {
-    "id": "5de8d8f8569c",
-    "tab": "learn",
-    "headline": "Show HN: Fastbrowse, Browser agent that picks clicks with a System One mode",
-    "summary": "Hi HN, I&#x27;m Furqan founder of Nebula. We&#x27;ve spent a lot of time building, using and breaking browser agents. The main issues we ran into were costs and speed. So we built our own and open sourced it.It&#x27;s pretty simple, give it a task and",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://www.fastbrowse.ai/",
-    "date": "2026-10-31"
-  },
-  {
-    "id": "448701fe9974",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-10-31"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
   },
   {
     "id": "9668af85ed2e",
@@ -52,7 +19,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
   },
   {
     "id": "3762ff1d2e30",
@@ -63,7 +30,29 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-01"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-01"
   },
   {
     "id": "99ece13e787f",
@@ -74,29 +63,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
   },
   {
-    "id": "f400c4abc67e",
+    "id": "9cbaea112017",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #61837: [ROCm][Model] Step-5-Preview support on ROCm",
-    "summary": "## Overview ROCm support for [stepfun-ai/Step-5-Preview](https://huggingface.co/stepfun-ai/Step-5-Preview), complementing the NVIDIA support added in #61727. This PR adds a self-contained amd/ implementation under vllm/models/step5/ and moves the platform-independent Step-5 sparse-attention code from nvidia/ to common/. The primary support and validation target is **MI300X/MI325X (gfx942)**. **MI355X (gfx950)** is",
+    "headline": "[vllm-project/vllm] PR #64910: [Doc] MiniMax-M3.1-Flash: update the GB300 A",
+    "summary": "## Overview Update the GB300 AgentX presets of MiniMax-M3.1-Flash (`gb300_agentx_agg`, `gb300_agentx_pd`) to the Dynamo + vLLM lanes of [SemiAnalysisAI/InferenceX#4631](https://github.com/SemiAnalysisAI/InferenceX/pull/4631) (head `5d3aa21b`). Only touches `recipes/models/MiniMaxAI/MiniMax-M3.1-Flash.yaml`. - **Frontend:** `DYN_TOKENIZER=fastokens` (Dynamo's fastokens tokenizer backend). Frontend tokenization of 100K+ token prompts drops from about 150 ms to about 1",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/61837",
-    "date": "2026-10-31"
-  },
-  {
-    "id": "20f2814dcfa2",
-    "tab": "linkedin_idea",
-    "headline": "Rethinking Neural Thickets Without Weight Perturbations",
-    "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40649v1",
-    "date": "2026-10-31"
+    "source_url": "https://github.com/vllm-project/vllm/pull/64910",
+    "date": "2026-11-01"
   },
   {
     "id": "79c10b7d4b32",
@@ -107,7 +85,18 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2610.40533v1",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
+  },
+  {
+    "id": "20f2814dcfa2",
+    "tab": "linkedin_idea",
+    "headline": "Rethinking Neural Thickets Without Weight Perturbations",
+    "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40649v1",
+    "date": "2026-11-01"
   },
   {
     "id": "5a0c4f378b42",
@@ -118,7 +107,7 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2610.40544v1",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
   },
   {
     "id": "ac19a8d59d2d",
@@ -129,7 +118,7 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2610.40616v1",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
   },
   {
     "id": "497113aecb64",
@@ -140,17 +129,17 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2610.40564v1",
-    "date": "2026-10-31"
+    "date": "2026-11-01"
   },
   {
-    "id": "9c0b19f7a896",
+    "id": "f811a9c596cd",
     "tab": "linkedin_idea",
-    "headline": "NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simul",
-    "summary": "We introduce NEOPIC, a framework for learning the field operator in particle-based methods applied to kinetic plasma simulations. Its key novelty is a neural operator that acts directly on the empirical measure of the particles, rather than on a grid, and is evaluated at the",
+    "headline": "Preserving Utility in Continual LLM Unlearning via Orthogonal Projections",
+    "summary": "Unlearning concerns the task of removing the influence of a sensitive portion of the training data, such as protected, copyrighted or private text, from a model without retraining it from scratch. While unlearning requests happen continuously during a model's lifetime, the vast majority of LLM",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40528v1",
-    "date": "2026-10-31"
+    "source_url": "https://arxiv.org/abs/2610.40483v1",
+    "date": "2026-11-01"
   }
 ]
