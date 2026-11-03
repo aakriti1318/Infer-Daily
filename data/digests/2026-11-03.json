@@ -1,0 +1,167 @@
+[
+  {
+    "id": "9442206156d7",
+    "tab": "learn",
+    "headline": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learni",
+    "summary": "Deep reinforcement learning (RL) is a powerful framework for sequential decision-making. Despite many high-profile successes in recent years, deep RL is known to be brittle. An emerging line of research attributes this brittleness to a loss of plasticity in neural networks. However, plasticity loss has",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.42100v1",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "a28043250cae",
+    "tab": "learn",
+    "headline": "Know When the Equation Is Wrong: Structural Uncertainty for LLM-Guided Symb",
+    "summary": "Large language models (LLMs) can help discover mathematical equations from data, but most LLM-guided symbolic regression methods focus on a single best equation without quantifying uncertainty over alternative functional forms. This is challenging because distinct equations can fit the observed data similarly while producing substantially",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.42024v1",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "41f0cf8120bf",
+    "tab": "learn",
+    "headline": "How DRA can improve the performance of distributed LLM inference workloads ",
+    "summary": "Modern LLM inference is rapidly shifting from a pure compute challenge to a distributed network bottleneck. To maintain high throughput and handle the massive context windows demanded by agentic workloads, production engines like vLLM and distributed LLM inference frameworks like llm-d are moving toward disaggregated,",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "29677970cd3e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #65166: [Perf][Frontend] Validate plain embedding in",
+    "summary": "## Overview `EmbeddingRequest` is a five-member pydantic union with no discriminator, so every `/v1/embeddings` body is validated against all five. The chat-input members (#45173) check each input item against every chat message type, so a 256×64 token-id batch spends ~66 ms in validation on the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/65166",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "ed72e21129ac",
+    "tab": "linkedin_idea",
+    "headline": "Counting on Dummies: Privacy Amplification with Observable Counts and Trunc",
+    "summary": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random allocation, result in",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.42139v1",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "cdd9f4db26cd",
+    "tab": "linkedin_idea",
+    "headline": "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
+    "summary": "In the random allocation sampling scheme each user's data is used in $k$ steps chosen randomly and uniformly from a sequence of $t$ steps. This scheme is known to improve on Poisson sampling in private optimization and in communication-efficient aggregation. The existing privacy loss distribution",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.42117v1",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "173819e1d635",
+    "tab": "linkedin_idea",
+    "headline": "There Is No Free Loop: When Does Looping a Trained Model Pay for Its Infere",
+    "summary": "Looping re-applies a block of layers so that each token passes through the block more than once. Adding a loop to a trained model is attractive because it leaves the parameter count, and hence the disk size, the memory footprint and the training cost unchanged.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.42030v1",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "1d19f9d271a5",
+    "tab": "linkedin_idea",
+    "headline": "RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO ",
+    "summary": "Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting their ability to exploit successful past experiences.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.42068v1",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "0147476f9f94",
+    "tab": "linkedin_idea",
+    "headline": "When Is a Game a Markov Decision Process? Correspondences Between Game Theo",
+    "summary": "Reinforcement learning and game theory describe the same object from two sides. Game theory says what a rational outcome of a strategic interaction is; reinforcement learning says how an agent could reach one through experience. The two literatures nevertheless keep separate vocabularies for identical structures,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.41962v1",
+    "date": "2026-11-03"
+  },
+  {
+    "id": "1f766ec7b68d",
+    "tab": "linkedin_idea",
+    "headline": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+    "summary": "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/",
+    "date": "2026-11-03"
+  }
+]
