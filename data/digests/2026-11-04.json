@@ -1,0 +1,167 @@
+[
+  {
+    "id": "41f0cf8120bf",
+    "tab": "learn",
+    "headline": "How DRA can improve the performance of distributed LLM inference workloads ",
+    "summary": "Modern LLM inference is rapidly shifting from a pure compute challenge to a distributed network bottleneck. To maintain high throughput and handle the massive context windows demanded by agentic workloads, production engines like vLLM and distributed LLM inference frameworks like llm-d are moving toward disaggregated,",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "a05e3bf8588a",
+    "tab": "learn",
+    "headline": "Show HN: A 3KB LLM inference engine in C",
+    "summary": "Show HN: A 3KB LLM inference engine in C",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/utsav1033/bytesized",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "c727323d76d5",
+    "tab": "learn",
+    "headline": "Show HN: I built Knemora – An Open-source AI Second brain",
+    "summary": "Hi HN, my name is Federico. I’m an Italian graphic designer and full stack developer.In recent months, there has been a lot of talk about the &quot;second brain&quot; articles and YouTube videos; everyone is still discussing it, but I see a significant difference between that",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/federicolaterra/knemora",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "10498305865c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #65046: [Bugfix][DSv4] Skip empty compressed indexer",
+    "summary": "Determine prefill work from the actual metadata chunks so requests without compressed KV states do not size an empty workspace. Give existing dispatch tests real nonempty chunks when they expect scoring.",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/65046",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "97f5a81e9e53",
+    "tab": "linkedin_idea",
+    "headline": "Nonparametric Intensity Estimation for Covariate-Driven Poisson Processes U",
+    "summary": "We consider nonparametric maximum likelihood estimation of the intensity function of a Poisson process, allowing the intensity to depend on observed covariates. Such models describe how event rates vary with external conditions, including conditions under which the intensity becomes arbitrarily small or vanishes. However, risk",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03552v1",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "2cf8174fd73b",
+    "tab": "linkedin_idea",
+    "headline": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+    "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03634v1",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "242b38e384a0",
+    "tab": "linkedin_idea",
+    "headline": "BISECT: Bilevel Spectral Decomposition for Low-Rank Continual Learning",
+    "summary": "Exemplar-free continual learning on pre-trained Vision Transformers increasingly relies on Low-Rank Adaptation (LoRA), yet prevailing methods govern the low-rank update space through strict subspace isolation. By projecting each incoming task into the approximate null space of historical token activations, isolation-based learners equate any cross-task feature",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03574v1",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "242c3be1d407",
+    "tab": "linkedin_idea",
+    "headline": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reaso",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding multiple inputs x for equations f(x)=y, where f",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03627v1",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "98de7c6a8641",
+    "tab": "linkedin_idea",
+    "headline": "DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dy",
+    "summary": "Neural operators provide efficient surrogates for computational fluid dynamics (CFD), but most are designed for static geometries and are not equipped to model unsteady flows induced by continuously moving boundaries. We study dynamic-boundary 4D CFD prediction for articulated moving geometries and introduce RoboCFD-4D, a temporally",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03595v1",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "07d56153fbcc",
+    "tab": "linkedin_idea",
+    "headline": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+    "summary": "Earth system models (ESMs) rely on parameterizations to represent unresolved processes such as convection, cloud microphysics, and turbulence. However, translating advances in physical understanding into stable, validated parameterizations and integrating them into ESMs often takes years. Agentic AI could accelerate this process and enable more",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03543v1",
+    "date": "2026-11-04"
+  }
+]

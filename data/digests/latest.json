@@ -1,27 +1,5 @@
 [
   {
-    "id": "9442206156d7",
-    "tab": "learn",
-    "headline": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learni",
-    "summary": "Deep reinforcement learning (RL) is a powerful framework for sequential decision-making. Despite many high-profile successes in recent years, deep RL is known to be brittle. An emerging line of research attributes this brittleness to a loss of plasticity in neural networks. However, plasticity loss has",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.42100v1",
-    "date": "2026-11-03"
-  },
-  {
-    "id": "a28043250cae",
-    "tab": "learn",
-    "headline": "Know When the Equation Is Wrong: Structural Uncertainty for LLM-Guided Symb",
-    "summary": "Large language models (LLMs) can help discover mathematical equations from data, but most LLM-guided symbolic regression methods focus on a single best equation without quantifying uncertainty over alternative functional forms. This is challenging because distinct equations can fit the observed data similarly while producing substantially",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.42024v1",
-    "date": "2026-11-03"
-  },
-  {
     "id": "41f0cf8120bf",
     "tab": "learn",
     "headline": "How DRA can improve the performance of distributed LLM inference workloads ",
@@ -30,29 +8,29 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
-    "date": "2026-11-03"
+    "date": "2026-11-04"
   },
   {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-03"
+    "id": "a05e3bf8588a",
+    "tab": "learn",
+    "headline": "Show HN: A 3KB LLM inference engine in C",
+    "summary": "Show HN: A 3KB LLM inference engine in C",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/utsav1033/bytesized",
+    "date": "2026-11-04"
   },
   {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "id": "c727323d76d5",
+    "tab": "learn",
+    "headline": "Show HN: I built Knemora – An Open-source AI Second brain",
+    "summary": "Hi HN, my name is Federico. I’m an Italian graphic designer and full stack developer.In recent months, there has been a lot of talk about the &quot;second brain&quot; articles and YouTube videos; everyone is still discussing it, but I see a significant difference between that",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-03"
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/federicolaterra/knemora",
+    "date": "2026-11-04"
   },
   {
     "id": "109261365670",
@@ -63,18 +41,29 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-03"
+    "date": "2026-11-04"
   },
   {
-    "id": "448701fe9974",
+    "id": "83a753b4160c",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-03"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-04"
   },
   {
     "id": "3762ff1d2e30",
@@ -85,83 +74,94 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-03"
+    "date": "2026-11-04"
   },
   {
-    "id": "29677970cd3e",
+    "id": "10498305865c",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #65166: [Perf][Frontend] Validate plain embedding in",
-    "summary": "## Overview `EmbeddingRequest` is a five-member pydantic union with no discriminator, so every `/v1/embeddings` body is validated against all five. The chat-input members (#45173) check each input item against every chat message type, so a 256×64 token-id batch spends ~66 ms in validation on the",
+    "headline": "[vllm-project/vllm] PR #65046: [Bugfix][DSv4] Skip empty compressed indexer",
+    "summary": "Determine prefill work from the actual metadata chunks so requests without compressed KV states do not size an empty workspace. Give existing dispatch tests real nonempty chunks when they expect scoring.",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/65166",
-    "date": "2026-11-03"
+    "source_url": "https://github.com/vllm-project/vllm/pull/65046",
+    "date": "2026-11-04"
   },
   {
-    "id": "ed72e21129ac",
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "97f5a81e9e53",
     "tab": "linkedin_idea",
-    "headline": "Counting on Dummies: Privacy Amplification with Observable Counts and Trunc",
-    "summary": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random allocation, result in",
+    "headline": "Nonparametric Intensity Estimation for Covariate-Driven Poisson Processes U",
+    "summary": "We consider nonparametric maximum likelihood estimation of the intensity function of a Poisson process, allowing the intensity to depend on observed covariates. Such models describe how event rates vary with external conditions, including conditions under which the intensity becomes arbitrarily small or vanishes. However, risk",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.42139v1",
-    "date": "2026-11-03"
+    "source_url": "https://arxiv.org/abs/2611.03552v1",
+    "date": "2026-11-04"
   },
   {
-    "id": "cdd9f4db26cd",
+    "id": "2cf8174fd73b",
     "tab": "linkedin_idea",
-    "headline": "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
-    "summary": "In the random allocation sampling scheme each user's data is used in $k$ steps chosen randomly and uniformly from a sequence of $t$ steps. This scheme is known to improve on Poisson sampling in private optimization and in communication-efficient aggregation. The existing privacy loss distribution",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.42117v1",
-    "date": "2026-11-03"
-  },
-  {
-    "id": "173819e1d635",
-    "tab": "linkedin_idea",
-    "headline": "There Is No Free Loop: When Does Looping a Trained Model Pay for Its Infere",
-    "summary": "Looping re-applies a block of layers so that each token passes through the block more than once. Adding a loop to a trained model is attractive because it leaves the parameter count, and hence the disk size, the memory footprint and the training cost unchanged.",
+    "headline": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+    "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.42030v1",
-    "date": "2026-11-03"
+    "source_url": "https://arxiv.org/abs/2611.03634v1",
+    "date": "2026-11-04"
   },
   {
-    "id": "1d19f9d271a5",
+    "id": "242b38e384a0",
     "tab": "linkedin_idea",
-    "headline": "RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO ",
-    "summary": "Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting their ability to exploit successful past experiences.",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.42068v1",
-    "date": "2026-11-03"
-  },
-  {
-    "id": "0147476f9f94",
-    "tab": "linkedin_idea",
-    "headline": "When Is a Game a Markov Decision Process? Correspondences Between Game Theo",
-    "summary": "Reinforcement learning and game theory describe the same object from two sides. Game theory says what a rational outcome of a strategic interaction is; reinforcement learning says how an agent could reach one through experience. The two literatures nevertheless keep separate vocabularies for identical structures,",
+    "headline": "BISECT: Bilevel Spectral Decomposition for Low-Rank Continual Learning",
+    "summary": "Exemplar-free continual learning on pre-trained Vision Transformers increasingly relies on Low-Rank Adaptation (LoRA), yet prevailing methods govern the low-rank update space through strict subspace isolation. By projecting each incoming task into the approximate null space of historical token activations, isolation-based learners equate any cross-task feature",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.41962v1",
-    "date": "2026-11-03"
+    "source_url": "https://arxiv.org/abs/2611.03574v1",
+    "date": "2026-11-04"
   },
   {
-    "id": "1f766ec7b68d",
+    "id": "242c3be1d407",
     "tab": "linkedin_idea",
-    "headline": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
-    "summary": "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "headline": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reaso",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding multiple inputs x for equations f(x)=y, where f",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/",
-    "date": "2026-11-03"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03627v1",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "98de7c6a8641",
+    "tab": "linkedin_idea",
+    "headline": "DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dy",
+    "summary": "Neural operators provide efficient surrogates for computational fluid dynamics (CFD), but most are designed for static geometries and are not equipped to model unsteady flows induced by continuously moving boundaries. We study dynamic-boundary 4D CFD prediction for articulated moving geometries and introduce RoboCFD-4D, a temporally",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03595v1",
+    "date": "2026-11-04"
+  },
+  {
+    "id": "07d56153fbcc",
+    "tab": "linkedin_idea",
+    "headline": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+    "summary": "Earth system models (ESMs) rely on parameterizations to represent unresolved processes such as convection, cloud microphysics, and turbulence. However, translating advances in physical understanding into stable, validated parameterizations and integrating them into ESMs often takes years. Agentic AI could accelerate this process and enable more",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03543v1",
+    "date": "2026-11-04"
   }
 ]
