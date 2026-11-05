@@ -1,5 +1,16 @@
 [
   {
+    "id": "24ad945b79fd",
+    "tab": "learn",
+    "headline": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and ",
+    "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05355v1",
+    "date": "2026-11-05"
+  },
+  {
     "id": "41f0cf8120bf",
     "tab": "learn",
     "headline": "How DRA can improve the performance of distributed LLM inference workloads ",
@@ -8,7 +19,29 @@
     "colab_runnable": false,
     "source_name": "Red Hat AI Blog",
     "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
+  },
+  {
+    "id": "1d90a47382f9",
+    "tab": "learn",
+    "headline": "Show HN: Who and where are your anagranames?",
+    "summary": "Hi HN!I made this fun app which combines quite a few ideas, I thought you might like the story:A few months ago I had the idea of looking for anagrams of names. I started with french names using official statistics about first and last names,",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://louisabraham.github.io/anagranames/",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "66f295df5758",
+    "tab": "learn",
+    "headline": "Show HN: Rivermark, a superfast AI graphic design canvas",
+    "summary": "Hi HN,Agents can nowadays design UI very competently, but the wider question of graphic design is largely unsolved.On one side, you have image models like ChatGPT images, which are high-quality but recognizable and barely editable. On the other hand, you can use LLMs and accept",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://rivermark.ai/",
+    "date": "2026-11-05"
   },
   {
     "id": "a05e3bf8588a",
@@ -19,7 +52,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/utsav1033/bytesized",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
   },
   {
     "id": "c727323d76d5",
@@ -30,18 +63,7 @@
     "colab_runnable": true,
     "source_name": "Hacker News",
     "source_url": "https://github.com/federicolaterra/knemora",
-    "date": "2026-11-04"
-  },
-  {
-    "id": "109261365670",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
-    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
   },
   {
     "id": "83a753b4160c",
@@ -52,7 +74,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
   },
   {
     "id": "9668af85ed2e",
@@ -63,7 +85,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-05"
   },
   {
     "id": "3762ff1d2e30",
@@ -74,18 +107,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-04"
-  },
-  {
-    "id": "10498305865c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #65046: [Bugfix][DSv4] Skip empty compressed indexer",
-    "summary": "Determine prefill work from the actual metadata chunks so requests without compressed KV states do not size an empty workspace. Give existing dispatch tests real nonempty chunks when they expect scoring.",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/65046",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
   },
   {
     "id": "448701fe9974",
@@ -96,72 +118,83 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-04"
+    "date": "2026-11-05"
   },
   {
-    "id": "97f5a81e9e53",
+    "id": "6d564e35e728",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #65762: [CI] Let ci-selector decide csrc/ changes on",
+    "summary": "## Purpose Any change under `csrc/` (except `csrc/cpu/` and `csrc/rocm/`) matches `run_all_patterns`, so the pipeline runs every step and ci-selector never sees it. That was ~12% of PR NVIDIA GPU time in the week after the selector rollout. ci-selector can now decide these on CUDA:",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/65762",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "43110b792881",
     "tab": "linkedin_idea",
-    "headline": "Nonparametric Intensity Estimation for Covariate-Driven Poisson Processes U",
-    "summary": "We consider nonparametric maximum likelihood estimation of the intensity function of a Poisson process, allowing the intensity to depend on observed covariates. Such models describe how event rates vary with external conditions, including conditions under which the intensity becomes arbitrarily small or vanishes. However, risk",
+    "headline": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
+    "summary": "We study context-aware time-series forecasting, in which a single target variable is predicted from its own history and a set of contextual variables, such as weather and calendar information. As the context becomes more diverse, a single model struggles to capture all of its regimes,",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03552v1",
-    "date": "2026-11-04"
+    "source_url": "https://arxiv.org/abs/2611.05325v1",
+    "date": "2026-11-05"
   },
   {
-    "id": "2cf8174fd73b",
+    "id": "534aa0712ea5",
     "tab": "linkedin_idea",
-    "headline": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-    "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We",
+    "headline": "Suppressing Misaligned Behaviors in Language Models, Durably",
+    "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03634v1",
-    "date": "2026-11-04"
+    "source_url": "https://arxiv.org/abs/2611.05358v1",
+    "date": "2026-11-05"
   },
   {
-    "id": "242b38e384a0",
+    "id": "4dd2da24ce2d",
     "tab": "linkedin_idea",
-    "headline": "BISECT: Bilevel Spectral Decomposition for Low-Rank Continual Learning",
-    "summary": "Exemplar-free continual learning on pre-trained Vision Transformers increasingly relies on Low-Rank Adaptation (LoRA), yet prevailing methods govern the low-rank update space through strict subspace isolation. By projecting each incoming task into the approximate null space of historical token activations, isolation-based learners equate any cross-task feature",
+    "headline": "$Φ$asmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravit",
+    "summary": "Quantifying selection effects in gravitational-wave population studies requires millions of costly signal-to-noise ratio (SNR) calculations. We present $Φ$asmaNet, a compact neural architecture for structured tabular regression, with staged spectral refinement as an explicit architectural prior. Learned input tokens are refined through ordered attention-based $Φ$-Stages, each",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05309v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "7e21020f2514",
+    "tab": "linkedin_idea",
+    "headline": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforceme",
+    "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse mapping, execution depends on hand-tuned controllers,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05372v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "e4dde4421971",
+    "tab": "linkedin_idea",
+    "headline": "De Rham cohomological architectures for PINNs and PDEs with topological hol",
+    "summary": "We attempt to alleviate failure modes of classical physics-informed neural networks (PINNs) in scenarios of topological pathologies corresponding to punctures, holes, poles, and voids by introducing de Rham cohomological augmentations, or Hodge-de Rham PINNs. Vanilla PINNs often encounter pitfalls in hole-based settings due to discontinuous",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03574v1",
-    "date": "2026-11-04"
+    "source_url": "https://arxiv.org/abs/2611.05276v1",
+    "date": "2026-11-05"
   },
   {
-    "id": "242c3be1d407",
+    "id": "6e892918bf5d",
     "tab": "linkedin_idea",
-    "headline": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reaso",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding multiple inputs x for equations f(x)=y, where f",
+    "headline": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+    "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03627v1",
-    "date": "2026-11-04"
-  },
-  {
-    "id": "98de7c6a8641",
-    "tab": "linkedin_idea",
-    "headline": "DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dy",
-    "summary": "Neural operators provide efficient surrogates for computational fluid dynamics (CFD), but most are designed for static geometries and are not equipped to model unsteady flows induced by continuously moving boundaries. We study dynamic-boundary 4D CFD prediction for articulated moving geometries and introduce RoboCFD-4D, a temporally",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03595v1",
-    "date": "2026-11-04"
-  },
-  {
-    "id": "07d56153fbcc",
-    "tab": "linkedin_idea",
-    "headline": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
-    "summary": "Earth system models (ESMs) rely on parameterizations to represent unresolved processes such as convection, cloud microphysics, and turbulence. However, translating advances in physical understanding into stable, validated parameterizations and integrating them into ESMs often takes years. Agentic AI could accelerate this process and enable more",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03543v1",
-    "date": "2026-11-04"
+    "source_url": "https://arxiv.org/abs/2611.05304v1",
+    "date": "2026-11-05"
   }
 ]

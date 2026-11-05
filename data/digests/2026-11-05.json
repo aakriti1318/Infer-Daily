@@ -1,0 +1,200 @@
+[
+  {
+    "id": "24ad945b79fd",
+    "tab": "learn",
+    "headline": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and ",
+    "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05355v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "41f0cf8120bf",
+    "tab": "learn",
+    "headline": "How DRA can improve the performance of distributed LLM inference workloads ",
+    "summary": "Modern LLM inference is rapidly shifting from a pure compute challenge to a distributed network bottleneck. To maintain high throughput and handle the massive context windows demanded by agentic workloads, production engines like vLLM and distributed LLM inference frameworks like llm-d are moving toward disaggregated,",
+    "why_it_matters": "Key development in Red Hat AI Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Red Hat AI Blog",
+    "source_url": "https://developers.redhat.com/articles/2026/10/28/how-dra-can-improve-performance-of-distributed-llm-inference-workloads-with-rdma-and-sr-iov",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "1d90a47382f9",
+    "tab": "learn",
+    "headline": "Show HN: Who and where are your anagranames?",
+    "summary": "Hi HN!I made this fun app which combines quite a few ideas, I thought you might like the story:A few months ago I had the idea of looking for anagrams of names. I started with french names using official statistics about first and last names,",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://louisabraham.github.io/anagranames/",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "66f295df5758",
+    "tab": "learn",
+    "headline": "Show HN: Rivermark, a superfast AI graphic design canvas",
+    "summary": "Hi HN,Agents can nowadays design UI very competently, but the wider question of graphic design is largely unsolved.On one side, you have image models like ChatGPT images, which are high-quality but recognizable and barely editable. On the other hand, you can use LLMs and accept",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://rivermark.ai/",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "a05e3bf8588a",
+    "tab": "learn",
+    "headline": "Show HN: A 3KB LLM inference engine in C",
+    "summary": "Show HN: A 3KB LLM inference engine in C",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/utsav1033/bytesized",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "c727323d76d5",
+    "tab": "learn",
+    "headline": "Show HN: I built Knemora – An Open-source AI Second brain",
+    "summary": "Hi HN, my name is Federico. I’m an Italian graphic designer and full stack developer.In recent months, there has been a lot of talk about the &quot;second brain&quot; articles and YouTube videos; everyone is still discussing it, but I see a significant difference between that",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/federicolaterra/knemora",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "6d564e35e728",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #65762: [CI] Let ci-selector decide csrc/ changes on",
+    "summary": "## Purpose Any change under `csrc/` (except `csrc/cpu/` and `csrc/rocm/`) matches `run_all_patterns`, so the pipeline runs every step and ci-selector never sees it. That was ~12% of PR NVIDIA GPU time in the week after the selector rollout. ci-selector can now decide these on CUDA:",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/65762",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "43110b792881",
+    "tab": "linkedin_idea",
+    "headline": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
+    "summary": "We study context-aware time-series forecasting, in which a single target variable is predicted from its own history and a set of contextual variables, such as weather and calendar information. As the context becomes more diverse, a single model struggles to capture all of its regimes,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05325v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "534aa0712ea5",
+    "tab": "linkedin_idea",
+    "headline": "Suppressing Misaligned Behaviors in Language Models, Durably",
+    "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05358v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "4dd2da24ce2d",
+    "tab": "linkedin_idea",
+    "headline": "$Φ$asmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravit",
+    "summary": "Quantifying selection effects in gravitational-wave population studies requires millions of costly signal-to-noise ratio (SNR) calculations. We present $Φ$asmaNet, a compact neural architecture for structured tabular regression, with staged spectral refinement as an explicit architectural prior. Learned input tokens are refined through ordered attention-based $Φ$-Stages, each",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05309v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "7e21020f2514",
+    "tab": "linkedin_idea",
+    "headline": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforceme",
+    "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse mapping, execution depends on hand-tuned controllers,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05372v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "e4dde4421971",
+    "tab": "linkedin_idea",
+    "headline": "De Rham cohomological architectures for PINNs and PDEs with topological hol",
+    "summary": "We attempt to alleviate failure modes of classical physics-informed neural networks (PINNs) in scenarios of topological pathologies corresponding to punctures, holes, poles, and voids by introducing de Rham cohomological augmentations, or Hodge-de Rham PINNs. Vanilla PINNs often encounter pitfalls in hole-based settings due to discontinuous",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05276v1",
+    "date": "2026-11-05"
+  },
+  {
+    "id": "6e892918bf5d",
+    "tab": "linkedin_idea",
+    "headline": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+    "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05304v1",
+    "date": "2026-11-05"
+  }
+]
