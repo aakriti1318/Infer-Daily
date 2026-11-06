@@ -1,0 +1,189 @@
+[
+  {
+    "id": "59f5f830a02d",
+    "tab": "learn",
+    "headline": "Energy-Guided Transport for Projection-Free Physics-Informed Flow Matching",
+    "summary": "Deep generative models, particularly Flow Matching frameworks, have emerged as powerful tools for synthesizing complex physical systems. However, standard architectures remain purely statistically driven and agnostic to the underlying governing equations, often violating fundamental physical constraints during inference. Existing zero-shot approaches designed to enforce these",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06711v1",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "c9eecffffc2c",
+    "tab": "learn",
+    "headline": "Show HN: Teach a speech model (en) a name by saying it once, on your Mac",
+    "summary": "I wanted to see if a speech model could spell a name better if it heard it, not just read it.Most STT tools handle custom words as text (keyterm list, fixing transcript after with llm, etc).So I trained an adapter to try it, specifically a",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://detailkeeper.com/",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "0d8f15ece0a8",
+    "tab": "learn",
+    "headline": "Show HN: Cerea – yet another self-hosted LLM chat front end",
+    "summary": "Here is Cerea, a self-hostable, open-source (Apache 2.0) chat+agent frontend for LLMs. It works alone with any OpenAI-compatible inference provider, but it&#x27;s way better when coupled with the model gateway I&#x27;m also developing, Pystino (https:&#x2F;&#x2F;github.com&#x2F;paoloviviani&#x2F;Pystino).I came to this after struggling to find a hosted chat",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/paoloviviani/Cerea",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "66f295df5758",
+    "tab": "learn",
+    "headline": "Show HN: Rivermark, a superfast AI graphic design canvas",
+    "summary": "Hi HN,Agents can nowadays design UI very competently, but the wider question of graphic design is largely unsolved.On one side, you have image models like ChatGPT images, which are high-quality but recognizable and barely editable. On the other hand, you can use LLMs and accept",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://rivermark.ai/",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "ccf9c5a851c4",
+    "tab": "learn",
+    "headline": "Show HN: Penthera, offline pentest security scanner (open-source, rule-base",
+    "summary": "local non-AI security for your app&#x2F;site! For years I had a long .txt file with hundreds of manual security checks I ran before pushing a (client) app&#x2F;site to live; I am really a rookie compared to the real cyber experts, but just covering the basics",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/danoszz/penthera",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "42868f726a8d",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #65725: [Recipe] Kimi-K3.1-Pro: add TPU serving via ",
+    "summary": "## Summary Add a TPU serving entry to the Kimi-K3.1-Pro recipe, via [vLLM torch-TPU](https://github.com/vllm-project/vllm-torchtpu): - `meta.hardware.ironwood: supported` (TPU v7x). The validated layout is TP32 / EP32 across a 2x2x4 TPU v7x slice (4 hosts, 16 chips, 32 devices) from [vllm-torchtpu#2775](https://github.com/vllm-project/vllm-torchtpu/pull/2775), with an FP8 latent KV",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/65725",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "fb73ceda46a9",
+    "tab": "linkedin_idea",
+    "headline": "Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrysta",
+    "summary": "Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although numerical methods such as front-tracking or front-capturing simulations can accurately describe grain growth, their high computational cost limits their use for long or non-isothermal thermal cycles. In",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06843v1",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "fbc4c157e0fe",
+    "tab": "linkedin_idea",
+    "headline": "Visual Token Routing: Learning to keep tokens that matter",
+    "summary": "Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks. However, their computational cost limits their use in long-horizon tasks and real-time domains such as video games. A key bottleneck is representing each screenshot as thousands of visual tokens, which accumulate into long",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06854v1",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "a2f081d858f3",
+    "tab": "linkedin_idea",
+    "headline": "A Framework for Context Enrichment and Selective Robustness in LLM Social A",
+    "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06914v1",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "55be7c68420c",
+    "tab": "linkedin_idea",
+    "headline": "Balancing hierarchical representation and quantization: A performance trade",
+    "summary": "Hierarchical text embedding models offer variable-length representations, while quantization reduces numerical precision; both aim to improve computational efficiency. This work is an empirical benchmark study of how these two orthogonal, already-established techniques interact. We evaluate 38 tasks from the Massive Text Embedding Benchmark (MTEB) using",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06859v1",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "32c44345f018",
+    "tab": "linkedin_idea",
+    "headline": "FlowReconBench: Accuracy, calibration and cost of learned and classical flo",
+    "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench evaluates ten learned and five classical methods on three",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06912v1",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "c386f998927b",
+    "tab": "linkedin_idea",
+    "headline": "Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Imag",
+    "summary": "Ask SD3.5-Medium for twelve of an object and then, from the same starting noise, for twenty-five. The picture keeps its layout, but the count changes about as much as it would under a new random seed, and in no consistent direction. We study what number",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06840v1",
+    "date": "2026-11-06"
+  }
+]
