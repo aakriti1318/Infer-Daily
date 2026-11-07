@@ -1,25 +1,36 @@
 [
   {
-    "id": "59f5f830a02d",
+    "id": "2f9567d4f464",
     "tab": "learn",
-    "headline": "Energy-Guided Transport for Projection-Free Physics-Informed Flow Matching",
-    "summary": "Deep generative models, particularly Flow Matching frameworks, have emerged as powerful tools for synthesizing complex physical systems. However, standard architectures remain purely statistically driven and agnostic to the underlying governing equations, often violating fundamental physical constraints during inference. Existing zero-shot approaches designed to enforce these",
+    "headline": "Understanding AI from the Inside: The State of Mechanistic Interpretability",
+    "summary": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.06711v1",
-    "date": "2026-11-06"
+    "source_url": "https://arxiv.org/abs/2611.08438v1",
+    "date": "2026-11-07"
   },
   {
-    "id": "c9eecffffc2c",
+    "id": "f0255d48ef14",
     "tab": "learn",
-    "headline": "Show HN: Teach a speech model (en) a name by saying it once, on your Mac",
-    "summary": "I wanted to see if a speech model could spell a name better if it heard it, not just read it.Most STT tools handle custom words as text (keyterm list, fixing transcript after with llm, etc).So I trained an adapter to try it, specifically a",
+    "headline": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter",
+    "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08376v1",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "171ee4ea68b7",
+    "tab": "learn",
+    "headline": "Show HN: Botel – always reachable agents you pay for only while they're wor",
+    "summary": "I built a pay-as-you-go two star hotel for bots that you’re only charged for while it’s active. Typically wakes in under a second, runs on a vm, and costs very little while it’s paused.In my free time I’ve been building a firecracker based vm orchestration",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://detailkeeper.com/",
-    "date": "2026-11-06"
+    "source_url": "https://botel.dev",
+    "date": "2026-11-07"
   },
   {
     "id": "0d8f15ece0a8",
@@ -30,29 +41,18 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/paoloviviani/Cerea",
-    "date": "2026-11-06"
+    "date": "2026-11-07"
   },
   {
-    "id": "66f295df5758",
+    "id": "b3adbee9d658",
     "tab": "learn",
-    "headline": "Show HN: Rivermark, a superfast AI graphic design canvas",
-    "summary": "Hi HN,Agents can nowadays design UI very competently, but the wider question of graphic design is largely unsolved.On one side, you have image models like ChatGPT images, which are high-quality but recognizable and barely editable. On the other hand, you can use LLMs and accept",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://rivermark.ai/",
-    "date": "2026-11-06"
-  },
-  {
-    "id": "ccf9c5a851c4",
-    "tab": "learn",
-    "headline": "Show HN: Penthera, offline pentest security scanner (open-source, rule-base",
-    "summary": "local non-AI security for your app&#x2F;site! For years I had a long .txt file with hundreds of manual security checks I ran before pushing a (client) app&#x2F;site to live; I am really a rookie compared to the real cyber experts, but just covering the basics",
+    "headline": "Show HN: Jev vs. OpenAI Decision vs. Small Financial World Models: FinBench",
+    "summary": "Guys - OpenAI Decisions, Jev, World Models are interesting.We ran some tests for the C-suite to decide between OpenAI Decisions vs. their own existing models vs. training their proprietary Financial World Model. Sharing the results of our sample tests.If you like a walkthrough with video",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/danoszz/penthera",
-    "date": "2026-11-06"
+    "source_url": "https://www.youtube.com/watch?v=UN1LIF01uHQ",
+    "date": "2026-11-07"
   },
   {
     "id": "109261365670",
@@ -63,7 +63,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-06"
+    "date": "2026-11-07"
   },
   {
     "id": "83a753b4160c",
@@ -74,18 +74,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-06"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-06"
+    "date": "2026-11-07"
   },
   {
     "id": "9668af85ed2e",
@@ -96,18 +85,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-06"
-  },
-  {
-    "id": "42868f726a8d",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #65725: [Recipe] Kimi-K3.1-Pro: add TPU serving via ",
-    "summary": "## Summary Add a TPU serving entry to the Kimi-K3.1-Pro recipe, via [vLLM torch-TPU](https://github.com/vllm-project/vllm-torchtpu): - `meta.hardware.ironwood: supported` (TPU v7x). The validated layout is TP32 / EP32 across a 2x2x4 TPU v7x slice (4 hosts, 16 chips, 32 devices) from [vllm-torchtpu#2775](https://github.com/vllm-project/vllm-torchtpu/pull/2775), with an FP8 latent KV",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/65725",
-    "date": "2026-11-06"
+    "date": "2026-11-07"
   },
   {
     "id": "448701fe9974",
@@ -118,72 +96,94 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-06"
+    "date": "2026-11-07"
   },
   {
-    "id": "fb73ceda46a9",
-    "tab": "linkedin_idea",
-    "headline": "Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrysta",
-    "summary": "Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although numerical methods such as front-tracking or front-capturing simulations can accurately describe grain growth, their high computational cost limits their use for long or non-isothermal thermal cycles. In",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "ce2d5d5f1209",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #61875: [Perf][DeepSeek V4] Declare MXFP8 MoE activa",
+    "summary": "## Overview DeepSeek V4 / V4.1 MXFP4 experts now declare MXFP8 activations, the format they target on Blackwell. On Hopper, Humming runs a checkpoint-declared MXFP8 key as block FP8 (group 128), where its SM90 W4A8 kernels are tuned, instead of BF16. Builds on #62751 (`_humming_input_schema`)",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.06843v1",
-    "date": "2026-11-06"
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/61875",
+    "date": "2026-11-07"
   },
   {
-    "id": "fbc4c157e0fe",
+    "id": "9aae8329808f",
     "tab": "linkedin_idea",
-    "headline": "Visual Token Routing: Learning to keep tokens that matter",
-    "summary": "Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks. However, their computational cost limits their use in long-horizon tasks and real-time domains such as video games. A key bottleneck is representing each screenshot as thousands of visual tokens, which accumulate into long",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.06854v1",
-    "date": "2026-11-06"
-  },
-  {
-    "id": "a2f081d858f3",
-    "tab": "linkedin_idea",
-    "headline": "A Framework for Context Enrichment and Selective Robustness in LLM Social A",
-    "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.06914v1",
-    "date": "2026-11-06"
-  },
-  {
-    "id": "55be7c68420c",
-    "tab": "linkedin_idea",
-    "headline": "Balancing hierarchical representation and quantization: A performance trade",
-    "summary": "Hierarchical text embedding models offer variable-length representations, while quantization reduces numerical precision; both aim to improve computational efficiency. This work is an empirical benchmark study of how these two orthogonal, already-established techniques interact. We evaluate 38 tasks from the Massive Text Embedding Benchmark (MTEB) using",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.06859v1",
-    "date": "2026-11-06"
-  },
-  {
-    "id": "32c44345f018",
-    "tab": "linkedin_idea",
-    "headline": "FlowReconBench: Accuracy, calibration and cost of learned and classical flo",
-    "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench evaluates ten learned and five classical methods on three",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.06912v1",
-    "date": "2026-11-06"
-  },
-  {
-    "id": "c386f998927b",
-    "tab": "linkedin_idea",
-    "headline": "Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Imag",
-    "summary": "Ask SD3.5-Medium for twelve of an object and then, from the same starting noise, for twenty-five. The picture keeps its layout, but the count changes about as much as it would under a new random seed, and in no consistent direction. We study what number",
+    "headline": "Towards interpreting any residual stream direction by scaling activation in",
+    "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.06840v1",
-    "date": "2026-11-06"
+    "source_url": "https://arxiv.org/abs/2611.08465v1",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "65115db3a0cb",
+    "tab": "linkedin_idea",
+    "headline": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Rea",
+    "summary": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget. Its efficient variants reduce the cost mainly by stopping full-trajectory sampling early or distributing the number of samples across questions. In",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08403v1",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "c3a0bff22293",
+    "tab": "linkedin_idea",
+    "headline": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+    "summary": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08407v1",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "50aa0e3f26fe",
+    "tab": "linkedin_idea",
+    "headline": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify Abo",
+    "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08469v1",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "533faf425f79",
+    "tab": "linkedin_idea",
+    "headline": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
+    "summary": "Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08363v1",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "67908d79725a",
+    "tab": "linkedin_idea",
+    "headline": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedica",
+    "summary": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08315v1",
+    "date": "2026-11-07"
   }
 ]
