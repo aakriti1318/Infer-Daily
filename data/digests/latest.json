@@ -8,7 +8,7 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08438v1",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
     "id": "f0255d48ef14",
@@ -19,7 +19,7 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08376v1",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
     "id": "171ee4ea68b7",
@@ -30,18 +30,18 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://botel.dev",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
-    "id": "0d8f15ece0a8",
+    "id": "a0d81dbe5f86",
     "tab": "learn",
-    "headline": "Show HN: Cerea – yet another self-hosted LLM chat front end",
-    "summary": "Here is Cerea, a self-hostable, open-source (Apache 2.0) chat+agent frontend for LLMs. It works alone with any OpenAI-compatible inference provider, but it&#x27;s way better when coupled with the model gateway I&#x27;m also developing, Pystino (https:&#x2F;&#x2F;github.com&#x2F;paoloviviani&#x2F;Pystino).I came to this after struggling to find a hosted chat",
+    "headline": "Show HN: Jacq, a DSL that compiles model and kernel descriptions to CUDA",
+    "summary": "I was working (with agents) on testing out various attention algorithm ideas I had, and I found that the existing infrastructure&#x2F;libraries made it more difficult than it should be.So I created Jacq, a DSL and compiler. A jacq file describes a model’s configuration, weights, layers,",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/paoloviviani/Cerea",
-    "date": "2026-11-07"
+    "source_url": "https://github.com/ImpossibleComputing/jacq",
+    "date": "2026-11-08"
   },
   {
     "id": "b3adbee9d658",
@@ -52,18 +52,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://www.youtube.com/watch?v=UN1LIF01uHQ",
-    "date": "2026-11-07"
-  },
-  {
-    "id": "109261365670",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
-    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
     "id": "83a753b4160c",
@@ -74,18 +63,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
-    "id": "9668af85ed2e",
+    "id": "109261365670",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-07"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-08"
   },
   {
     "id": "448701fe9974",
@@ -96,7 +85,29 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-08"
+  },
+  {
+    "id": "7ad67ba03e23",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #66328: [CI][ROCm] Force fork in test_preprocess_err",
+    "summary": "## Overview `test_preprocess_error_handling` failed on its first AMD run, after #62298 dropped its ROCm skip. This sets the fork start method the test already depends on. ## Claims - `test_preprocess_error_handling.py`: set `VLLM_WORKER_MULTIPROC_METHOD=fork` with `monkeypatch` before building the `LLM`. - Fixes `:amd: (MI250) V1 Engine` in",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/66328",
+    "date": "2026-11-08"
   },
   {
     "id": "3762ff1d2e30",
@@ -107,18 +118,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-07"
-  },
-  {
-    "id": "ce2d5d5f1209",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #61875: [Perf][DeepSeek V4] Declare MXFP8 MoE activa",
-    "summary": "## Overview DeepSeek V4 / V4.1 MXFP4 experts now declare MXFP8 activations, the format they target on Blackwell. On Hopper, Humming runs a checkpoint-declared MXFP8 key as block FP8 (group 128), where its SM90 W4A8 kernels are tuned, instead of BF16. Builds on #62751 (`_humming_input_schema`)",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/61875",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
     "id": "9aae8329808f",
@@ -129,18 +129,7 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08465v1",
-    "date": "2026-11-07"
-  },
-  {
-    "id": "65115db3a0cb",
-    "tab": "linkedin_idea",
-    "headline": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Rea",
-    "summary": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget. Its efficient variants reduce the cost mainly by stopping full-trajectory sampling early or distributing the number of samples across questions. In",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08403v1",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
     "id": "c3a0bff22293",
@@ -151,7 +140,7 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08407v1",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
     "id": "50aa0e3f26fe",
@@ -162,18 +151,18 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08469v1",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
   },
   {
-    "id": "533faf425f79",
+    "id": "65115db3a0cb",
     "tab": "linkedin_idea",
-    "headline": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
-    "summary": "Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization",
+    "headline": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Rea",
+    "summary": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget. Its efficient variants reduce the cost mainly by stopping full-trajectory sampling early or distributing the number of samples across questions. In",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08363v1",
-    "date": "2026-11-07"
+    "source_url": "https://arxiv.org/abs/2611.08403v1",
+    "date": "2026-11-08"
   },
   {
     "id": "67908d79725a",
@@ -184,6 +173,17 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08315v1",
-    "date": "2026-11-07"
+    "date": "2026-11-08"
+  },
+  {
+    "id": "533faf425f79",
+    "tab": "linkedin_idea",
+    "headline": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
+    "summary": "Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08363v1",
+    "date": "2026-11-08"
   }
 ]
