@@ -8,7 +8,7 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08438v1",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
   },
   {
     "id": "f0255d48ef14",
@@ -19,40 +19,29 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08376v1",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
   },
   {
-    "id": "171ee4ea68b7",
+    "id": "1ea73a985a10",
     "tab": "learn",
-    "headline": "Show HN: Botel – always reachable agents you pay for only while they're wor",
-    "summary": "I built a pay-as-you-go two star hotel for bots that you’re only charged for while it’s active. Typically wakes in under a second, runs on a vm, and costs very little while it’s paused.In my free time I’ve been building a firecracker based vm orchestration",
+    "headline": "Show HN: My first project, an AI-powered financial news analyzer",
+    "summary": "I&#x27;m 17, and I started NotBot a few months ago to see whether I could turn an idea into a working project. My main interest is economics, not becoming a programmer, but I enjoy experimenting with code.A few months ago, I had the idea of",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://botel.dev",
-    "date": "2026-11-08"
+    "source_url": "https://github.com/lamarcol/NotBot",
+    "date": "2026-11-09"
   },
   {
-    "id": "a0d81dbe5f86",
+    "id": "036bdcfbd0c1",
     "tab": "learn",
-    "headline": "Show HN: Jacq, a DSL that compiles model and kernel descriptions to CUDA",
-    "summary": "I was working (with agents) on testing out various attention algorithm ideas I had, and I found that the existing infrastructure&#x2F;libraries made it more difficult than it should be.So I created Jacq, a DSL and compiler. A jacq file describes a model’s configuration, weights, layers,",
+    "headline": "Show HN: A free Gameboy–style music tracker in the browser with shareable U",
+    "summary": "I built a 4-channel music tracker modeled on the original Game Boy&#x27;s sound hardware: two pulse channels, a wave channel, and noise. It runs entirely in the browser using the Web Audio API, with no account or backend.Songs save to localStorage, and share links compress",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/ImpossibleComputing/jacq",
-    "date": "2026-11-08"
-  },
-  {
-    "id": "b3adbee9d658",
-    "tab": "learn",
-    "headline": "Show HN: Jev vs. OpenAI Decision vs. Small Financial World Models: FinBench",
-    "summary": "Guys - OpenAI Decisions, Jev, World Models are interesting.We ran some tests for the C-suite to decide between OpenAI Decisions vs. their own existing models vs. training their proprietary Financial World Model. Sharing the results of our sample tests.If you like a walkthrough with video",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://www.youtube.com/watch?v=UN1LIF01uHQ",
-    "date": "2026-11-08"
+    "source_url": "https://chiptunes.studio/",
+    "date": "2026-11-09"
   },
   {
     "id": "83a753b4160c",
@@ -63,7 +52,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
   },
   {
     "id": "109261365670",
@@ -74,40 +63,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-08"
-  },
-  {
-    "id": "448701fe9974",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-08"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-08"
-  },
-  {
-    "id": "7ad67ba03e23",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #66328: [CI][ROCm] Force fork in test_preprocess_err",
-    "summary": "## Overview `test_preprocess_error_handling` failed on its first AMD run, after #62298 dropped its ROCm skip. This sets the fork start method the test already depends on. ## Claims - `test_preprocess_error_handling.py`: set `VLLM_WORKER_MULTIPROC_METHOD=fork` with `monkeypatch` before building the `LLM`. - Fixes `:amd: (MI250) V1 Engine` in",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/66328",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
   },
   {
     "id": "3762ff1d2e30",
@@ -118,29 +74,40 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
   },
   {
-    "id": "9aae8329808f",
-    "tab": "linkedin_idea",
-    "headline": "Towards interpreting any residual stream direction by scaling activation in",
-    "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08465v1",
-    "date": "2026-11-08"
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-09"
   },
   {
-    "id": "c3a0bff22293",
-    "tab": "linkedin_idea",
-    "headline": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
-    "summary": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "id": "ac73aa645ebb",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #46871: [XPU] All-to-all Expert-Parallellism backend",
+    "summary": "### Purpose Backend for XPU for batched + routed EP. Still WIP, e2e performance degradation, some bugs fixed. Depends on upcoming autotune. ### Test plan Recent logs ### Notes - DeepSeek MLA on XPU has a separate batched-prefill numerics bug, unrelated to this backend and",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/46871",
+    "date": "2026-11-09"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08407v1",
-    "date": "2026-11-08"
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-09"
   },
   {
     "id": "50aa0e3f26fe",
@@ -151,7 +118,18 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08469v1",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
+  },
+  {
+    "id": "9aae8329808f",
+    "tab": "linkedin_idea",
+    "headline": "Towards interpreting any residual stream direction by scaling activation in",
+    "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08465v1",
+    "date": "2026-11-09"
   },
   {
     "id": "65115db3a0cb",
@@ -162,7 +140,18 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08403v1",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
+  },
+  {
+    "id": "c3a0bff22293",
+    "tab": "linkedin_idea",
+    "headline": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+    "summary": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.08407v1",
+    "date": "2026-11-09"
   },
   {
     "id": "67908d79725a",
@@ -173,7 +162,7 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08315v1",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
   },
   {
     "id": "533faf425f79",
@@ -184,6 +173,6 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.08363v1",
-    "date": "2026-11-08"
+    "date": "2026-11-09"
   }
 ]
