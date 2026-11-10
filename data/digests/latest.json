@@ -1,58 +1,36 @@
 [
   {
-    "id": "2f9567d4f464",
+    "id": "69eb798206d3",
     "tab": "learn",
-    "headline": "Understanding AI from the Inside: The State of Mechanistic Interpretability",
-    "summary": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to",
+    "headline": "Flow-Guided Target-Space Alignment via Path Consistency",
+    "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, successful alignment should preserve both the global",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08438v1",
-    "date": "2026-11-09"
+    "source_url": "https://arxiv.org/abs/2611.09863v1",
+    "date": "2026-11-10"
   },
   {
-    "id": "f0255d48ef14",
+    "id": "61fccf323953",
     "tab": "learn",
-    "headline": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter",
-    "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank",
+    "headline": "Are These Programmers Ripe Enough to Eat? Evaluating How LLMs Handle Lexica",
+    "summary": "External lexical resources can help large language models (LLMs) translate texts in low-resource languages and specialized domains, but these resources may conflict with models' prior lexical knowledge. To isolate this conflict, we construct a controlled Mandarin-to-English translation task in which familiar source words are assigned",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08376v1",
-    "date": "2026-11-09"
+    "source_url": "https://arxiv.org/abs/2611.09785v1",
+    "date": "2026-11-10"
   },
   {
-    "id": "1ea73a985a10",
+    "id": "2b44002238d6",
     "tab": "learn",
-    "headline": "Show HN: My first project, an AI-powered financial news analyzer",
-    "summary": "I&#x27;m 17, and I started NotBot a few months ago to see whether I could turn an idea into a working project. My main interest is economics, not becoming a programmer, but I enjoy experimenting with code.A few months ago, I had the idea of",
+    "headline": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+    "summary": "Decision models need their own inference engine.So we developed Flide, a high-performance and exact inference engine for Jev-like decision models.Flide achieves up to a 9.5x speedup over vLLM and SGLang.It now supports 30+ popular local Jev-like decision models.Start to make your decision immediately:pip install flide",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/lamarcol/NotBot",
-    "date": "2026-11-09"
-  },
-  {
-    "id": "036bdcfbd0c1",
-    "tab": "learn",
-    "headline": "Show HN: A free Gameboy–style music tracker in the browser with shareable U",
-    "summary": "I built a 4-channel music tracker modeled on the original Game Boy&#x27;s sound hardware: two pulse channels, a wave channel, and noise. It runs entirely in the browser using the Web Audio API, with no account or backend.Songs save to localStorage, and share links compress",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://chiptunes.studio/",
-    "date": "2026-11-09"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-09"
+    "source_url": "https://github.com/OmniJev/Flide",
+    "date": "2026-11-10"
   },
   {
     "id": "109261365670",
@@ -63,18 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-09"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-09"
+    "date": "2026-11-10"
   },
   {
     "id": "9668af85ed2e",
@@ -85,18 +52,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-09"
+    "date": "2026-11-10"
   },
   {
-    "id": "ac73aa645ebb",
+    "id": "83a753b4160c",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #46871: [XPU] All-to-all Expert-Parallellism backend",
-    "summary": "### Purpose Backend for XPU for batched + routed EP. Still WIP, e2e performance degradation, some bugs fixed. Depends on upcoming autotune. ### Test plan Recent logs ### Notes - DeepSeek MLA on XPU has a separate batched-prefill numerics bug, unrelated to this backend and",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/46871",
-    "date": "2026-11-09"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-10"
   },
   {
     "id": "448701fe9974",
@@ -107,72 +74,94 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-09"
+    "date": "2026-11-10"
   },
   {
-    "id": "50aa0e3f26fe",
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "8aa2d16023bb",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #66669: [Build][MiniMax-M3] Bump fmha_sm100 to 14437",
+    "summary": "## Overview Bumps `fmha_sm100` from `51f4f5c` to `1443786`, the head of `vllm-project/MSA` `dev`. This picks up one commit, vllm-project/MSA#51, which lowers the host cost of the Q8KV8 prefill indexer that MiniMax-M3 uses with `indexer_kv_dtype=\"nvfp4\"`. No open PR in this repo changes this pin. ## Claims",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/66669",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "faaba7dc4044",
     "tab": "linkedin_idea",
-    "headline": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify Abo",
-    "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a",
+    "headline": "Designing Effective Monitor-Based Interventions for Mitigating Reward Hacki",
+    "summary": "Reinforcement learning (RL) rewards are notoriously difficult to design and control, often leading to the model learning unintended behaviors such as reward hacking. One potential solution is to monitor for reward hacking and penalize it when detected; however, training against a monitor could lead to",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08469v1",
-    "date": "2026-11-09"
+    "source_url": "https://arxiv.org/abs/2611.09828v1",
+    "date": "2026-11-10"
   },
   {
-    "id": "9aae8329808f",
+    "id": "7bc695dc9755",
     "tab": "linkedin_idea",
-    "headline": "Towards interpreting any residual stream direction by scaling activation in",
-    "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08465v1",
-    "date": "2026-11-09"
-  },
-  {
-    "id": "65115db3a0cb",
-    "tab": "linkedin_idea",
-    "headline": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Rea",
-    "summary": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget. Its efficient variants reduce the cost mainly by stopping full-trajectory sampling early or distributing the number of samples across questions. In",
+    "headline": "Fifty-Two Shades of Pig: What the UCR Archive Really Asks Classifiers to Do",
+    "summary": "The pigs were bleeding. That was the point of the experiment: could airway pressure reveal hemorrhage before it became critical? In the UCR Time Series Classification Archive, the de facto benchmark for Time Series Classification (TSC), the same recordings ask a different question: \"which of",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08403v1",
-    "date": "2026-11-09"
+    "source_url": "https://arxiv.org/abs/2611.09843v1",
+    "date": "2026-11-10"
   },
   {
-    "id": "c3a0bff22293",
+    "id": "9e31d254c44f",
     "tab": "linkedin_idea",
-    "headline": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
-    "summary": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on",
+    "headline": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+    "summary": "Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of auditing interventions at deployment time. For reliable deployment, we often need to determine within an agent's trajectory whether or not to intervene,",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08407v1",
-    "date": "2026-11-09"
+    "source_url": "https://arxiv.org/abs/2611.09792v1",
+    "date": "2026-11-10"
   },
   {
-    "id": "67908d79725a",
+    "id": "e87d7c5e7d59",
     "tab": "linkedin_idea",
-    "headline": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedica",
-    "summary": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas,",
+    "headline": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensi",
+    "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08315v1",
-    "date": "2026-11-09"
+    "source_url": "https://arxiv.org/abs/2611.09864v1",
+    "date": "2026-11-10"
   },
   {
-    "id": "533faf425f79",
+    "id": "f737209cfaf5",
     "tab": "linkedin_idea",
-    "headline": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
-    "summary": "Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization",
+    "headline": "Diffusion-free Score Matching for Exact Conditional Sampling",
+    "summary": "The success of modern score-based generative models is largely driven by diffusion-based training, which learns a collection of time-indexed score fields corresponding to progressively noisier versions of the data distribution. While such models achieve impressive sample quality, leveraging them for sound probabilistic inference---particularly sampling from",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08363v1",
-    "date": "2026-11-09"
+    "source_url": "https://arxiv.org/abs/2611.09758v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "d5d2d9df0721",
+    "tab": "linkedin_idea",
+    "headline": "Intent-Aware Caching for Efficient LLM Serving",
+    "summary": "Modern LLM serving systems use prefix caching to accelerate multi-turn conversational workloads. They cache the key-value states of previous conversation prefixes and reuse them when subsequent requests share the same prefix, to avoid redundant prefill computation and reduce serving latency. However, achieving a high cache",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09715v1",
+    "date": "2026-11-10"
   }
 ]

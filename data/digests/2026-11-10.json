@@ -1,0 +1,167 @@
+[
+  {
+    "id": "69eb798206d3",
+    "tab": "learn",
+    "headline": "Flow-Guided Target-Space Alignment via Path Consistency",
+    "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, successful alignment should preserve both the global",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09863v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "61fccf323953",
+    "tab": "learn",
+    "headline": "Are These Programmers Ripe Enough to Eat? Evaluating How LLMs Handle Lexica",
+    "summary": "External lexical resources can help large language models (LLMs) translate texts in low-resource languages and specialized domains, but these resources may conflict with models' prior lexical knowledge. To isolate this conflict, we construct a controlled Mandarin-to-English translation task in which familiar source words are assigned",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09785v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "2b44002238d6",
+    "tab": "learn",
+    "headline": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+    "summary": "Decision models need their own inference engine.So we developed Flide, a high-performance and exact inference engine for Jev-like decision models.Flide achieves up to a 9.5x speedup over vLLM and SGLang.It now supports 30+ popular local Jev-like decision models.Start to make your decision immediately:pip install flide",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/OmniJev/Flide",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "8aa2d16023bb",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #66669: [Build][MiniMax-M3] Bump fmha_sm100 to 14437",
+    "summary": "## Overview Bumps `fmha_sm100` from `51f4f5c` to `1443786`, the head of `vllm-project/MSA` `dev`. This picks up one commit, vllm-project/MSA#51, which lowers the host cost of the Q8KV8 prefill indexer that MiniMax-M3 uses with `indexer_kv_dtype=\"nvfp4\"`. No open PR in this repo changes this pin. ## Claims",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/66669",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "faaba7dc4044",
+    "tab": "linkedin_idea",
+    "headline": "Designing Effective Monitor-Based Interventions for Mitigating Reward Hacki",
+    "summary": "Reinforcement learning (RL) rewards are notoriously difficult to design and control, often leading to the model learning unintended behaviors such as reward hacking. One potential solution is to monitor for reward hacking and penalize it when detected; however, training against a monitor could lead to",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09828v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "7bc695dc9755",
+    "tab": "linkedin_idea",
+    "headline": "Fifty-Two Shades of Pig: What the UCR Archive Really Asks Classifiers to Do",
+    "summary": "The pigs were bleeding. That was the point of the experiment: could airway pressure reveal hemorrhage before it became critical? In the UCR Time Series Classification Archive, the de facto benchmark for Time Series Classification (TSC), the same recordings ask a different question: \"which of",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09843v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "9e31d254c44f",
+    "tab": "linkedin_idea",
+    "headline": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+    "summary": "Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of auditing interventions at deployment time. For reliable deployment, we often need to determine within an agent's trajectory whether or not to intervene,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09792v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "e87d7c5e7d59",
+    "tab": "linkedin_idea",
+    "headline": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensi",
+    "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09864v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "f737209cfaf5",
+    "tab": "linkedin_idea",
+    "headline": "Diffusion-free Score Matching for Exact Conditional Sampling",
+    "summary": "The success of modern score-based generative models is largely driven by diffusion-based training, which learns a collection of time-indexed score fields corresponding to progressively noisier versions of the data distribution. While such models achieve impressive sample quality, leveraging them for sound probabilistic inference---particularly sampling from",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09758v1",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "d5d2d9df0721",
+    "tab": "linkedin_idea",
+    "headline": "Intent-Aware Caching for Efficient LLM Serving",
+    "summary": "Modern LLM serving systems use prefix caching to accelerate multi-turn conversational workloads. They cache the key-value states of previous conversation prefixes and reuse them when subsequent requests share the same prefix, to avoid redundant prefill computation and reduce serving latency. However, achieving a high cache",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.09715v1",
+    "date": "2026-11-10"
+  }
+]
