@@ -1,0 +1,178 @@
+[
+  {
+    "id": "aa85367de70e",
+    "tab": "learn",
+    "headline": "Show HN: Rystic – Stateful Local Simulators of Slack, GitHub and Linear",
+    "summary": "Hi HN, we&#x27;re Zach and Evan, founders of Rystic (https:&#x2F;&#x2F;www.rystic.ai). As LLMs have progressed, producing code has become fast and cheap but verification has not. At my previous company I noticed that whenever I could test a service locally or in CI this bottleneck went",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://www.rystic.ai",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "4ac46d4e262d",
+    "tab": "learn",
+    "headline": "Show HN: A linear model is an embedding table: using VW as transformer memo",
+    "summary": "Small-scale experiment on external knowledge for LLM training &amp; inference.",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://www.liminalplanes.com/blog/vw",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "2b44002238d6",
+    "tab": "learn",
+    "headline": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+    "summary": "Decision models need their own inference engine.So we developed Flide, a high-performance and exact inference engine for Jev-like decision models.Flide achieves up to a 9.5x speedup over vLLM and SGLang.It now supports 30+ popular local Jev-like decision models.Start to make your decision immediately:pip install flide",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/OmniJev/Flide",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "b542d398b574",
+    "tab": "learn",
+    "headline": "Show HN: Tokspur a 3x faster open source inference engine for Macs",
+    "summary": "While we were trying to solve a separate problem, we ended up on a bit of a side quest and built an inference engine.We got ourselves some nice, shiny new Mac M5 Max 128GB machines while doing a lot of local LLM work for another",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/san-digital/tokspur",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "519ea69f2df2",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #66446: [XPU][CI] Keep all devices visible for exter",
+    "summary": "## Overview Fix the XPU Rust frontend external-LB test introduced by #56246 by keeping all node XPUs visible to every externally launched DP rank. Same issue with https://github.com/vllm-project/vllm/pull/53037 Buildkite failure: [build 17067, Rust Frontend Distributed](https://buildkite.com/vllm/intel-ci/builds/17067#01a1baff-0c77-44c5-870c-1a44f53ce261) ## Claims - Prevent oneCCL topology discovery from hanging when",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/66446",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "89f6035fe191",
+    "tab": "linkedin_idea",
+    "headline": "Contention Resolution with a Fast-but-Fickle Channel",
+    "summary": "The contention-resolution problem studies how $n$ devices share a communication channel without centralized coordination. Classical models typically assume a single continuously available channel and focus on minimizing total completion time. However, modern wireless systems increasingly rely on shared spectrum, where access may be abruptly revoked",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12843v1",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "213f41affd40",
+    "tab": "linkedin_idea",
+    "headline": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Pla",
+    "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to hold for newer language models.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12869v1",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "95ddbe7b8fad",
+    "tab": "linkedin_idea",
+    "headline": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular ",
+    "summary": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential steps, resulting in substantial wall-clock simulation time and poor",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12880v1",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "d8aa4bc95af7",
+    "tab": "linkedin_idea",
+    "headline": "Is Persona Generalization Predictable?",
+    "summary": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain persona rates across various fine-tuning hyperparameters",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12864v1",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "412e31450c8b",
+    "tab": "linkedin_idea",
+    "headline": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limite",
+    "summary": "Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) transmits quantized estimates of a temporal-difference (TD)",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12878v1",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "4a5d35d9fa8f",
+    "tab": "linkedin_idea",
+    "headline": "What the Loss Curve Misses: FP4 Pretraining Slows the Acquisition of Rare F",
+    "summary": "Low-precision pretraining is usually judged by validation loss. We ask whether matching loss also means learning rare facts as efficiently. We train transformers from scratch with emulated 4-bit matrix multiplications on synthetic biographies with controlled exposure counts, on their own and mixed into web text.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12832v1",
+    "date": "2026-11-11"
+  }
+]
