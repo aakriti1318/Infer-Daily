@@ -1,14 +1,25 @@
 [
   {
-    "id": "aa85367de70e",
+    "id": "e120046583d7",
     "tab": "learn",
-    "headline": "Show HN: Rystic – Stateful Local Simulators of Slack, GitHub and Linear",
-    "summary": "Hi HN, we&#x27;re Zach and Evan, founders of Rystic (https:&#x2F;&#x2F;www.rystic.ai). As LLMs have progressed, producing code has become fast and cheap but verification has not. At my previous company I noticed that whenever I could test a service locally or in CI this bottleneck went",
+    "headline": "Inside Llama.cpp: How Local LLMs Run on Your Hardware [video]",
+    "summary": "Inside Llama.cpp: How Local LLMs Run on Your Hardware [video]",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://www.rystic.ai",
-    "date": "2026-11-11"
+    "source_url": "https://www.youtube.com/watch?v=saXrLnzWTD0",
+    "date": "2026-11-12"
+  },
+  {
+    "id": "4a10e27c5bf3",
+    "tab": "learn",
+    "headline": "Show HN: ZeGrapher v4: modern open-source math plotter – Desmos-inspired",
+    "summary": "ZeGrapher is a free an open-source math plotter. I first released it in 2011: as a challenge, but also thinking it was the first on Linux.I kept sporadically updating ever since, but the release of Desmos showed how much out-of-date it&#x27;s gotten. Which motivated me",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://zegrapher.com/en/",
+    "date": "2026-11-12"
   },
   {
     "id": "4ac46d4e262d",
@@ -19,18 +30,18 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://www.liminalplanes.com/blog/vw",
-    "date": "2026-11-11"
+    "date": "2026-11-12"
   },
   {
-    "id": "2b44002238d6",
+    "id": "f22db79b36ee",
     "tab": "learn",
-    "headline": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
-    "summary": "Decision models need their own inference engine.So we developed Flide, a high-performance and exact inference engine for Jev-like decision models.Flide achieves up to a 9.5x speedup over vLLM and SGLang.It now supports 30+ popular local Jev-like decision models.Start to make your decision immediately:pip install flide",
+    "headline": "Show HN: Zeus – Claude Code for AI voice agents",
+    "summary": "Hi everyone, Alex here - I’m one of the founders. We’re very excited to announce the launch of Zeus, which is a platform that makes AI phone calls actually work, and without requiring extensive hand-tuning!When we started building business phone agents in 2024 (time flies…)",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/OmniJev/Flide",
-    "date": "2026-11-11"
+    "source_url": "https://thunderphone.com/blog/introducing-zeus",
+    "date": "2026-11-12"
   },
   {
     "id": "b542d398b574",
@@ -41,29 +52,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/san-digital/tokspur",
-    "date": "2026-11-11"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-11"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-11"
+    "date": "2026-11-12"
   },
   {
     "id": "109261365670",
@@ -74,18 +63,29 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-11"
+    "date": "2026-11-12"
   },
   {
-    "id": "448701fe9974",
+    "id": "83a753b4160c",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-11"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-12"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-12"
   },
   {
     "id": "3762ff1d2e30",
@@ -96,83 +96,94 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-11"
+    "date": "2026-11-12"
   },
   {
-    "id": "519ea69f2df2",
+    "id": "448701fe9974",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #66446: [XPU][CI] Keep all devices visible for exter",
-    "summary": "## Overview Fix the XPU Rust frontend external-LB test introduced by #56246 by keeping all node XPUs visible to every externally launched DP rank. Same issue with https://github.com/vllm-project/vllm/pull/53037 Buildkite failure: [build 17067, Rust Frontend Distributed](https://buildkite.com/vllm/intel-ci/builds/17067#01a1baff-0c77-44c5-870c-1a44f53ce261) ## Claims - Prevent oneCCL topology discovery from hanging when",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/66446",
-    "date": "2026-11-11"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-12"
   },
   {
-    "id": "89f6035fe191",
-    "tab": "linkedin_idea",
-    "headline": "Contention Resolution with a Fast-but-Fickle Channel",
-    "summary": "The contention-resolution problem studies how $n$ devices share a communication channel without centralized coordination. Classical models typically assume a single continuously available channel and focus on minimizing total completion time. However, modern wireless systems increasingly rely on shared spectrum, where access may be abruptly revoked",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12843v1",
-    "date": "2026-11-11"
+    "id": "1e7be14b6252",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #66704: [Misc] Warn when gpu_memory_utilization with",
+    "summary": "## Overview With the extensible KV cache, an explicit `gpu_memory_utilization` is a hard cap on everything the engine uses, and the KV cache gets what is left inside it. Values just under 1.0, such as a 0.9 carried over from estimate-based sizing, therefore leave free",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/66704",
+    "date": "2026-11-12"
   },
   {
-    "id": "213f41affd40",
+    "id": "35f0b78cc858",
     "tab": "linkedin_idea",
-    "headline": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Pla",
-    "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to hold for newer language models.",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12869v1",
-    "date": "2026-11-11"
-  },
-  {
-    "id": "95ddbe7b8fad",
-    "tab": "linkedin_idea",
-    "headline": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular ",
-    "summary": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential steps, resulting in substantial wall-clock simulation time and poor",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12880v1",
-    "date": "2026-11-11"
-  },
-  {
-    "id": "d8aa4bc95af7",
-    "tab": "linkedin_idea",
-    "headline": "Is Persona Generalization Predictable?",
-    "summary": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain persona rates across various fine-tuning hyperparameters",
+    "headline": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+    "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12864v1",
-    "date": "2026-11-11"
+    "source_url": "https://arxiv.org/abs/2611.14505v1",
+    "date": "2026-11-12"
   },
   {
-    "id": "412e31450c8b",
+    "id": "f77d37bd9c0d",
     "tab": "linkedin_idea",
-    "headline": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limite",
-    "summary": "Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) transmits quantized estimates of a temporal-difference (TD)",
+    "headline": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+    "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12878v1",
-    "date": "2026-11-11"
+    "source_url": "https://arxiv.org/abs/2611.14492v1",
+    "date": "2026-11-12"
   },
   {
-    "id": "4a5d35d9fa8f",
+    "id": "2e1f2f7d5730",
     "tab": "linkedin_idea",
-    "headline": "What the Loss Curve Misses: FP4 Pretraining Slows the Acquisition of Rare F",
-    "summary": "Low-precision pretraining is usually judged by validation loss. We ask whether matching loss also means learning rare facts as efficiently. We train transformers from scratch with emulated 4-bit matrix multiplications on synthetic biographies with controlled exposure counts, on their own and mixed into web text.",
+    "headline": "C$^2$-Routing: Complementary Cropping and Compression for Efficient Vision-",
+    "summary": "Visual Question Answering (VQA) imposes substantial computational overhead on vision-language models (VLMs), motivating model-agnostic input reduction methods that can be readily applied across diverse VLMs, including in black-box settings. Simply enforcing a visual-token cap reduces computation, but it can discard information needed to answer the",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14469v1",
+    "date": "2026-11-12"
+  },
+  {
+    "id": "b29365c1d326",
+    "tab": "linkedin_idea",
+    "headline": "When Does the Real Wiring Win? Testing connectome structure-function claims",
+    "summary": "Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wiring with how the models are tuned: a connectome fixes who connects to whom, not the excitability, gains",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12832v1",
-    "date": "2026-11-11"
+    "source_url": "https://arxiv.org/abs/2611.14508v1",
+    "date": "2026-11-12"
+  },
+  {
+    "id": "b3c7a7419097",
+    "tab": "linkedin_idea",
+    "headline": "TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time Seri",
+    "summary": "Time series analytics has been widely applied across various domains. While existing time series foundation models (TSFMs) have demonstrated promising results, they still face two major challenges: 1) Most TSFMs mainly rely on stacking Transformer layers to increase parameter size, lacking the ability to adaptively",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14491v1",
+    "date": "2026-11-12"
+  },
+  {
+    "id": "a362b5fe1718",
+    "tab": "linkedin_idea",
+    "headline": "Bayesian inverse problems and epidemic-threshold uncertainty for a heteroge",
+    "summary": "We study Bayesian inference of persistence from early observations of a heterogeneous susceptible--infected--susceptible (SIS) reaction--diffusion model with standard incidence. We show that the leading prevalence dynamics depend on the unknown coefficients only through the difference between the transmission and recovery rates and the infected diffusivity.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14468v1",
+    "date": "2026-11-12"
   }
 ]
