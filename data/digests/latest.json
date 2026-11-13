@@ -1,58 +1,14 @@
 [
   {
-    "id": "e120046583d7",
+    "id": "7d4221c48cd0",
     "tab": "learn",
-    "headline": "Inside Llama.cpp: How Local LLMs Run on Your Hardware [video]",
-    "summary": "Inside Llama.cpp: How Local LLMs Run on Your Hardware [video]",
+    "headline": "Show HN: I analyzed all 191 prompts I used to \"vibe-code\" an app",
+    "summary": "One-shot performance of LLMs is a good measure of many of its capacities, but it is only sufficient for tasks that can be objectively and automatically verified. I believe that in most real-world cases this is not the case: people have vague, unquantifiable, taste-based, complex",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "Hacker News",
-    "source_url": "https://www.youtube.com/watch?v=saXrLnzWTD0",
-    "date": "2026-11-12"
-  },
-  {
-    "id": "4a10e27c5bf3",
-    "tab": "learn",
-    "headline": "Show HN: ZeGrapher v4: modern open-source math plotter – Desmos-inspired",
-    "summary": "ZeGrapher is a free an open-source math plotter. I first released it in 2011: as a challenge, but also thinking it was the first on Linux.I kept sporadically updating ever since, but the release of Desmos showed how much out-of-date it&#x27;s gotten. Which motivated me",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://zegrapher.com/en/",
-    "date": "2026-11-12"
-  },
-  {
-    "id": "4ac46d4e262d",
-    "tab": "learn",
-    "headline": "Show HN: A linear model is an embedding table: using VW as transformer memo",
-    "summary": "Small-scale experiment on external knowledge for LLM training &amp; inference.",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://www.liminalplanes.com/blog/vw",
-    "date": "2026-11-12"
-  },
-  {
-    "id": "f22db79b36ee",
-    "tab": "learn",
-    "headline": "Show HN: Zeus – Claude Code for AI voice agents",
-    "summary": "Hi everyone, Alex here - I’m one of the founders. We’re very excited to announce the launch of Zeus, which is a platform that makes AI phone calls actually work, and without requiring extensive hand-tuning!When we started building business phone agents in 2024 (time flies…)",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://thunderphone.com/blog/introducing-zeus",
-    "date": "2026-11-12"
-  },
-  {
-    "id": "b542d398b574",
-    "tab": "learn",
-    "headline": "Show HN: Tokspur a 3x faster open source inference engine for Macs",
-    "summary": "While we were trying to solve a separate problem, we ended up on a bit of a side quest and built an inference engine.We got ourselves some nice, shiny new Mac M5 Max 128GB machines while doing a lot of local LLM work for another",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://github.com/san-digital/tokspur",
-    "date": "2026-11-12"
+    "source_url": "https://aethermug.com/posts/poft",
+    "date": "2026-11-13"
   },
   {
     "id": "109261365670",
@@ -63,7 +19,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
   },
   {
     "id": "83a753b4160c",
@@ -74,7 +30,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
   },
   {
     "id": "9668af85ed2e",
@@ -85,18 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-12"
-  },
-  {
-    "id": "3762ff1d2e30",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
-    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
   },
   {
     "id": "448701fe9974",
@@ -107,29 +52,29 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
   },
   {
-    "id": "1e7be14b6252",
+    "id": "3762ff1d2e30",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #66704: [Misc] Warn when gpu_memory_utilization with",
-    "summary": "## Overview With the extensible KV cache, an explicit `gpu_memory_utilization` is a hard cap on everything the engine uses, and the KV cache gets what is left inside it. Values just under 1.0, such as a 0.9 carried over from estimate-based sizing, therefore leave free",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/66704",
-    "date": "2026-11-12"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-13"
   },
   {
-    "id": "35f0b78cc858",
-    "tab": "linkedin_idea",
-    "headline": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
-    "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14505v1",
-    "date": "2026-11-12"
+    "id": "bde632141469",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #64531: [Perf] Zero bubble draft tokens handoff for ",
+    "summary": "## Overview Follow up to #63219 (cc @michael-gpu, @ArcheyChen) ~~Stacked on top of #66081, a bugfix for structured outputs + spec decode + async scheduling.~~ #66081 merged Optimizes structured outputs + spec decode + async scheduling by removing bubbles in the scheduling pipeline. ## Claims",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/64531",
+    "date": "2026-11-13"
   },
   {
     "id": "f77d37bd9c0d",
@@ -140,18 +85,18 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.14492v1",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
   },
   {
-    "id": "2e1f2f7d5730",
+    "id": "35f0b78cc858",
     "tab": "linkedin_idea",
-    "headline": "C$^2$-Routing: Complementary Cropping and Compression for Efficient Vision-",
-    "summary": "Visual Question Answering (VQA) imposes substantial computational overhead on vision-language models (VLMs), motivating model-agnostic input reduction methods that can be readily applied across diverse VLMs, including in black-box settings. Simply enforcing a visual-token cap reduces computation, but it can discard information needed to answer the",
+    "headline": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+    "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14469v1",
-    "date": "2026-11-12"
+    "source_url": "https://arxiv.org/abs/2611.14505v1",
+    "date": "2026-11-13"
   },
   {
     "id": "b29365c1d326",
@@ -162,7 +107,7 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.14508v1",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
   },
   {
     "id": "b3c7a7419097",
@@ -173,7 +118,18 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.14491v1",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
+  },
+  {
+    "id": "2e1f2f7d5730",
+    "tab": "linkedin_idea",
+    "headline": "C$^2$-Routing: Complementary Cropping and Compression for Efficient Vision-",
+    "summary": "Visual Question Answering (VQA) imposes substantial computational overhead on vision-language models (VLMs), motivating model-agnostic input reduction methods that can be readily applied across diverse VLMs, including in black-box settings. Simply enforcing a visual-token cap reduces computation, but it can discard information needed to answer the",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14469v1",
+    "date": "2026-11-13"
   },
   {
     "id": "a362b5fe1718",
@@ -184,6 +140,6 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.14468v1",
-    "date": "2026-11-12"
+    "date": "2026-11-13"
   }
 ]
