@@ -8,40 +8,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-15"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-15"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-15"
-  },
-  {
-    "id": "448701fe9974",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
-    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-    "date": "2026-11-15"
+    "date": "2026-11-16"
   },
   {
     "id": "3762ff1d2e30",
@@ -52,18 +19,51 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-15"
+    "date": "2026-11-16"
   },
   {
-    "id": "502258bdbf0b",
+    "id": "9668af85ed2e",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #65994: [Rust Frontend][gRPC] Add the Render service",
-    "summary": "## Overview Adds a `vllm.Render` gRPC service to the Rust frontend with one RPC, `RenderChat`, which renders a chat request into prompt token IDs plus the generation settings that rendering decides. The client copies these into its own `GenerateRequest` for `Inference.Generate`. No engine is needed.",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/65994",
-    "date": "2026-11-15"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-16"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-16"
+  },
+  {
+    "id": "448701fe9974",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.29.0: v0.29.0",
+    "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "date": "2026-11-16"
+  },
+  {
+    "id": "8c9560614850",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #67817: [Recipe] Kimi-K3.1-Pro: MI355X kimi-k31-5c14",
+    "summary": "## Overview Align the Kimi-K3.1-Pro MI355X AgentX TP8 preset (`mi355x_agentx`, from #67600) with [InferenceX #5089](https://github.com/SemiAnalysisAI/InferenceX/pull/5089) (`kimik3.1-fp4-mi355x-vllm-agentic-dspark`). That PR moves the lane to the `kimi-k31-5c14fe8` image and sets `VLLM_K3_SP_PREFILL=1` on every point. ## Claims - **Image.** - The preset pins `vllm/vllm-openai-rocm:kimi-k31-5c14fe8@sha256:a61996b4c270ec09111802f62b44f5c20ad4cb73068be022b2804a287b924b9a`, the digest #5089 measured. -",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/67817",
+    "date": "2026-11-16"
   },
   {
     "id": "f70e7b56d2cd",
@@ -74,29 +74,7 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.17332v1",
-    "date": "2026-11-15"
-  },
-  {
-    "id": "5c9f9b82031a",
-    "tab": "linkedin_idea",
-    "headline": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
-    "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17309v1",
-    "date": "2026-11-15"
-  },
-  {
-    "id": "4204d87434aa",
-    "tab": "linkedin_idea",
-    "headline": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio",
-    "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17329v1",
-    "date": "2026-11-15"
+    "date": "2026-11-16"
   },
   {
     "id": "a744ff898561",
@@ -107,7 +85,29 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.17302v1",
-    "date": "2026-11-15"
+    "date": "2026-11-16"
+  },
+  {
+    "id": "4204d87434aa",
+    "tab": "linkedin_idea",
+    "headline": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio",
+    "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17329v1",
+    "date": "2026-11-16"
+  },
+  {
+    "id": "5c9f9b82031a",
+    "tab": "linkedin_idea",
+    "headline": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+    "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17309v1",
+    "date": "2026-11-16"
   },
   {
     "id": "467b523e4369",
@@ -118,17 +118,17 @@
     "colab_runnable": false,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.17298v1",
-    "date": "2026-11-15"
+    "date": "2026-11-16"
   },
   {
-    "id": "254d65d6a967",
+    "id": "51220045230d",
     "tab": "linkedin_idea",
-    "headline": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV):",
+    "headline": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Age",
+    "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate between model requests, development commands, and GPU execution, leaving GPU capacity",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17287v1",
-    "date": "2026-11-15"
+    "source_url": "https://arxiv.org/abs/2611.17294v1",
+    "date": "2026-11-16"
   }
 ]
