@@ -1,0 +1,200 @@
+[
+  {
+    "id": "6b094b83d0e3",
+    "tab": "learn",
+    "headline": "How VLMs Plan What's Next",
+    "summary": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21600v1",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "7259f5e9d5bd",
+    "tab": "learn",
+    "headline": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+    "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "b95538822455",
+    "tab": "learn",
+    "headline": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+    "summary": "Hi HN, Sanchit here from RunAnywhere (YC W26). We just open-sourced TrnRT: Trainium RunTime, our inference engine for AWS Trainium. We started 3 weeks back, and currently we’re able to serve and run GLM 5.3 flash (FP8) on AWS trn2.48xlarge, and will bring more models",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/RunanywhereAI/trnrt",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "528eadabb779",
+    "tab": "learn",
+    "headline": "Show HN: Open Academy – Math Academy-style courses for any subject",
+    "summary": "Open Academy is an open-source app inspired by Math Academy (https:&#x2F;&#x2F;mathacademy.com&#x2F;). You use it to create courses on any subject, taught in a similar way.If you&#x27;re unfamiliar with Math Academy, it&#x27;s a maths learning site with short lessons, lots of practice questions, and reviews that",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/Jonathanvwersch/open-academy",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "15c04619fca7",
+    "tab": "learn",
+    "headline": "Show HN: Revix AI – PR review against the standards your repo follows",
+    "summary": "Hello, I’m Oscar. I’ve been leading dev teams from Barcelona with my cofounder Uri for a long time. We pushed the use of AI a lot, allowing an increase in the code shipment velocity, but our job as seniors moved from building to just reviewing.",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://www.revix.ai",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "a9343fb8188b",
+    "tab": "learn",
+    "headline": "Show HN: Deslop skill based on corpus-linguistics and psycholinguistics res",
+    "summary": "I vibed this deslop skill because I was getting increasingly annoyed that deslop skills for prose relied either on fitting prose into an overly restrictive format (simple-english and iso-24495) or telling AI to rewrite something without providing any tools in the skill to measure the",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/etodanik/deslop",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "c87649611876",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.34.0: v0.34.0",
+    "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "240ee6f2dca3",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #67563: [Direct reload] Flag padded params with fill",
+    "summary": "## Purpose At begin, a direct weight reload (`VLLM_RELOAD_MODE=direct`) zero-fills MoE expert padding that the loaders skip (#64352). Today the decision is a module method, `padding_fill_params()`. `record_checkpoint_layout` calls it once at cold start and snapshots the result as `(module, name)` pairs. `MergedColumnParallelLinear` (`padding_size`, #66784) implements",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/67563",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "7ebe9551f210",
+    "tab": "linkedin_idea",
+    "headline": "Reading or Remembering? Measuring Temporal Contamination in Language Models",
+    "summary": "Language models are now used to read central-bank text for economic forecasting, but most were trained on text written after the documents they read. A model reading a 2021 FOMC statement may already know that inflation rose in 2022, so part of its apparent skill",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21554v1",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "dd0f3dbe278d",
+    "tab": "linkedin_idea",
+    "headline": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: ",
+    "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21598v1",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "d617b4fc1cdb",
+    "tab": "linkedin_idea",
+    "headline": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism",
+    "summary": "Training with MXFP4, a 4-bit microscaling format, is non-deterministic: identical inputs can produce different results across parallelism layouts and GPU vendors. These differences complicate debugging and training audits and can cause training and inference engines to disagree. We present CertiSum to make MXFP4 training bitwise",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21584v1",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "1798f2fcfed1",
+    "tab": "linkedin_idea",
+    "headline": "When Do Histology Foundation Models Need Geometric Test-Time Augmentation?",
+    "summary": "Test-time augmentation (TTA) aggregates model predictions across multiple transformed views of an input during inference. Because histology images lack a canonical orientation, $D_4$ TTA---pooling across the 8 rotations and reflections of a square---is a standard default in computational pathology. However, the rise of self-supervised histology",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21565v1",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "22ed24eefa15",
+    "tab": "linkedin_idea",
+    "headline": "Almost Controlled: The FDR of Benjamini-Hochberg on Weighted Conformal p-Va",
+    "summary": "Weighted conformal p-values generalize conformal inference to cases with covariate shift. One way to use them is to pass them to the Benjamini-Hochberg (BH) procedure, either to decide which test units to select or to detect outliers. But weighted conformal p-values may not be positively",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21509v1",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "dde3f93ca1ce",
+    "tab": "linkedin_idea",
+    "headline": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Orac",
+    "summary": "Reinforcement learning from verifiable rewards inherits whatever its verifier gets wrong. Outside mathematics and code the verifier is a proxy, a rubric, a learned judge or a hand-written checker, and its distance from the true objective is never measured, so a rising reward cannot be",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21538v1",
+    "date": "2026-11-18"
+  }
+]
