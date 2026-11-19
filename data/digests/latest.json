@@ -1,14 +1,14 @@
 [
   {
-    "id": "6b094b83d0e3",
+    "id": "6983adf59791",
     "tab": "learn",
-    "headline": "How VLMs Plan What's Next",
-    "summary": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks.",
+    "headline": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+    "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
+    "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21600v1",
-    "date": "2026-11-18"
+    "source_url": "https://arxiv.org/abs/2611.23219v1",
+    "date": "2026-11-19"
   },
   {
     "id": "7259f5e9d5bd",
@@ -19,7 +19,7 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
-    "date": "2026-11-18"
+    "date": "2026-11-19"
   },
   {
     "id": "b95538822455",
@@ -30,40 +30,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/RunanywhereAI/trnrt",
-    "date": "2026-11-18"
-  },
-  {
-    "id": "528eadabb779",
-    "tab": "learn",
-    "headline": "Show HN: Open Academy – Math Academy-style courses for any subject",
-    "summary": "Open Academy is an open-source app inspired by Math Academy (https:&#x2F;&#x2F;mathacademy.com&#x2F;). You use it to create courses on any subject, taught in a similar way.If you&#x27;re unfamiliar with Math Academy, it&#x27;s a maths learning site with short lessons, lots of practice questions, and reviews that",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://github.com/Jonathanvwersch/open-academy",
-    "date": "2026-11-18"
-  },
-  {
-    "id": "15c04619fca7",
-    "tab": "learn",
-    "headline": "Show HN: Revix AI – PR review against the standards your repo follows",
-    "summary": "Hello, I’m Oscar. I’ve been leading dev teams from Barcelona with my cofounder Uri for a long time. We pushed the use of AI a lot, allowing an increase in the code shipment velocity, but our job as seniors moved from building to just reviewing.",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://www.revix.ai",
-    "date": "2026-11-18"
-  },
-  {
-    "id": "a9343fb8188b",
-    "tab": "learn",
-    "headline": "Show HN: Deslop skill based on corpus-linguistics and psycholinguistics res",
-    "summary": "I vibed this deslop skill because I was getting increasingly annoyed that deslop skills for prose relied either on fitting prose into an overly restrictive format (simple-english and iso-24495) or telling AI to rewrite something without providing any tools in the skill to measure the",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "Hacker News",
-    "source_url": "https://github.com/etodanik/deslop",
-    "date": "2026-11-18"
+    "date": "2026-11-19"
   },
   {
     "id": "c87649611876",
@@ -74,7 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-    "date": "2026-11-18"
+    "date": "2026-11-19"
   },
   {
     "id": "109261365670",
@@ -85,18 +52,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-18"
-  },
-  {
-    "id": "240ee6f2dca3",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #67563: [Direct reload] Flag padded params with fill",
-    "summary": "## Purpose At begin, a direct weight reload (`VLLM_RELOAD_MODE=direct`) zero-fills MoE expert padding that the loaders skip (#64352). Today the decision is a module method, `padding_fill_params()`. `record_checkpoint_layout` calls it once at cold start and snapshots the result as `(module, name)` pairs. `MergedColumnParallelLinear` (`padding_size`, #66784) implements",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/67563",
-    "date": "2026-11-18"
+    "date": "2026-11-19"
   },
   {
     "id": "83a753b4160c",
@@ -107,7 +63,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-18"
+    "date": "2026-11-19"
   },
   {
     "id": "9668af85ed2e",
@@ -118,7 +74,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-18"
+    "date": "2026-11-19"
+  },
+  {
+    "id": "107712d06715",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #68526: [Perf][Ray] Kill RayExecutorV2 actors before",
+    "summary": "## Overview `RayExecutorV2.shutdown()` joins its monitor thread before killing the Ray actors, so it waits up to the monitor's 5 s `ray.wait()` poll. Kill the actors first: the monitor's `ray.wait` returns at once, `_should_stop()` is true, and the loop exits. Split out of #68288 at",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/68526",
+    "date": "2026-11-19"
   },
   {
     "id": "3762ff1d2e30",
@@ -129,72 +96,72 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-18"
+    "date": "2026-11-19"
   },
   {
-    "id": "7ebe9551f210",
+    "id": "d4599a174218",
     "tab": "linkedin_idea",
-    "headline": "Reading or Remembering? Measuring Temporal Contamination in Language Models",
-    "summary": "Language models are now used to read central-bank text for economic forecasting, but most were trained on text written after the documents they read. A model reading a 2021 FOMC statement may already know that inflation rose in 2022, so part of its apparent skill",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21554v1",
-    "date": "2026-11-18"
-  },
-  {
-    "id": "dd0f3dbe278d",
-    "tab": "linkedin_idea",
-    "headline": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: ",
-    "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural",
+    "headline": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attri",
+    "summary": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instruct.",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21598v1",
-    "date": "2026-11-18"
+    "source_url": "https://arxiv.org/abs/2611.23218v1",
+    "date": "2026-11-19"
   },
   {
-    "id": "d617b4fc1cdb",
+    "id": "f7e9ceb9d2e9",
     "tab": "linkedin_idea",
-    "headline": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism",
-    "summary": "Training with MXFP4, a 4-bit microscaling format, is non-deterministic: identical inputs can produce different results across parallelism layouts and GPU vendors. These differences complicate debugging and training audits and can cause training and inference engines to disagree. We present CertiSum to make MXFP4 training bitwise",
+    "headline": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+    "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23228v1",
+    "date": "2026-11-19"
+  },
+  {
+    "id": "1ba775ac45e8",
+    "tab": "linkedin_idea",
+    "headline": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+    "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE,",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23211v1",
+    "date": "2026-11-19"
+  },
+  {
+    "id": "93cc6a01f2ff",
+    "tab": "linkedin_idea",
+    "headline": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matchin",
+    "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution. To",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21584v1",
-    "date": "2026-11-18"
+    "source_url": "https://arxiv.org/abs/2611.23229v1",
+    "date": "2026-11-19"
   },
   {
-    "id": "1798f2fcfed1",
+    "id": "4292e0ac6f6a",
     "tab": "linkedin_idea",
-    "headline": "When Do Histology Foundation Models Need Geometric Test-Time Augmentation?",
-    "summary": "Test-time augmentation (TTA) aggregates model predictions across multiple transformed views of an input during inference. Because histology images lack a canonical orientation, $D_4$ TTA---pooling across the 8 rotations and reflections of a square---is a standard default in computational pathology. However, the rise of self-supervised histology",
+    "headline": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
+    "summary": "We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output distribution unchanged; this",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21565v1",
-    "date": "2026-11-18"
+    "source_url": "https://arxiv.org/abs/2611.23208v1",
+    "date": "2026-11-19"
   },
   {
-    "id": "22ed24eefa15",
+    "id": "cb9af4741aba",
     "tab": "linkedin_idea",
-    "headline": "Almost Controlled: The FDR of Benjamini-Hochberg on Weighted Conformal p-Va",
-    "summary": "Weighted conformal p-values generalize conformal inference to cases with covariate shift. One way to use them is to pass them to the Benjamini-Hochberg (BH) procedure, either to decide which test units to select or to detect outliers. But weighted conformal p-values may not be positively",
+    "headline": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT ",
+    "summary": "Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21509v1",
-    "date": "2026-11-18"
-  },
-  {
-    "id": "dde3f93ca1ce",
-    "tab": "linkedin_idea",
-    "headline": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Orac",
-    "summary": "Reinforcement learning from verifiable rewards inherits whatever its verifier gets wrong. Outside mathematics and code the verifier is a proxy, a rubric, a learned judge or a hand-written checker, and its distance from the true objective is never measured, so a rising reward cannot be",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21538v1",
-    "date": "2026-11-18"
+    "source_url": "https://arxiv.org/abs/2611.23205v1",
+    "date": "2026-11-19"
   }
 ]
