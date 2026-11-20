@@ -1,16 +1,5 @@
 [
   {
-    "id": "6983adf59791",
-    "tab": "learn",
-    "headline": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-    "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23219v1",
-    "date": "2026-11-19"
-  },
-  {
     "id": "7259f5e9d5bd",
     "tab": "learn",
     "headline": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
@@ -19,18 +8,18 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
-    "date": "2026-11-19"
+    "date": "2026-11-20"
   },
   {
-    "id": "b95538822455",
+    "id": "ab329bbb6071",
     "tab": "learn",
-    "headline": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
-    "summary": "Hi HN, Sanchit here from RunAnywhere (YC W26). We just open-sourced TrnRT: Trainium RunTime, our inference engine for AWS Trainium. We started 3 weeks back, and currently we’re able to serve and run GLM 5.3 flash (FP8) on AWS trn2.48xlarge, and will bring more models",
+    "headline": "Show HN: Watch weight-space programming in action with WebGPU",
+    "summary": "I wanted to build a full weight-space programming loop entirely in the browser with WebGPU: let an LLM inspect Qwen3.5-0.8B, edit its weights, evaluate, and repeat.the full loop needed too much VRAM. so I turned it into an interactive walkthrough of a concrete example: editing",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "Hacker News",
-    "source_url": "https://github.com/RunanywhereAI/trnrt",
-    "date": "2026-11-19"
+    "source_url": "https://tabbyml.github.io/weight-space-playground/",
+    "date": "2026-11-20"
   },
   {
     "id": "c87649611876",
@@ -41,29 +30,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-    "date": "2026-11-19"
-  },
-  {
-    "id": "109261365670",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
-    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-19"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-19"
+    "date": "2026-11-20"
   },
   {
     "id": "9668af85ed2e",
@@ -74,18 +41,40 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-19"
+    "date": "2026-11-20"
   },
   {
-    "id": "107712d06715",
+    "id": "109261365670",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #68526: [Perf][Ray] Kill RayExecutorV2 actors before",
-    "summary": "## Overview `RayExecutorV2.shutdown()` joins its monitor thread before killing the Ray actors, so it waits up to the monitor's 5 s `ray.wait()` poll. Kill the actors first: the monitor's `ray.wait` returns at once, `_should_stop()` is true, and the loop exits. Split out of #68288 at",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/68526",
-    "date": "2026-11-19"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "0877b9bed09c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #67648: [Bugfix][Transformers] Preserve received hid",
+    "summary": "## Overview On later pipeline stages, the Transformers modeling backend no longer reapplies what the decoder does to its inputs before its layers (learned position embeddings, embedding scaling). Fixes the GPTBigCode PP defect tracked in [#66290](https://github.com/vllm-project/vllm/issues/66290). Also fixes silently wrong PP outputs for Transformers backend",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/67648",
+    "date": "2026-11-20"
   },
   {
     "id": "3762ff1d2e30",
@@ -96,72 +85,72 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-19"
+    "date": "2026-11-20"
   },
   {
-    "id": "d4599a174218",
+    "id": "113dc9500fe0",
     "tab": "linkedin_idea",
-    "headline": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attri",
-    "summary": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instruct.",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23218v1",
-    "date": "2026-11-19"
-  },
-  {
-    "id": "f7e9ceb9d2e9",
-    "tab": "linkedin_idea",
-    "headline": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-    "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are",
+    "headline": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Ca",
+    "summary": "A fixed dispatch rate for LLM inference becomes stale as serving fleets resize and request sizes change. Generative output length is unknown at admission, and shared provider pools can lose capacity. We present Cap-and-Track, a design for asynchronous inference across provider capacity and internal GPUs.",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23228v1",
-    "date": "2026-11-19"
+    "source_url": "https://arxiv.org/abs/2611.24891v1",
+    "date": "2026-11-20"
   },
   {
-    "id": "1ba775ac45e8",
+    "id": "6a6bda558f6c",
     "tab": "linkedin_idea",
-    "headline": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-    "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE,",
+    "headline": "DispersedBFT: Bottleneck-Free Primary-Backup Consensus using Dispersed Repl",
+    "summary": "The advent of blockchains is fueling the development of novel resilient data management systems (RDSs). Typically, these RDSs are managed using a primary-backup design using a consensus protocol such as PBFT. In these primary-backup designs, a single participant, the primary, is responsible for coordinating the",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23211v1",
-    "date": "2026-11-19"
+    "source_url": "https://arxiv.org/abs/2611.24833v1",
+    "date": "2026-11-20"
   },
   {
-    "id": "93cc6a01f2ff",
+    "id": "daaca048c204",
     "tab": "linkedin_idea",
-    "headline": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matchin",
-    "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution. To",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23229v1",
-    "date": "2026-11-19"
-  },
-  {
-    "id": "4292e0ac6f6a",
-    "tab": "linkedin_idea",
-    "headline": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
-    "summary": "We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output distribution unchanged; this",
+    "headline": "The Elephant in the Question: Unified Models Picture the Concepts Behind Th",
+    "summary": "Visualizing intermediate representations could help us inspect the reasoning steps underlying a model output. Unified multimodal models offer this opportunity by combining understanding and generation in one architecture. Their image generators can access representations formed while processing text. We introduce the V-lens, which uses this",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23208v1",
-    "date": "2026-11-19"
+    "source_url": "https://arxiv.org/abs/2611.24793v1",
+    "date": "2026-11-20"
   },
   {
-    "id": "cb9af4741aba",
+    "id": "5c73732d0c0d",
     "tab": "linkedin_idea",
-    "headline": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT ",
-    "summary": "Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering",
+    "headline": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills ",
+    "summary": "Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work has explored a more fine-grained perspective by decomposing mathematical reasoning into atomic skills and developing specialized modules",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23205v1",
-    "date": "2026-11-19"
+    "source_url": "https://arxiv.org/abs/2611.24846v1",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "3a089ca65887",
+    "tab": "linkedin_idea",
+    "headline": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
+    "summary": "Reinforcement learning (RL) uses rewards to train models to solve problems and complete tasks more successfully. Inference drives this process. Workers generate...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+    "date": "2026-11-20"
+  },
+  {
+    "id": "9c1e9b470a84",
+    "tab": "linkedin_idea",
+    "headline": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpo",
+    "summary": "Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/",
+    "date": "2026-11-20"
   }
 ]
