@@ -1,5 +1,16 @@
 [
   {
+    "id": "c75a18ddf258",
+    "tab": "learn",
+    "headline": "Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsaf",
+    "summary": "Multimodal image generation systems have made rapid progress and increasingly emphasize content safety. However, their safety mechanisms tend to rely on a single modality and lack joint consideration of both visual content and text prompts, particularly in instruction-guided image editing, where the uploaded image may",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26569v1",
+    "date": "2026-11-21"
+  },
+  {
     "id": "7259f5e9d5bd",
     "tab": "learn",
     "headline": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
@@ -8,40 +19,40 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
-    "date": "2026-11-20"
+    "date": "2026-11-21"
   },
   {
-    "id": "ab329bbb6071",
+    "id": "450ba39221e8",
     "tab": "learn",
-    "headline": "Show HN: Watch weight-space programming in action with WebGPU",
-    "summary": "I wanted to build a full weight-space programming loop entirely in the browser with WebGPU: let an LLM inspect Qwen3.5-0.8B, edit its weights, evaluate, and repeat.the full loop needed too much VRAM. so I turned it into an interactive walkthrough of a concrete example: editing",
+    "headline": "Show HN: LarpLess, open-source study tracker detecting distractions locally",
+    "summary": "I am ashamed to admit that I am one of those students who go to the library and get very little done (a.k.a. larping). It&#x27;s very easy to get distracted if you have any electronic devices with you, but as a CS major, I can&#x27;t",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "Hacker News",
-    "source_url": "https://tabbyml.github.io/weight-space-playground/",
-    "date": "2026-11-20"
+    "source_url": "https://larpless.app/",
+    "date": "2026-11-21"
   },
   {
-    "id": "c87649611876",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.34.0: v0.34.0",
-    "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-    "date": "2026-11-20"
+    "id": "e136e52e564f",
+    "tab": "learn",
+    "headline": "Show HN: AI Inference for Beginners: 6 hours of video and 85 pages of notes",
+    "summary": "Tired of AI Slop learning? This took me months to write,record, and edit. I hope you can learn from this! It dives into a smaller version of vLLM and explains many deep learning concepts and optimizations from first principles! enjoy :)",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/samir-sarwar/samir-vllm/blob/main/InferenceFromScratch.pdf",
+    "date": "2026-11-21"
   },
   {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-20"
+    "id": "f22db79b36ee",
+    "tab": "learn",
+    "headline": "Show HN: Zeus – Claude Code for AI voice agents",
+    "summary": "Hi everyone, Alex here - I’m one of the founders of ThunderPhone. We’re excited to announce the launch of Zeus, a platform that makes AI phone calls actually work without extensive hand-tuning!You can see a head-to-head I made of the last version of ThunderPhone vs",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://thunderphone.com/blog/introducing-zeus",
+    "date": "2026-11-21"
   },
   {
     "id": "109261365670",
@@ -52,7 +63,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-20"
+    "date": "2026-11-21"
   },
   {
     "id": "83a753b4160c",
@@ -63,18 +74,29 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-20"
+    "date": "2026-11-21"
   },
   {
-    "id": "0877b9bed09c",
+    "id": "c87649611876",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #67648: [Bugfix][Transformers] Preserve received hid",
-    "summary": "## Overview On later pipeline stages, the Transformers modeling backend no longer reapplies what the decoder does to its inputs before its layers (learned position embeddings, embedding scaling). Fixes the GPTBigCode PP defect tracked in [#66290](https://github.com/vllm-project/vllm/issues/66290). Also fixes silently wrong PP outputs for Transformers backend",
+    "headline": "[vllm-project/vllm] Release v0.34.0: v0.34.0",
+    "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/67648",
-    "date": "2026-11-20"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "date": "2026-11-21"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-21"
   },
   {
     "id": "3762ff1d2e30",
@@ -85,72 +107,83 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-20"
+    "date": "2026-11-21"
   },
   {
-    "id": "113dc9500fe0",
-    "tab": "linkedin_idea",
-    "headline": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Ca",
-    "summary": "A fixed dispatch rate for LLM inference becomes stale as serving fleets resize and request sizes change. Generative output length is unknown at admission, and shared provider pools can lose capacity. We present Cap-and-Track, a design for asynchronous inference across provider capacity and internal GPUs.",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24891v1",
-    "date": "2026-11-20"
-  },
-  {
-    "id": "6a6bda558f6c",
-    "tab": "linkedin_idea",
-    "headline": "DispersedBFT: Bottleneck-Free Primary-Backup Consensus using Dispersed Repl",
-    "summary": "The advent of blockchains is fueling the development of novel resilient data management systems (RDSs). Typically, these RDSs are managed using a primary-backup design using a consensus protocol such as PBFT. In these primary-backup designs, a single participant, the primary, is responsible for coordinating the",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24833v1",
-    "date": "2026-11-20"
-  },
-  {
-    "id": "daaca048c204",
-    "tab": "linkedin_idea",
-    "headline": "The Elephant in the Question: Unified Models Picture the Concepts Behind Th",
-    "summary": "Visualizing intermediate representations could help us inspect the reasoning steps underlying a model output. Unified multimodal models offer this opportunity by combining understanding and generation in one architecture. Their image generators can access representations formed while processing text. We introduce the V-lens, which uses this",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24793v1",
-    "date": "2026-11-20"
-  },
-  {
-    "id": "5c73732d0c0d",
-    "tab": "linkedin_idea",
-    "headline": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills ",
-    "summary": "Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work has explored a more fine-grained perspective by decomposing mathematical reasoning into atomic skills and developing specialized modules",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "id": "c67c781834e9",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #68760: [Benchmark] Add decisions backends to vllm b",
+    "summary": "Adds the vllm-systemone (`/v1/systemone`) and openai-decisions (`/v1/decisions`) backends so that we don't have to create a one off script for these benchmark runs. ## Validation Tested both backends against a real `Qwen/Qwen3-0.6B` vLLM server on an **H100 80GB**, using BF16. ### Tests ```bash .venv/bin/python -m",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/68760",
+    "date": "2026-11-21"
+  },
+  {
+    "id": "b319fb99b669",
+    "tab": "linkedin_idea",
+    "headline": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Mode",
+    "summary": "Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24846v1",
-    "date": "2026-11-20"
+    "source_url": "https://arxiv.org/abs/2611.26531v1",
+    "date": "2026-11-21"
   },
   {
-    "id": "3a089ca65887",
+    "id": "7c100c8e4b36",
     "tab": "linkedin_idea",
-    "headline": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
-    "summary": "Reinforcement learning (RL) uses rewards to train models to solve problems and complete tasks more successfully. Inference drives this process. Workers generate...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "headline": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management a",
+    "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
-    "date": "2026-11-20"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26619v1",
+    "date": "2026-11-21"
   },
   {
-    "id": "9c1e9b470a84",
+    "id": "a4a89f4fb4fa",
     "tab": "linkedin_idea",
-    "headline": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpo",
-    "summary": "Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool...",
-    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "headline": "Active Feature Acquisition by Distilling an Oracle Teacher",
+    "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
-    "source_name": "NVIDIA Developer Blog",
-    "source_url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/",
-    "date": "2026-11-20"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26598v1",
+    "date": "2026-11-21"
+  },
+  {
+    "id": "f555cad93363",
+    "tab": "linkedin_idea",
+    "headline": "Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent",
+    "summary": "LLM agents spend nearly all their time waiting for the model. On Amazon Bedrock AgentCore, our agents waited a median of 2.7 seconds for each model reply, then computed for an estimated 5 to 40 milliseconds. AgentCore does not charge for CPU during the wait.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26480v1",
+    "date": "2026-11-21"
+  },
+  {
+    "id": "bfe9705675b7",
+    "tab": "linkedin_idea",
+    "headline": "Scaling classical hardware for accurate real-time quantum error correction",
+    "summary": "Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26447v1",
+    "date": "2026-11-21"
+  },
+  {
+    "id": "7364f57d8d33",
+    "tab": "linkedin_idea",
+    "headline": "Exact Bayesian layers via characteristic functions",
+    "summary": "Bayesian neural networks provide principled uncertainty estimates, but training them with Monte Carlo sampling can be expensive. Sampling-free variational inference algorithms make training Bayesian neural networks feasible, but existing approaches assume a Gaussian output distribution, which can be inaccurate in applied problems. Here, we introduce",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26426v1",
+    "date": "2026-11-21"
   }
 ]
