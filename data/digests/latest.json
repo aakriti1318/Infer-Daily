@@ -1,16 +1,5 @@
 [
   {
-    "id": "c75a18ddf258",
-    "tab": "learn",
-    "headline": "Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsaf",
-    "summary": "Multimodal image generation systems have made rapid progress and increasingly emphasize content safety. However, their safety mechanisms tend to rely on a single modality and lack joint consideration of both visual content and text prompts, particularly in instruction-guided image editing, where the uploaded image may",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26569v1",
-    "date": "2026-11-23"
-  },
-  {
     "id": "7259f5e9d5bd",
     "tab": "learn",
     "headline": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
@@ -19,7 +8,18 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
-    "date": "2026-11-23"
+    "date": "2026-11-24"
+  },
+  {
+    "id": "614432390716",
+    "tab": "learn",
+    "headline": "Show HN: Ignis – A browser-native LLM and multimodal inference engine",
+    "summary": "Show HN: Ignis – A browser-native LLM and multimodal inference engine",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://ignis.ray-d-song.com/",
+    "date": "2026-11-24"
   },
   {
     "id": "ed6aed204bd6",
@@ -30,18 +30,7 @@
     "colab_runnable": false,
     "source_name": "Hacker News",
     "source_url": "https://github.com/pkukielka/gitfold",
-    "date": "2026-11-23"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-23"
+    "date": "2026-11-24"
   },
   {
     "id": "c87649611876",
@@ -52,7 +41,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-    "date": "2026-11-23"
+    "date": "2026-11-24"
   },
   {
     "id": "109261365670",
@@ -63,18 +52,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-23"
+    "date": "2026-11-24"
   },
   {
-    "id": "9668af85ed2e",
+    "id": "83a753b4160c",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-23"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-24"
   },
   {
     "id": "3762ff1d2e30",
@@ -85,83 +74,94 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-23"
+    "date": "2026-11-24"
   },
   {
-    "id": "ff0ee8e5fefb",
+    "id": "9668af85ed2e",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #69296: [Recipe] Inkling 2 Mini: use the nightly ima",
-    "summary": "## Overview Inkling 2 Mini support (#69028) is merged, so the recipe (#69027) now serves from `vllm/vllm-openai:nightly` instead of the dedicated `vllm/vllm-openai:inkling-2-mini` image, as the Inkling 2 Small recipe does. ## Claims - `docker_image` is `vllm/vllm-openai:nightly`; the install note pointing to the dedicated image (and",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "e2d16bcda500",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #67185: [Bugfix][HiSparse] Reclaim resident pages be",
+    "summary": "## Summary Fix HiSparse prefill and streaming-resume stalls when allocating Hot first can release enough resident pages for the next allocation. Preallocation runs only on a capacity shortfall. HiSparse owns eligibility and Hot allocation; Hot managers retain the allocated blocks until the normal allocation loop",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/69296",
-    "date": "2026-11-23"
+    "source_url": "https://github.com/vllm-project/vllm/pull/67185",
+    "date": "2026-11-24"
   },
   {
-    "id": "a4a89f4fb4fa",
+    "id": "9a5a36c1b1fa",
     "tab": "linkedin_idea",
-    "headline": "Active Feature Acquisition by Distilling an Oracle Teacher",
-    "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing",
+    "headline": "Ranking-Preserving Coreset Selection for Efficient Evolutionary Hyperparame",
+    "summary": "Hyperparameter optimization (HPO) is essential for high predictive performance, but its computational cost becomes prohibitive when candidate configurations require repeated training on large datasets. This paper proposes a ranking-preserving coreset (RPC) selection framework for accelerating evolutionary HPO. The method constructs a compact coreset that preserves",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26598v1",
-    "date": "2026-11-23"
+    "source_url": "https://arxiv.org/abs/2611.27959v1",
+    "date": "2026-11-24"
   },
   {
-    "id": "f555cad93363",
+    "id": "a5ee59054315",
     "tab": "linkedin_idea",
-    "headline": "Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent",
-    "summary": "LLM agents spend nearly all their time waiting for the model. On Amazon Bedrock AgentCore, our agents waited a median of 2.7 seconds for each model reply, then computed for an estimated 5 to 40 milliseconds. AgentCore does not charge for CPU during the wait.",
+    "headline": "Topology Hub Optimal Transport: Eliminating Long Context Dilution at Flash ",
+    "summary": "Long-context models use sparse or structured attention to avoid quadratic cost, yet retrieving a small set of relevant facts embedded among hundreds of thousands of distractors degrades as normalization mass disperses with length. Hub-and-spoke optimal transport (OT) replaces the dense $L \\times L$ matrix with",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26480v1",
-    "date": "2026-11-23"
+    "source_url": "https://arxiv.org/abs/2611.27951v1",
+    "date": "2026-11-24"
   },
   {
-    "id": "7c100c8e4b36",
+    "id": "90308509dad7",
     "tab": "linkedin_idea",
-    "headline": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management a",
-    "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing",
+    "headline": "Mixture of Latent Recursions for Low-Rank Adaptation",
+    "summary": "Low-Rank Adaptation (LoRA) performs task-specific adaptation using a fixed low-rank architecture, whose expressiveness is typically increased by enlarging or adding learnable modules with a proportional parameter overhead. We introduce Mixture of Latent Recursions (MoLR), an adaptive recursion framework that enhances adaptation expressiveness while preserving parameter",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26619v1",
-    "date": "2026-11-23"
+    "source_url": "https://arxiv.org/abs/2611.27823v1",
+    "date": "2026-11-24"
   },
   {
-    "id": "b319fb99b669",
+    "id": "b7f9e29b7a8a",
     "tab": "linkedin_idea",
-    "headline": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Mode",
-    "summary": "Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as",
+    "headline": "Anchors That Move Without Collapsing: Exclusive-Region Anchor Routing for V",
+    "summary": "Anchor tokens let a vision transformer exchange global information through a few summaries, but nothing forces different anchors to summarise different things. On one shared backbone we show that a Perceiver-style pathway and an AnchorFormer pathway collapse to a single summary, the latter despite its",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26531v1",
-    "date": "2026-11-23"
+    "source_url": "https://arxiv.org/abs/2611.27855v1",
+    "date": "2026-11-24"
   },
   {
-    "id": "bfe9705675b7",
+    "id": "f88d57de90ed",
     "tab": "linkedin_idea",
-    "headline": "Scaling classical hardware for accurate real-time quantum error correction",
-    "summary": "Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding",
+    "headline": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in We",
+    "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX anomalies. To address this, we introduce the Dual-Tier Sentiment Framework, a novel industrial",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26447v1",
-    "date": "2026-11-23"
+    "source_url": "https://arxiv.org/abs/2611.27899v1",
+    "date": "2026-11-24"
   },
   {
-    "id": "aa04c78901f1",
+    "id": "7a83b0cfac43",
     "tab": "linkedin_idea",
-    "headline": "Learning to Defer under Expert Drift",
-    "summary": "The learning to defer (L2D) framework enables safety in machine learning and AI systems by allocating difficult or critical decisions to a human expert. However, most prior work on L2D assumes fixed expert reliability, overlooking temporal fluctuations in human performance due to factors such as",
+    "headline": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Lang",
+    "summary": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs to be",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26440v1",
-    "date": "2026-11-23"
+    "source_url": "https://arxiv.org/abs/2611.27810v1",
+    "date": "2026-11-24"
   }
 ]

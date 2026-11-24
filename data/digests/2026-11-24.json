@@ -1,0 +1,167 @@
+[
+  {
+    "id": "7259f5e9d5bd",
+    "tab": "learn",
+    "headline": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+    "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,...",
+    "why_it_matters": "Key development in NVIDIA Developer Blog impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "NVIDIA Developer Blog",
+    "source_url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "614432390716",
+    "tab": "learn",
+    "headline": "Show HN: Ignis – A browser-native LLM and multimodal inference engine",
+    "summary": "Show HN: Ignis – A browser-native LLM and multimodal inference engine",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://ignis.ray-d-song.com/",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "ed6aed204bd6",
+    "tab": "learn",
+    "headline": "Show HN: Gitfold – every Git branch as a folder, ready in a second",
+    "summary": "Hi HN!I want to show you a project which I&#x27;m using myself to save time on worktrees creation and management. My case is a bit specific because I&#x27;m normally working on a really big monorepo, where creation of a worktree takes around a minute and",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/pkukielka/gitfold",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "c87649611876",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.34.0: v0.34.0",
+    "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "3762ff1d2e30",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.30.0: v0.30.0",
+    "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "e2d16bcda500",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #67185: [Bugfix][HiSparse] Reclaim resident pages be",
+    "summary": "## Summary Fix HiSparse prefill and streaming-resume stalls when allocating Hot first can release enough resident pages for the next allocation. Preallocation runs only on a capacity shortfall. HiSparse owns eligibility and Hot allocation; Hot managers retain the allocated blocks until the normal allocation loop",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/67185",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "9a5a36c1b1fa",
+    "tab": "linkedin_idea",
+    "headline": "Ranking-Preserving Coreset Selection for Efficient Evolutionary Hyperparame",
+    "summary": "Hyperparameter optimization (HPO) is essential for high predictive performance, but its computational cost becomes prohibitive when candidate configurations require repeated training on large datasets. This paper proposes a ranking-preserving coreset (RPC) selection framework for accelerating evolutionary HPO. The method constructs a compact coreset that preserves",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.27959v1",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "a5ee59054315",
+    "tab": "linkedin_idea",
+    "headline": "Topology Hub Optimal Transport: Eliminating Long Context Dilution at Flash ",
+    "summary": "Long-context models use sparse or structured attention to avoid quadratic cost, yet retrieving a small set of relevant facts embedded among hundreds of thousands of distractors degrades as normalization mass disperses with length. Hub-and-spoke optimal transport (OT) replaces the dense $L \\times L$ matrix with",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.27951v1",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "90308509dad7",
+    "tab": "linkedin_idea",
+    "headline": "Mixture of Latent Recursions for Low-Rank Adaptation",
+    "summary": "Low-Rank Adaptation (LoRA) performs task-specific adaptation using a fixed low-rank architecture, whose expressiveness is typically increased by enlarging or adding learnable modules with a proportional parameter overhead. We introduce Mixture of Latent Recursions (MoLR), an adaptive recursion framework that enhances adaptation expressiveness while preserving parameter",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.27823v1",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "b7f9e29b7a8a",
+    "tab": "linkedin_idea",
+    "headline": "Anchors That Move Without Collapsing: Exclusive-Region Anchor Routing for V",
+    "summary": "Anchor tokens let a vision transformer exchange global information through a few summaries, but nothing forces different anchors to summarise different things. On one shared backbone we show that a Perceiver-style pathway and an AnchorFormer pathway collapse to a single summary, the latter despite its",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.27855v1",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "f88d57de90ed",
+    "tab": "linkedin_idea",
+    "headline": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in We",
+    "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX anomalies. To address this, we introduce the Dual-Tier Sentiment Framework, a novel industrial",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.27899v1",
+    "date": "2026-11-24"
+  },
+  {
+    "id": "7a83b0cfac43",
+    "tab": "linkedin_idea",
+    "headline": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Lang",
+    "summary": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs to be",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.27810v1",
+    "date": "2026-11-24"
+  }
+]
