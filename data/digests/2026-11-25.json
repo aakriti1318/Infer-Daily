@@ -1,0 +1,167 @@
+[
+  {
+    "id": "17d6ca6d581b",
+    "tab": "learn",
+    "headline": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud LLM Inferen",
+    "summary": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud LLM Inference",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://gangmuk.github.io/koi/",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "614432390716",
+    "tab": "learn",
+    "headline": "Show HN: Ignis – A browser-native LLM and multimodal inference engine",
+    "summary": "Show HN: Ignis – A browser-native LLM and multimodal inference engine",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://ignis.ray-d-song.com/",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "992674b5cae8",
+    "tab": "learn",
+    "headline": "Show HN: Scapy for the Agentic SRE",
+    "summary": "There have been some interest for networking tools lately (pcap analyzers, iperf) so let me introduce you to Crafty, a network investigation tool designed for LLM: like Scapy, but safe (and also: better).There is an associated benchmark where you can compare the efficiency of various",
+    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "Hacker News",
+    "source_url": "https://github.com/rixed/robinet/blob/master/docs/crafty.md",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "c87649611876",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.34.0: v0.34.0",
+    "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "9668af85ed2e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "8b2051871d04",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #68728: [Transformers backend] Migrate SarvamMLA and",
+    "summary": "## Overview Serve `SarvamMLAForCausalLM` (`sarvamai/sarvam-105b`) and `SarvamMoEForCausalLM` (`sarvamai/sarvam-30b`) through the Transformers modeling backend and delete `sarvam.py`, now that Transformers 5.24 implements `sarvam_mla` (huggingface/transformers#44569) and `sarvam_moe` (huggingface/transformers#51023). The backend prerequisites (#69689, #69695, #69673, #68724, #68717) are all merged. ## Claims - Both checkpoints load unmodified without",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/68728",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "5f6fba9225ea",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #69698: [Kernel] Keep L1::no_allocate on CuTeDSL GEM",
+    "summary": "## Overview Three CuTeDSL GEMM epilogues ask for `L1::no_allocate` on their 256-bit output stores through `CopyUniversalOp(..., l1c_evict_priority=NO_ALLOCATE)`. Since nvidia-cutlass-dsl 4.6, `CopyUniversalOp` accepts that attribute and drops it ([NVIDIA/cutlass#3711](https://github.com/NVIDIA/cutlass/issues/3711)), so the stores compile as plain `STG.E.ENL2.256`. This PR switches those atoms to `CopyR2GOp`, the op that",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/69698",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "ca4f22286535",
+    "tab": "linkedin_idea",
+    "headline": "Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrog",
+    "summary": "Physics simulation outputs increasingly come from solvers that no expert inspects, such as third-party packages in automated pipelines, programs written by large language models (LLMs), and learned surrogates. In earlier work on cardiac pulsed field ablation, we proposed that solvers return a certificate with their",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31211v1",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "41f1df3694ae",
+    "tab": "linkedin_idea",
+    "headline": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+    "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory prediction. Our analysis of Taylor importance in Alpamayo-1.5-10B",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31240v1",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "5771f82197cd",
+    "tab": "linkedin_idea",
+    "headline": "Geometry, Reliability, and Spacetime Dynamics of Hyper-Simplex Fractal Netw",
+    "summary": "Large-scale, delay-tolerant peer-to-peer networks that need strong consistency usually separate naming, routing, consensus, and ordering into independent layers. To bring deterministic network properties into complex peer-to-peer structures, we unify all four on a single recursive topology. Modeling mutual equality among N peers in Euclidean space",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31161v1",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "19017341755c",
+    "tab": "linkedin_idea",
+    "headline": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Progra",
+    "summary": "CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails when wrong matches, or hard negatives, outrank the correct one, and the gap is the",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31233v1",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "7140f3ce9ea0",
+    "tab": "linkedin_idea",
+    "headline": "Analyzing and Improving FlowMap Distillation of Autoregressive Video Models",
+    "summary": "FlowMap distillation offers a natural route to few-step generative modeling by directly learning a teacher's denoising trajectories. Yet for autoregressive (AR) video generation, existing few-step models still rely on distribution matching distillation (DMD) to remain competitive, sacrificing sample diversity and requiring a large bidirectional teacher.",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31164v1",
+    "date": "2026-11-25"
+  },
+  {
+    "id": "f4299087d7e7",
+    "tab": "linkedin_idea",
+    "headline": "Site-Conditioned Boundary Closure for Subsurface Seepage Forecasting and Re",
+    "summary": "Truncating a large heterogeneous diffusion model around a localized, threshold-activated outlet saves degrees of freedom but severs exterior feedback that governs when the outlet opens and how much it discharges. By separating forcing-driven background head from local withdrawal drawdown, Site-Conditioned Boundary Closure (SCBC) maps local",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31125v1",
+    "date": "2026-11-25"
+  }
+]
