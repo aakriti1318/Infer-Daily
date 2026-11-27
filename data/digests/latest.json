@@ -1,16 +1,5 @@
 [
   {
-    "id": "06a51c8c3fdf",
-    "tab": "learn",
-    "headline": "AVQ-Attention-2: Adaptive Vector-Quantized Attention with Exact Local Block",
-    "summary": "Attention costs $\\mathcal{O}(N^2)$ in the number of tokens. Vector-quantized attention reduces this to $\\mathcal{O}(NM)$ by clustering the $N$ keys, attending to the $M$ codewords instead, and its adaptive form, AVQ-attention, concentrates codebook resolution where a query's attention mass actually falls. We present AVQ-Attention-2, a better",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.32989v1",
-    "date": "2026-11-26"
-  },
-  {
     "id": "0c715b98f7c8",
     "tab": "learn",
     "headline": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Re",
@@ -19,7 +8,7 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
-    "date": "2026-11-26"
+    "date": "2026-11-27"
   },
   {
     "id": "6876461206d3",
@@ -30,73 +19,7 @@
     "colab_runnable": true,
     "source_name": "Hacker News",
     "source_url": "https://longyan.app/",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "123d0496ca32",
-    "tab": "learn",
-    "headline": "Show HN: Run Inkling 2 Mini on Mac Faster Than Anywhere Else",
-    "summary": "We developed a local inference engine that&#x27;s faster than llama.cpp, vllm-metal, and mlx-lm. Download and try for yourself. Free, private, fast forever.Inkling 2 Mini is very impressive as a small model.",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://www.subconscious.dev/local",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "17d6ca6d581b",
-    "tab": "learn",
-    "headline": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud LLM Inferen",
-    "summary": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud LLM Inference",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://gangmuk.github.io/koi/",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "992674b5cae8",
-    "tab": "learn",
-    "headline": "Show HN: Scapy for the Agentic SRE",
-    "summary": "There have been some interest for networking tools lately (pcap analyzers, iperf) so let me introduce you to Crafty, a network investigation tool designed for LLM: like Scapy, but safe (and also: better).There is an associated benchmark where you can compare the efficiency of various",
-    "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "Hacker News",
-    "source_url": "https://github.com/rixed/robinet/blob/master/docs/crafty.md",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "c87649611876",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.34.0: v0.34.0",
-    "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "83a753b4160c",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
-    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "9668af85ed2e",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
-    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-26"
+    "date": "2026-11-27"
   },
   {
     "id": "109261365670",
@@ -107,7 +30,29 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-26"
+    "date": "2026-11-27"
+  },
+  {
+    "id": "c87649611876",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.34.0: v0.34.0",
+    "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "date": "2026-11-27"
+  },
+  {
+    "id": "83a753b4160c",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.32.0: v0.32.0",
+    "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "date": "2026-11-27"
   },
   {
     "id": "3762ff1d2e30",
@@ -118,83 +63,94 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-26"
+    "date": "2026-11-27"
   },
   {
-    "id": "ce7785b67ef9",
+    "id": "9668af85ed2e",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #48354: [Bugfix] Fix collect_env.py crash on non-Lin",
-    "summary": "Replaces #45162, which was closed when the source fork was detached. ## Purpose `get_env_info()` calls `get_pkg_version()` on non-Linux platforms, where its Linux-only assertion aborts the environment report. Return `None` instead so the report can complete. Linux lookup behavior is unchanged. ## Test Plan Tested from",
+    "headline": "[vllm-project/vllm] Release v0.31.0: v0.31.0",
+    "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
+    "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/48354",
-    "date": "2026-11-26"
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "date": "2026-11-27"
   },
   {
-    "id": "c1ff04bdf824",
-    "tab": "linkedin_idea",
-    "headline": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Think",
-    "summary": "Qwen3.5-0.8B rarely finishes reasoning in thinking mode: at a 4,096-token budget only 1 or 2 of 500 MATH-500 answers close their think block (two seeds), and accuracy is 15.4%. A recent demonstration had GPT-6 Astra edit 131,072 of the model's weights without gradients and reported",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "id": "cb362bb8ac3e",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] PR #67064: [KV Connector][NIXL] Cut P/D loads at the Ma",
+    "summary": "## The Problem ## Purpose With Mamba `align` prefix caching under P/D, the decoder never holds a prefix-cacheable state for the prompt. P computes N-1 tokens and sends the running state at N-1, which is off the block grid. Retention keeps only the prompt checkpoint",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.33133v1",
-    "date": "2026-11-26"
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/pull/67064",
+    "date": "2026-11-27"
   },
   {
-    "id": "8fde470415b1",
+    "id": "9c73725bcaa9",
     "tab": "linkedin_idea",
-    "headline": "Shifter Quantization: Compact Representations for Native Integer Computatio",
-    "summary": "Groupwise quantization is used in LLM quantization to improve accuracy at low bit widths, but grouping weights keeps standard integer MMA from spanning the full dot product for efficient GPU inference. We develop a new quantization method, Shifter Quantization (SQ), that reconstructs native-width integer operands",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.33080v1",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "d30a69f2c56c",
-    "tab": "linkedin_idea",
-    "headline": "Reinforcement Learning Can Be Recovered From Its Own Rollouts",
-    "summary": "Broadly speaking, reinforcement learning (RL) post-training converts compute into model capabilities by training on model-generated data. Typically, the rollouts are discarded after each update, and the knowledge acquired during RL resides in the model weights. In this work, we investigate how much of this knowledge",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.33102v1",
-    "date": "2026-11-26"
-  },
-  {
-    "id": "2b1a7893fdba",
-    "tab": "linkedin_idea",
-    "headline": "iWAM: Efficient Action Prediction from World Models without Explicit Future",
-    "summary": "World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future imagination, but how to train such proxies",
+    "headline": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?",
+    "summary": "Looped Mixture-of-Experts (MoE) architectures revisit layer parameters across depths. This design increases effective depth without adding parameters. Recent looped MoE studies report substantial gains over the standard MoE at matched budgets (parameters, FLOPs and KV cache). However, the reported gains still confound parameter revisit with",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.33141v1",
-    "date": "2026-11-26"
+    "source_url": "https://arxiv.org/abs/2611.34821v1",
+    "date": "2026-11-27"
   },
   {
-    "id": "9971c92d30f0",
+    "id": "aa95c4b9e7f1",
     "tab": "linkedin_idea",
-    "headline": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Mat",
-    "summary": "Speculative decoding accelerates large language model (LLM) inference by employing a lightweight draft model to propose draft tokens and allowing the target model to verify the new tokens in parallel to improve inference-time compute utilization. The speedup relies on the acceptance probability of draft tokens",
+    "headline": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision ",
+    "summary": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.33111v1",
-    "date": "2026-11-26"
+    "source_url": "https://arxiv.org/abs/2611.34863v1",
+    "date": "2026-11-27"
   },
   {
-    "id": "019f3170e287",
+    "id": "df48ba91d19d",
     "tab": "linkedin_idea",
-    "headline": "Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Pro",
-    "summary": "We give four large language models (LLMs) of the Claude family the complete weights of a 20k-parameter CIFAR-10 CNN as text and ask them to produce a 4-bit network without tools, data or the ability to run inference. Standard round-to-nearest (RTN) quantization to 4 bit",
+    "headline": "Mixture-of-Loops Transformer",
+    "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA)",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.34923v1",
+    "date": "2026-11-27"
+  },
+  {
+    "id": "56d15d67c52d",
+    "tab": "linkedin_idea",
+    "headline": "Routeability Before Routing: Routeability Audit Protocol (RAP) and Routeabi",
+    "summary": "LLM routing aims to choose, for each prompt, which model in a portfolio is most likely to answer correctly. This only makes sense when the benchmark contains enough prompt-specific variation for different models to be best on different inputs. On coarse-scored LLM benchmarks, however, many",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.33031v1",
-    "date": "2026-11-26"
+    "source_url": "https://arxiv.org/abs/2611.34825v1",
+    "date": "2026-11-27"
+  },
+  {
+    "id": "4e346a761840",
+    "tab": "linkedin_idea",
+    "headline": "Deep Reinforcement Learning for Multi-UAV Data Harvesting Under Variable Te",
+    "summary": "Collecting data from wireless sensors can be challenging when limited communication infrastructure prevents them from offloading their measurements. In such settings, unmanned aerial vehicles (UAVs) can exploit their mobility to harvest data locally, while coordinated UAV teams can provide efficient and redundant coverage of remote",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.34818v1",
+    "date": "2026-11-27"
+  },
+  {
+    "id": "c2e5e1cd9255",
+    "tab": "linkedin_idea",
+    "headline": "Transferring Architecture as an Optimization Prior",
+    "summary": "Initialization determines the optimization \"fate\" of a model, going far beyond just setting the scale of its weights. It establishes a fundamental initial geometry over the input data, dictating certain aspects such as which examples are considered close and which representations gradient descent will naturally",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.34816v1",
+    "date": "2026-11-27"
   }
 ]
