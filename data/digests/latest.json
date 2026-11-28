@@ -8,29 +8,18 @@
     "colab_runnable": false,
     "source_name": "NVIDIA Developer Blog",
     "source_url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
-    "date": "2026-11-27"
+    "date": "2026-11-28"
   },
   {
-    "id": "6876461206d3",
+    "id": "73a797c99187",
     "tab": "learn",
-    "headline": "Show HN: Longyan, a Chinese popup dictionary that picks meanings from conte",
-    "summary": "Popup dictionaries are tools where you hover over or highlight a word in a foreign language and a card shows you what it means. Language learners use them a lot for reading (Zhongwen and Yomitan are the popular browser ones for Chinese and Japanese). I",
+    "headline": "Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab",
+    "summary": "Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab",
     "why_it_matters": "Key development in Hacker News impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "Hacker News",
-    "source_url": "https://longyan.app/",
-    "date": "2026-11-27"
-  },
-  {
-    "id": "109261365670",
-    "tab": "trending",
-    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
-    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
-    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-    "date": "2026-11-27"
+    "source_url": "https://tesseracted.com/experiments-llm-os/",
+    "date": "2026-11-28"
   },
   {
     "id": "c87649611876",
@@ -41,7 +30,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-    "date": "2026-11-27"
+    "date": "2026-11-28"
+  },
+  {
+    "id": "109261365670",
+    "tab": "trending",
+    "headline": "[vllm-project/vllm] Release v0.33.0rc3: v0.33.0",
+    "summary": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727,",
+    "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "GitHub: vllm-project/vllm",
+    "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "date": "2026-11-28"
   },
   {
     "id": "83a753b4160c",
@@ -52,7 +52,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-    "date": "2026-11-27"
+    "date": "2026-11-28"
   },
   {
     "id": "3762ff1d2e30",
@@ -63,7 +63,7 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-    "date": "2026-11-27"
+    "date": "2026-11-28"
   },
   {
     "id": "9668af85ed2e",
@@ -74,62 +74,18 @@
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
     "source_url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-    "date": "2026-11-27"
+    "date": "2026-11-28"
   },
   {
-    "id": "cb362bb8ac3e",
+    "id": "7230690e6f1b",
     "tab": "trending",
-    "headline": "[vllm-project/vllm] PR #67064: [KV Connector][NIXL] Cut P/D loads at the Ma",
-    "summary": "## The Problem ## Purpose With Mamba `align` prefix caching under P/D, the decoder never holds a prefix-cacheable state for the prompt. P computes N-1 tokens and sends the running state at N-1, which is off the block grid. Retention keeps only the prompt checkpoint",
+    "headline": "[vllm-project/vllm] PR #70160: [Perf][Qwen4Exp] Add SM100 tcgen05 fused HC ",
+    "summary": "## Overview Add an SM100-family `tcgen05` CUDA kernel that fuses the Qwen4Exp hyperconnection down projection, the injection columns, and SiLU in one launch. It takes over from the `Linear` → split → `hc_silu` chain for eligible merged weights at `M > 48`; the CuTeDSL kernel",
     "why_it_matters": "Key development in GitHub: vllm-project/vllm impacting inference serving performance and workflow optimization.",
     "colab_runnable": true,
     "source_name": "GitHub: vllm-project/vllm",
-    "source_url": "https://github.com/vllm-project/vllm/pull/67064",
-    "date": "2026-11-27"
-  },
-  {
-    "id": "9c73725bcaa9",
-    "tab": "linkedin_idea",
-    "headline": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?",
-    "summary": "Looped Mixture-of-Experts (MoE) architectures revisit layer parameters across depths. This design increases effective depth without adding parameters. Recent looped MoE studies report substantial gains over the standard MoE at matched budgets (parameters, FLOPs and KV cache). However, the reported gains still confound parameter revisit with",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34821v1",
-    "date": "2026-11-27"
-  },
-  {
-    "id": "aa95c4b9e7f1",
-    "tab": "linkedin_idea",
-    "headline": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision ",
-    "summary": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34863v1",
-    "date": "2026-11-27"
-  },
-  {
-    "id": "df48ba91d19d",
-    "tab": "linkedin_idea",
-    "headline": "Mixture-of-Loops Transformer",
-    "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA)",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": true,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34923v1",
-    "date": "2026-11-27"
-  },
-  {
-    "id": "56d15d67c52d",
-    "tab": "linkedin_idea",
-    "headline": "Routeability Before Routing: Routeability Audit Protocol (RAP) and Routeabi",
-    "summary": "LLM routing aims to choose, for each prompt, which model in a portfolio is most likely to answer correctly. This only makes sense when the benchmark contains enough prompt-specific variation for different models to be best on different inputs. On coarse-scored LLM benchmarks, however, many",
-    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
-    "colab_runnable": false,
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34825v1",
-    "date": "2026-11-27"
+    "source_url": "https://github.com/vllm-project/vllm/pull/70160",
+    "date": "2026-11-28"
   },
   {
     "id": "4e346a761840",
@@ -140,17 +96,61 @@
     "colab_runnable": true,
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2611.34818v1",
-    "date": "2026-11-27"
+    "date": "2026-11-28"
   },
   {
-    "id": "c2e5e1cd9255",
+    "id": "9c73725bcaa9",
     "tab": "linkedin_idea",
-    "headline": "Transferring Architecture as an Optimization Prior",
-    "summary": "Initialization determines the optimization \"fate\" of a model, going far beyond just setting the scale of its weights. It establishes a fundamental initial geometry over the input data, dictating certain aspects such as which examples are considered close and which representations gradient descent will naturally",
+    "headline": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?",
+    "summary": "Looped Mixture-of-Experts (MoE) architectures revisit layer parameters across depths. This design increases effective depth without adding parameters. Recent looped MoE studies report substantial gains over the standard MoE at matched budgets (parameters, FLOPs and KV cache). However, the reported gains still confound parameter revisit with",
     "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
     "colab_runnable": false,
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34816v1",
-    "date": "2026-11-27"
+    "source_url": "https://arxiv.org/abs/2611.34821v1",
+    "date": "2026-11-28"
+  },
+  {
+    "id": "aa95c4b9e7f1",
+    "tab": "linkedin_idea",
+    "headline": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision ",
+    "summary": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.34863v1",
+    "date": "2026-11-28"
+  },
+  {
+    "id": "df48ba91d19d",
+    "tab": "linkedin_idea",
+    "headline": "Mixture-of-Loops Transformer",
+    "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA)",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": true,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.34923v1",
+    "date": "2026-11-28"
+  },
+  {
+    "id": "56d15d67c52d",
+    "tab": "linkedin_idea",
+    "headline": "Routeability Before Routing: Routeability Audit Protocol (RAP) and Routeabi",
+    "summary": "LLM routing aims to choose, for each prompt, which model in a portfolio is most likely to answer correctly. This only makes sense when the benchmark contains enough prompt-specific variation for different models to be best on different inputs. On coarse-scored LLM benchmarks, however, many",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.34825v1",
+    "date": "2026-11-28"
+  },
+  {
+    "id": "67b184cee959",
+    "tab": "linkedin_idea",
+    "headline": "Split-RL: Local Conflict Resolution in Reinforcement Learning",
+    "summary": "Reinforcement learning (RL) policies are often trained by mixing contradictory feedback that is localized in space and time. For example, a robot may prioritize speed in open areas versus precision in tight gaps. We introduce Split-RL, a Gradient Boosting Trees (GBT) algorithm that uses guidance",
+    "why_it_matters": "Key development in arXiv impacting inference serving performance and workflow optimization.",
+    "colab_runnable": false,
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.34799v1",
+    "date": "2026-11-28"
   }
 ]
